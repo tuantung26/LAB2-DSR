@@ -132,13 +132,13 @@ Dữ liệu phim từ SQL được làm sạch kỹ lưỡng trong R thông qua 
 ### 4.1. Phân Tích Mô Hình Hồi Quy Tuyến Tính (Linear Regression)
 Chúng tôi xây dựng mô hình dự báo điểm số IMDb (`imdb_rating`) dựa trên hai thuộc tính: Thời lượng phim (`length`) và Năm phát hành (`year`):
 
-$$\text{imdb\_rating} = \beta_0 + \beta_1 \times \text{length} + \beta_2 \times \text{year} + \epsilon$$
+$$\text{IMDb} = \beta_0 + \beta_1 \times \text{Length} + \beta_2 \times \text{Year} + \epsilon$$
 
 **Kết quả thu được từ mô hình:**
-*   Hệ số chặn (Intercept): $\approx -2.31$.
-*   Hệ số `length`: $\approx 0.0097$ (Mỗi phút phim tăng thêm giúp điểm số IMDb tăng trung bình khoảng 0.01 điểm).
-*   Hệ số `year`: $\approx 0.0041$ (Có xu hướng điểm IMDb tăng nhẹ theo các năm).
-*   **Chỉ số $R^2$:** Mô hình giải thích được khoảng **7.07%** độ biến thiên của điểm IMDb. Thời lượng phim đóng vai trò tích cực và có ý nghĩa thống kê cao đối với điểm đánh giá của người xem.
+*   Hệ số chặn (Intercept $\beta_0$): $\approx -2.31$.
+*   Hệ số thời lượng (Length $\beta_1$): $\approx 0.0097$ (Mỗi phút phim tăng thêm giúp điểm số IMDb tăng trung bình khoảng 0.01 điểm).
+*   Hệ số năm phát hành (Year $\beta_2$): $\approx 0.0041$ (Có xu hướng điểm IMDb tăng nhẹ theo các năm).
+*   **Chỉ số R-squared ($R^2$):** Mô hình giải thích được khoảng **7.07%** độ biến thiên của điểm IMDb. Thời lượng phim đóng vai trò tích cực và có ý nghĩa thống kê cao đối với điểm đánh giá của người xem.
 
 ### 4.2. Thống Kê Điểm IMDb Theo Phân Loại Độ Tuổi (Rating)
 *   **G (General Audience):** Điểm đánh giá trung bình cao nhất đạt **7.35 điểm**. Đây thường là các tác phẩm hoạt hình gia đình xuất sắc từ Disney/Pixar.
