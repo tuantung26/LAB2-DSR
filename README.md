@@ -40,78 +40,126 @@ Bộ dữ liệu phim bom tấn (`blockbusters.csv`) được thu thập từ th
 
 ## 2. THIẾT KẾ VÀ TRUY VẤN CƠ SỞ DỮ LIỆU SQL
 
-### 2.1. Sơ Đồ Thiết Kế Bảng (Schema)
-Hệ thống sử dụng mô hình cơ sở dữ liệu quan hệ gồm 2 bảng chính:
-1.  **Bảng `blockbusters`**: Lưu giữ thông tin phim.
-2.  **Bảng `studio_lookup`**: Lưu thông tin về các hãng phim (trụ sở, năm thành lập, công ty mẹ) để thực hiện thao tác liên kết (`JOIN`).
+### 2.1. Sơ Đồ Thiết Kế Bảng (Schema - Microsoft SQL Server)
+Cơ sở dữ liệu được thiết kế trên hệ quản trị **Microsoft SQL Server (T-SQL)** với bảng `BlockBusters` được tối ưu hóa kiểu dữ liệu dựa trên tệp CSV nguồn:
 
 ```sql
--- Tạo bảng chính blockbusters
-CREATE TABLE blockbusters (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    Main_Genre VARCHAR(50) NOT NULL,
-    Genre_2 VARCHAR(50),
-    Genre_3 VARCHAR(50),
-    imdb_rating DECIMAL(3,1),
-    length INT,
-    rank_in_year INT,
-    rating VARCHAR(10),
-    studio VARCHAR(100),
-    title VARCHAR(150) NOT NULL,
-    worldwide_gross VARCHAR(100),
-    year INT NOT NULL
-);
+-- Chọn làm việc với database dsrlab
+USE dsrlab;
+GO
 
--- Bảng phụ studio_lookup phục vụ JOIN
-CREATE TABLE studio_lookup (
-    studio_name VARCHAR(100) PRIMARY KEY,
-    headquarters VARCHAR(100) NOT NULL,
-    founded_year INT NOT NULL,
-    parent_company VARCHAR(100)
+-- Tạo cấu trúc bảng BlockBusters
+CREATE TABLE BlockBusters (
+    Main_Genre NVARCHAR(100),       -- Thể loại chính
+    Genre_2 NVARCHAR(100),          -- Thể loại phụ 1
+    Genre_3 NVARCHAR(100),          -- Thể loại phụ 2
+    imdb_rating FLOAT,              -- Điểm số IMDb
+    length INT,                     -- Thời lượng phim (phút)
+    rank_in_year INT,               -- Xếp hạng trong năm phát hành
+    rating NVARCHAR(50),            -- Phân loại độ tuổi (PG, PG-13, R...)
+    studio NVARCHAR(255),           -- Hãng sản xuất (Studio)
+    title NVARCHAR(255),            -- Tên phim
+    worldwide_gross NVARCHAR(100),  -- Doanh thu toàn cầu (chứa ký tự $ và dấu phẩy)
+    year INT                        -- Năm phát hành
 );
+GO
+
+-- Nạp dữ liệu từ file CSV bằng BULK INSERT
+BULK INSERT BlockBusters
+FROM 'D:\DSR\LAB2\blockbusters.csv'
+WITH (
+    FIRSTROW = 2,
+    FORMAT = 'CSV',
+    FIELDTERMINATOR = ',',
+    ROWTERMINATOR = '\n',
+    CODEPAGE = '65001',
+    TABLOCK
+);
+GO
 ```
 
 ### 2.2. Các Truy Vấn SQL Phức Tạp (Đạt tiêu chuẩn Lab)
 
-#### Truy vấn 1: Sử dụng SELECT, WHERE, ORDER BY
-*Mục tiêu:* Lọc ra top 10 phim của hãng "Walt Disney Pictures" được phân loại PG hoặc PG-13, sắp xếp giảm dần theo năm phát hành.
+#### Truy vấn 1: Top 5 hãng phim (Studio) có tổng doanh thu cao nhất
+*Mục tiêu:* Loại bỏ các ký tự đặc biệt (`$`, `,`, khoảng trắng) trong cột doanh thu dạng chuỗi, chuyển đổi sang kiểu `DECIMAL` và tính tổng doanh thu của từng hãng phim.
 ```sql
-SELECT title, year, Main_Genre, imdb_rating, worldwide_gross
-FROM blockbusters
-WHERE studio = 'Walt Disney Pictures' AND rating IN ('PG', 'PG-13')
-ORDER BY year DESC
-LIMIT 10;
+SELECT TOP 5 
+    studio AS HangPhim,
+    SUM(TRY_CAST(REPLACE(REPLACE(REPLACE(worldwide_gross, '$', ''), ',', ''), ' ', '') AS DECIMAL(18, 2))) AS TongDoanhThu_USD
+FROM 
+    BlockBusters
+GROUP BY 
+    studio
+ORDER BY 
+    TongDoanhThu_USD DESC;
 ```
 
-#### Truy vấn 2: Sử dụng GROUP BY, HAVING, ORDER BY và Hàm gộp (Aggregate Functions)
-*Mục tiêu:* Phân tích thời lượng trung bình và điểm IMDb trung bình theo từng nhóm giới hạn độ tuổi (Rating), chỉ lấy các nhóm có điểm trung bình > 6.0.
+#### Truy vấn 2: Top 5 phim có điểm IMDb cao nhất theo từng năm (sử dụng CTE và Window Functions)
+*Mục tiêu:* Phân nhóm theo năm và sắp xếp phim có điểm số cao nhất, gán số thứ tự bằng `ROW_NUMBER()`, sau đó lấy top 5 phim hàng đầu của từng năm.
 ```sql
-SELECT 
-    rating,
-    COUNT(*) AS total_movies,
-    ROUND(AVG(length), 1) AS avg_length_minutes,
-    ROUND(AVG(imdb_rating), 2) AS avg_imdb_rating,
-    MIN(imdb_rating) AS min_rating,
-    MAX(imdb_rating) AS max_rating
-FROM blockbusters
-WHERE rating IS NOT NULL AND rating <> ''
-GROUP BY rating
-HAVING avg_imdb_rating > 6.0
-ORDER BY avg_imdb_rating DESC;
+WITH RankedMovies AS (
+    SELECT 
+        year,
+        title,
+        imdb_rating,
+        studio,
+        ROW_NUMBER() OVER (PARTITION BY year ORDER BY imdb_rating DESC) AS RankPerYear
+    FROM BlockBusters
+)
+SELECT year, RankPerYear, title, imdb_rating, studio
+FROM RankedMovies
+WHERE RankPerYear <= 5
+ORDER BY year DESC, RankPerYear ASC;
 ```
 
-#### Truy vấn 3: Liên kết bảng (INNER JOIN) kết hợp GROUP BY, ORDER BY và Aggregate Functions
-*Mục tiêu:* Kết nối bảng phim bom tấn với bảng hãng phim để thống kê số lượng phim bom tấn và điểm IMDb trung bình phân chia theo địa điểm đặt trụ sở chính của hãng sản xuất.
+#### Truy vấn 3: Top 5 hãng phim có tổng điểm IMDb cao nhất theo từng năm (Multi-level CTEs)
+*Mục tiêu:* Tính tổng điểm đánh giá IMDb của từng hãng phim theo năm, sau đó xếp hạng các hãng phim trong mỗi năm để lọc ra top 5 hãng phim chất lượng tốt nhất hàng năm.
 ```sql
-SELECT 
-    s.headquarters AS studio_hq,
-    COUNT(b.title) AS total_blockbusters,
-    ROUND(AVG(b.imdb_rating), 2) AS avg_imdb_rating,
-    MIN(s.founded_year) AS oldest_studio_founded
-FROM blockbusters b
-INNER JOIN studio_lookup s ON b.studio = s.studio_name
-GROUP BY s.headquarters
-ORDER BY total_blockbusters DESC;
+WITH StudioYearlyTotal AS (
+    SELECT 
+        year,
+        studio,
+        SUM(imdb_rating) AS total_imdb_rating
+    FROM BlockBusters
+    GROUP BY year, studio
+),
+RankedStudios AS (
+    SELECT 
+        year,
+        studio,
+        total_imdb_rating,
+        ROW_NUMBER() OVER (PARTITION BY year ORDER BY total_imdb_rating DESC) AS RankPerYear
+    FROM StudioYearlyTotal
+)
+SELECT year, RankPerYear, studio, total_imdb_rating
+FROM RankedStudios
+WHERE RankPerYear <= 5
+ORDER BY year DESC, RankPerYear ASC;
+```
+
+#### Truy vấn 4: Thể loại phim chính (Main Genre) được yêu thích nhất theo từng năm
+*Mục tiêu:* Sử dụng phân vùng thời gian để xác định thể loại chính nào đạt tổng số điểm đánh giá cao nhất (Vị trí số 1) trong mỗi năm phát hành.
+```sql
+WITH GenreYearlyTotal AS (
+    SELECT 
+        year,
+        Main_Genre,
+        SUM(imdb_rating) AS total_imdb_rating
+    FROM BlockBusters
+    GROUP BY year, Main_Genre
+),
+RankedGenres AS (
+    SELECT 
+        year,
+        Main_Genre,
+        total_imdb_rating,
+        ROW_NUMBER() OVER (PARTITION BY year ORDER BY total_imdb_rating DESC) AS RankPerYear
+    FROM GenreYearlyTotal
+)
+SELECT year, Main_Genre, total_imdb_rating
+FROM RankedGenres
+WHERE RankPerYear = 1
+ORDER BY year DESC;
 ```
 
 ---
@@ -141,13 +189,13 @@ Dữ liệu phim từ SQL được làm sạch kỹ lưỡng trong R thông qua 
 ### 4.2. Xây Dựng Mô Hình Hồi Quy Tuyến Tính Tối Giản (Selected Features)
 Dựa trên phân tích ảnh hưởng ở trên, chúng tôi loại bỏ các thuộc tính không có ý nghĩa hoặc gây nhiễu (như `year` và `worldwide_gross` vốn có độ tương quan thấp hoặc bị cộng tuyến) để xây dựng mô hình hồi quy tối giản chỉ sử dụng các thuộc tính thực sự có tác động:
 
-$$\text{IMDb} = \beta_0 + \beta_1 \times \text{Length} + \beta_2 \times \text{Rank\_in\_Year} + \epsilon$$
+$$\text{IMDb} = \beta_0 + \beta_1 \times \text{Length} + \beta_2 \times \text{Rank} + \epsilon$$
 
 **Hệ số thu được từ mô hình:**
 *   Hệ số chặn (Intercept $\beta_0$): $\approx 6.41$
 *   Hệ số thời lượng (Length $\beta_1$): $\approx 0.0084$ (Tăng 1 phút thời lượng tăng trung bình $0.0084$ điểm IMDb, $p < 0.001$ ***)
 *   Hệ số thứ hạng (Rank $\beta_2$): $\approx -0.0631$ (Tăng mỗi bậc thứ hạng từ 1 đến 10 làm giảm trung bình $0.0631$ điểm IMDb, $p < 0.001$ ***)
-*   **Độ phù hợp của mô hình ($R^2$):** Đạt **$11.42\%$** ($Adjusted\ R^2 = 11.01\%$), với giá trị thống kê $F = 31.95$ ($p < 0.001$). Điều này chứng minh mô hình hồi quy tối giản này cực kỳ vững chắc và có ý nghĩa khoa học cao.
+*   **Độ phù hợp của mô hình ($R^2$):** Đạt **$11.42\%$** (Chỉ số $R^2$ hiệu chỉnh đạt **$11.01\%$**), với giá trị thống kê $F = 31.95$ ($p < 0.001$). Điều này chứng minh mô hình hồi quy tối giản này cực kỳ vững chắc và có ý nghĩa khoa học cao.
 
 ### 4.3. Đánh Giá Sai Số và Độ Chính Xác (Accuracy Metrics)
 Đối với mô hình hồi quy (dự đoán biến liên tục), độ chính xác được đánh giá qua các chỉ số sai số và tỷ lệ dự đoán nằm trong ngưỡng sai số cho phép:
