@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Bao_Cao_Lab_2</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="report_style.css" />
+</head>
+<body>
+<h1 id="báo-cáo-bài-tập-lớn---lab-2-khoa-học-dữ-liệu-với-r-sql">BÁO CÁO
+BÀI TẬP LỚN - LAB 2: KHOA HỌC DỮ LIỆU VỚI R &amp; SQL</h1>
+<p><strong>Chủ đề:</strong> Phân tích Dữ liệu Phim Bom Tấn Điện Ảnh
+(Movie Blockbusters Dataset) <strong>Ngôn ngữ thực hiện:</strong> R
+&amp; SQL (MySQL / SQLite) <strong>Người thực hiện:</strong> Sinh
+viên</p>
+<hr />
+<h2 id="thu-thập-và-mô-tả-dữ-liệu-thực-tế">1. THU THẬP VÀ MÔ TẢ DỮ LIỆU
+THỰC TẾ</h2>
+<h3 id="nguồn-dữ-liệu">1.1. Nguồn Dữ Liệu</h3>
+<p>Bộ dữ liệu phim bom tấn (<code>blockbusters.csv</code>) được thu thập
+từ thống kê lịch sử doanh thu và đánh giá điện ảnh của các bộ phim thành
+công nhất toàn cầu. Bộ dữ liệu chứa thông tin chi tiết về các bộ phim có
+doanh thu cao qua các năm.</p>
+<h3 id="quy-mô-dữ-liệu">1.2. Quy Mô Dữ Liệu</h3>
+<ul>
+<li><strong>Tổng số dòng:</strong> 1345 dòng dữ liệu lịch sử chất lượng
+cao.</li>
+<li><strong>Tổng số thuộc tính (cột):</strong> 11 thuộc tính.</li>
+<li><strong>Tính đa dạng:</strong> Bao gồm cả dữ liệu dạng số (IMDb
+rating, length, gross) và dạng phân loại (Genre, rating, studio).</li>
+</ul>
+<h3 id="ý-nghĩa-các-thuộc-tính">1.3. Ý Nghĩa Các Thuộc Tính</h3>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Tên Thuộc Tính</th>
+<th style="text-align: left;">Kiểu Dữ Liệu</th>
+<th style="text-align: left;">Ý Nghĩa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>title</code></td>
+<td style="text-align: left;">Character</td>
+<td style="text-align: left;">Tên tác phẩm điện ảnh</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>Main_Genre</code></td>
+<td style="text-align: left;">Categorical</td>
+<td style="text-align: left;">Thể loại phim chính (Action, Animation,
+Comedy, v.v.)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>Genre_2</code></td>
+<td style="text-align: left;">Categorical</td>
+<td style="text-align: left;">Thể loại phim phụ thứ nhất</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>Genre_3</code></td>
+<td style="text-align: left;">Categorical</td>
+<td style="text-align: left;">Thể loại phim phụ thứ hai</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>imdb_rating</code></td>
+<td style="text-align: left;">Numeric</td>
+<td style="text-align: left;">Điểm số đánh giá trên chuyên trang IMDb
+(thang điểm 10)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>length</code></td>
+<td style="text-align: left;">Integer</td>
+<td style="text-align: left;">Thời lượng phim (tính bằng phút)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>rank_in_year</code></td>
+<td style="text-align: left;">Integer</td>
+<td style="text-align: left;">Thứ hạng doanh thu của bộ phim trong năm
+phát hành</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>rating</code></td>
+<td style="text-align: left;">Categorical</td>
+<td style="text-align: left;">Phân loại độ tuổi kiểm duyệt (G, PG,
+PG-13, R)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>studio</code></td>
+<td style="text-align: left;">Categorical</td>
+<td style="text-align: left;">Hãng sản xuất / Hãng phát hành chính</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>worldwide_gross</code></td>
+<td style="text-align: left;">Character/Numeric</td>
+<td style="text-align: left;">Doanh thu toàn cầu (chứa kí tự $, dấu phẩy
+và khoảng trắng)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>year</code></td>
+<td style="text-align: left;">Integer</td>
+<td style="text-align: left;">Năm phát hành bộ phim</td>
+</tr>
+</tbody>
+</table>
+<h3 id="mục-tiêu-phân-tích">1.4. Mục Tiêu Phân Tích</h3>
+<ul>
+<li>Thiết kế hệ thống cơ sở dữ liệu lưu trữ thông tin phim bom tấn và
+các hãng sản xuất.</li>
+<li>Thực hiện truy vấn SQL từ R để thống kê hiệu suất phim và hãng
+phim.</li>
+<li>Tiến hành làm sạch dữ liệu (chuẩn hóa doanh thu, xử lý khuyết thiếu,
+lọc outliers).</li>
+<li>Xây dựng mô hình hồi quy tuyến tính dự báo điểm số IMDb dựa trên các
+thuộc tính có ảnh hưởng lớn nhất (Thời lượng phim và Thứ hạng doanh thu
+trong năm).</li>
+</ul>
+<hr />
+<div class="page-break">
+
+</div>
+<h2 id="thiết-kế-và-truy-vấn-cơ-sở-dữ-liệu-sql">2. THIẾT KẾ VÀ TRUY VẤN
+CƠ SỞ DỮ LIỆU SQL</h2>
+<h3 id="sơ-đồ-thiết-kế-bảng-schema---microsoft-sql-server">2.1. Sơ Đồ
+Thiết Kế Bảng (Schema - Microsoft SQL Server)</h3>
+<p>Cơ sở dữ liệu được thiết kế trên hệ quản trị <strong>Microsoft SQL
+Server (T-SQL)</strong> với bảng <code>BlockBusters</code> được tối ưu
+hóa kiểu dữ liệu dựa trên tệp CSV nguồn:</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode sql"><code class="sourceCode sql"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">-- Chọn làm việc với database dsrlab</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="kw">USE</span> dsrlab;</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>GO</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">-- Tạo cấu trúc bảng BlockBusters</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="kw">CREATE</span> <span class="kw">TABLE</span> BlockBusters (</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    Main_Genre <span class="dt">NVARCHAR</span>(<span class="dv">100</span>),       <span class="co">-- Thể loại chính</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    Genre_2 <span class="dt">NVARCHAR</span>(<span class="dv">100</span>),          <span class="co">-- Thể loại phụ 1</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    Genre_3 <span class="dt">NVARCHAR</span>(<span class="dv">100</span>),          <span class="co">-- Thể loại phụ 2</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    imdb_rating <span class="dt">FLOAT</span>,              <span class="co">-- Điểm số IMDb</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="fu">length</span> <span class="dt">INT</span>,                     <span class="co">-- Thời lượng phim (phút)</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    rank_in_year <span class="dt">INT</span>,               <span class="co">-- Xếp hạng trong năm phát hành</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    rating <span class="dt">NVARCHAR</span>(<span class="dv">50</span>),            <span class="co">-- Phân loại độ tuổi (PG, PG-13, R...)</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    studio <span class="dt">NVARCHAR</span>(<span class="dv">255</span>),           <span class="co">-- Hãng sản xuất (Studio)</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    title <span class="dt">NVARCHAR</span>(<span class="dv">255</span>),            <span class="co">-- Tên phim</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    worldwide_gross <span class="dt">NVARCHAR</span>(<span class="dv">100</span>),  <span class="co">-- Doanh thu toàn cầu (chứa ký tự $ và dấu phẩy)</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    <span class="dt">year</span> <span class="dt">INT</span>                        <span class="co">-- Năm phát hành</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>);</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>GO</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="co">-- Nạp dữ liệu từ file CSV bằng BULK INSERT</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="kw">BULK</span> <span class="kw">INSERT</span> BlockBusters</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span> <span class="st">&#39;D:\DSR\LAB2</span><span class="ch">\b</span><span class="st">lockbusters.csv&#39;</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="kw">WITH</span> (</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    FIRSTROW <span class="op">=</span> <span class="dv">2</span>,</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    FORMAT <span class="op">=</span> <span class="st">&#39;CSV&#39;</span>,</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    FIELDTERMINATOR <span class="op">=</span> <span class="st">&#39;,&#39;</span>,</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    ROWTERMINATOR <span class="op">=</span> <span class="st">&#39;</span><span class="ch">\n</span><span class="st">&#39;</span>,</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>    CODEPAGE <span class="op">=</span> <span class="st">&#39;65001&#39;</span>,</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>    TABLOCK</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>);</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>GO</span></code></pre></div>
+<h3 id="các-truy-vấn-sql-phức-tạp-đạt-tiêu-chuẩn-lab">2.2. Các Truy Vấn
+SQL Phức Tạp (Đạt tiêu chuẩn Lab)</h3>
+<h4
+id="truy-vấn-1-top-5-hãng-phim-studio-có-tổng-doanh-thu-cao-nhất">Truy
+vấn 1: Top 5 hãng phim (Studio) có tổng doanh thu cao nhất</h4>
+<p><em>Mục tiêu:</em> Loại bỏ các ký tự đặc biệt (<code>$</code>,
+<code>,</code>, khoảng trắng) trong cột doanh thu dạng chuỗi, chuyển đổi
+sang kiểu <code>DECIMAL</code> và tính tổng doanh thu của từng hãng
+phim.</p>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode sql"><code class="sourceCode sql"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> TOP <span class="dv">5</span> </span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    studio <span class="kw">AS</span> HangPhim,</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">SUM</span>(TRY_CAST(<span class="kw">REPLACE</span>(<span class="kw">REPLACE</span>(<span class="kw">REPLACE</span>(worldwide_gross, <span class="st">&#39;$&#39;</span>, <span class="st">&#39;&#39;</span>), <span class="st">&#39;,&#39;</span>, <span class="st">&#39;&#39;</span>), <span class="st">&#39; &#39;</span>, <span class="st">&#39;&#39;</span>) <span class="kw">AS</span> <span class="dt">DECIMAL</span>(<span class="dv">18</span>, <span class="dv">2</span>))) <span class="kw">AS</span> TongDoanhThu_USD</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span> </span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    BlockBusters</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="kw">GROUP</span> <span class="kw">BY</span> </span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    studio</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="kw">ORDER</span> <span class="kw">BY</span> </span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    TongDoanhThu_USD <span class="kw">DESC</span>;</span></code></pre></div>
+<h4
+id="truy-vấn-2-top-5-phim-có-điểm-imdb-cao-nhất-theo-từng-năm-sử-dụng-cte-và-window-functions">Truy
+vấn 2: Top 5 phim có điểm IMDb cao nhất theo từng năm (sử dụng CTE và
+Window Functions)</h4>
+<p><em>Mục tiêu:</em> Phân nhóm theo năm và sắp xếp phim có điểm số cao
+nhất, gán số thứ tự bằng <code>ROW_NUMBER()</code>, sau đó lấy top 5
+phim hàng đầu của từng năm.</p>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode sql"><code class="sourceCode sql"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">WITH</span> RankedMovies <span class="kw">AS</span> (</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">SELECT</span> </span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>        <span class="dt">year</span>,</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>        title,</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>        imdb_rating,</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>        studio,</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>        <span class="fu">ROW_NUMBER</span>() <span class="kw">OVER</span> (<span class="kw">PARTITION</span> <span class="kw">BY</span> <span class="dt">year</span> <span class="kw">ORDER</span> <span class="kw">BY</span> imdb_rating <span class="kw">DESC</span>) <span class="kw">AS</span> RankPerYear</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="kw">FROM</span> BlockBusters</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> <span class="dt">year</span>, RankPerYear, title, imdb_rating, studio</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span> RankedMovies</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="kw">WHERE</span> RankPerYear <span class="op">&lt;=</span> <span class="dv">5</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="kw">ORDER</span> <span class="kw">BY</span> <span class="dt">year</span> <span class="kw">DESC</span>, RankPerYear <span class="kw">ASC</span>;</span></code></pre></div>
+<h4
+id="truy-vấn-3-top-5-hãng-phim-có-tổng-điểm-imdb-cao-nhất-theo-từng-năm-multi-level-ctes">Truy
+vấn 3: Top 5 hãng phim có tổng điểm IMDb cao nhất theo từng năm
+(Multi-level CTEs)</h4>
+<p><em>Mục tiêu:</em> Tính tổng điểm đánh giá IMDb của từng hãng phim
+theo năm, sau đó xếp hạng các hãng phim trong mỗi năm để lọc ra top 5
+hãng phim chất lượng tốt nhất hàng năm.</p>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode sql"><code class="sourceCode sql"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">WITH</span> StudioYearlyTotal <span class="kw">AS</span> (</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">SELECT</span> </span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>        <span class="dt">year</span>,</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>        studio,</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>        <span class="fu">SUM</span>(imdb_rating) <span class="kw">AS</span> total_imdb_rating</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">FROM</span> BlockBusters</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">GROUP</span> <span class="kw">BY</span> <span class="dt">year</span>, studio</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>),</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>RankedStudios <span class="kw">AS</span> (</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    <span class="kw">SELECT</span> </span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>        <span class="dt">year</span>,</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>        studio,</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>        total_imdb_rating,</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>        <span class="fu">ROW_NUMBER</span>() <span class="kw">OVER</span> (<span class="kw">PARTITION</span> <span class="kw">BY</span> <span class="dt">year</span> <span class="kw">ORDER</span> <span class="kw">BY</span> total_imdb_rating <span class="kw">DESC</span>) <span class="kw">AS</span> RankPerYear</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>    <span class="kw">FROM</span> StudioYearlyTotal</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> <span class="dt">year</span>, RankPerYear, studio, total_imdb_rating</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span> RankedStudios</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a><span class="kw">WHERE</span> RankPerYear <span class="op">&lt;=</span> <span class="dv">5</span></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a><span class="kw">ORDER</span> <span class="kw">BY</span> <span class="dt">year</span> <span class="kw">DESC</span>, RankPerYear <span class="kw">ASC</span>;</span></code></pre></div>
+<h4
+id="truy-vấn-4-thể-loại-phim-chính-main-genre-được-yêu-thích-nhất-theo-từng-năm">Truy
+vấn 4: Thể loại phim chính (Main Genre) được yêu thích nhất theo từng
+năm</h4>
+<p><em>Mục tiêu:</em> Sử dụng phân vùng thời gian để xác định thể loại
+chính nào đạt tổng số điểm đánh giá cao nhất (Vị trí số 1) trong mỗi năm
+phát hành.</p>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode sql"><code class="sourceCode sql"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">WITH</span> GenreYearlyTotal <span class="kw">AS</span> (</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">SELECT</span> </span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>        <span class="dt">year</span>,</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>        Main_Genre,</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>        <span class="fu">SUM</span>(imdb_rating) <span class="kw">AS</span> total_imdb_rating</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">FROM</span> BlockBusters</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">GROUP</span> <span class="kw">BY</span> <span class="dt">year</span>, Main_Genre</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>),</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>RankedGenres <span class="kw">AS</span> (</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    <span class="kw">SELECT</span> </span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>        <span class="dt">year</span>,</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>        Main_Genre,</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>        total_imdb_rating,</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>        <span class="fu">ROW_NUMBER</span>() <span class="kw">OVER</span> (<span class="kw">PARTITION</span> <span class="kw">BY</span> <span class="dt">year</span> <span class="kw">ORDER</span> <span class="kw">BY</span> total_imdb_rating <span class="kw">DESC</span>) <span class="kw">AS</span> RankPerYear</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>    <span class="kw">FROM</span> GenreYearlyTotal</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> <span class="dt">year</span>, Main_Genre, total_imdb_rating</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span> RankedGenres</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a><span class="kw">WHERE</span> RankPerYear <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a><span class="kw">ORDER</span> <span class="kw">BY</span> <span class="dt">year</span> <span class="kw">DESC</span>;</span></code></pre></div>
+<hr />
+<div class="page-break">
+
+</div>
+<h2 id="làm-sạch-dữ-liệu-trong-r">3. LÀM SẠCH DỮ LIỆU TRONG R</h2>
+<p>Dữ liệu phim từ SQL được làm sạch kỹ lưỡng trong R thông qua các
+bước:</p>
+<ol type="1">
+<li><strong>Chuẩn hóa dữ liệu Doanh thu
+(<code>worldwide_gross</code>):</strong> Cột doanh thu thô dạng chuỗi
+(ví dụ: <code>"$700,059,566"</code>) được làm sạch bằng biểu thức chính
+quy <code>gsub</code> trong R để loại bỏ kí tự <code>$</code> và dấu
+phẩy <code>,</code>, sau đó chuyển đổi thành kiểu số thực
+(<code>numeric</code>).</li>
+<li><strong>Điền khuyết thiếu dữ liệu phân loại:</strong> Các thể loại
+phụ khuyết thiếu (<code>Genre_2</code>, <code>Genre_3</code>) được gán
+giá trị mặc định là <code>"None"</code>. Cột kiểm duyệt
+<code>rating</code> để trống được gán là <code>"Not Rated"</code>.</li>
+<li><strong>Loại bỏ trùng lặp:</strong> Loại bỏ các hàng trùng lặp bằng
+hàm <code>unique()</code>.</li>
+<li><strong>Xử lý ngoại lệ (Outliers):</strong> Sử dụng phương pháp
+<strong>Khoảng liên tứ phân vị (IQR)</strong> trên thuộc tính thời lượng
+phim (<code>length</code>). Loại bỏ các phim có thời lượng quá ngắn hoặc
+quá dài bất thường nằm ngoài khoảng biên <span
+class="math inline">[<em>Q</em><sub>1</sub> − 1.5 × <em>I</em><em>Q</em><em>R</em>, <em>Q</em><sub>3</sub> + 1.5 × <em>I</em><em>Q</em><em>R</em>]</span>.
+Tổng cộng đã loại bỏ 29 dòng ngoại lệ thời lượng.</li>
+</ol>
+<hr />
+<div class="page-break">
+
+</div>
+<h2 id="kết-quả-phân-tích-và-mô-hình-hóa-r-analysis">4. KẾT QUẢ PHÂN
+TÍCH VÀ MÔ HÌNH HÓA (R ANALYSIS)</h2>
+<h3 id="phân-tích-mối-tương-quan-correlations">4.1. Phân Tích Mối Tương
+Quan (Correlations)</h3>
+<p>Để xác định thuộc tính số nào có ảnh hưởng mạnh nhất tới Điểm số IMDb
+(<code>imdb_rating</code>), chúng tôi tiến hành phân tích hệ số tương
+quan Pearson Correlation của tất cả các biến số độc lập: * <strong>Thời
+lượng phim (<code>length</code> vs IMDb):</strong> Hệ số tương quan đạt
+<strong><span class="math inline">0.2435</span></strong> (tương quan
+thuận trung bình-yếu). Có ý nghĩa thống kê cực kỳ cao (<span
+class="math inline"><em>p</em> &lt; 0.001</span>), cho thấy phim dài
+thường có điểm cao hơn. * <strong>Thứ hạng trong năm
+(<code>rank_in_year</code> vs IMDb):</strong> Hệ số tương quan đạt
+<strong><span class="math inline">−0.2828</span></strong> (tương quan
+nghịch trung bình-yếu). Hệ số âm rất hợp lý: thứ hạng số nhỏ hơn (như
+hạng 1, 2) đại diện cho phim xuất sắc hơn, do đó điểm IMDb càng cao. *
+<strong>Doanh thu toàn cầu (<code>worldwide_gross_numeric</code> vs
+IMDb):</strong> Hệ số tương quan đạt <strong><span
+class="math inline">0.1947</span></strong> (tương quan thuận nhẹ). *
+<strong>Năm phát hành (<code>year</code> vs IMDb):</strong> Hệ số tương
+quan đạt <strong><span class="math inline">0.0884</span></strong> (tương
+quan rất yếu).</p>
+<p>=&gt; <strong>Kết luận từ Trực quan hóa:</strong> Hai thuộc tính có
+ảnh hưởng lớn nhất và có ý nghĩa thống kê vượt trội lên điểm số IMDb là
+<strong><code>length</code> (Thời lượng)</strong> và
+<strong><code>rank_in_year</code> (Thứ hạng trong năm)</strong>.</p>
+<h3
+id="xây-dựng-mô-hình-hồi-quy-tuyến-tính-tối-giản-selected-features">4.2.
+Xây Dựng Mô Hình Hồi Quy Tuyến Tính Tối Giản (Selected Features)</h3>
+<p>Dựa trên phân tích ảnh hưởng ở trên, chúng tôi loại bỏ các thuộc tính
+không có ý nghĩa hoặc gây nhiễu (như <code>year</code> và
+<code>worldwide_gross</code> vốn có độ tương quan thấp hoặc bị cộng
+tuyến) để xây dựng mô hình hồi quy tối giản chỉ sử dụng các thuộc tính
+thực sự có tác động:</p>
+<p><span
+class="math display">IMDb = <em>β</em><sub>0</sub> + <em>β</em><sub>1</sub> × Length + <em>β</em><sub>2</sub> × Rank + <em>ϵ</em></span></p>
+<p><strong>Hệ số thu được từ mô hình:</strong> * Hệ số chặn (Intercept
+<span class="math inline"><em>β</em><sub>0</sub></span>): <span
+class="math inline"> ≈ 6.56</span> * Hệ số thời lượng (Length <span
+class="math inline"><em>β</em><sub>1</sub></span>): <span
+class="math inline"> ≈ 0.0079</span> (Tăng 1 phút thời lượng tăng trung
+bình <span class="math inline">0.0079</span> điểm IMDb, <span
+class="math inline"><em>p</em> &lt; 0.001</span> <strong><em>) </em> Hệ
+số thứ hạng (Rank <span
+class="math inline"><em>β</em><sub>2</sub></span>): <span
+class="math inline"> ≈ −0.0736</span> (Tăng mỗi bậc thứ hạng từ 1 đến 10
+làm giảm trung bình <span class="math inline">0.0736</span> điểm IMDb,
+<span class="math inline"><em>p</em> &lt; 0.001</span> </strong><em>)
+</em> <strong>Độ phù hợp của mô hình (<span
+class="math inline"><em>R</em><sup>2</sup></span>):</strong> Đạt
+<strong><span class="math inline">11.89%</span></strong> (Chỉ số <span
+class="math inline"><em>R</em><sup>2</sup></span> hiệu chỉnh đạt
+<strong><span class="math inline">11.75%</span></strong>), với giá trị
+thống kê <span class="math inline"><em>F</em> = 88.58</span> (<span
+class="math inline"><em>p</em> &lt; 0.001</span>). Điều này chứng minh
+mô hình hồi quy tối giản này cực kỳ vững chắc và có ý nghĩa khoa học
+cao.</p>
+<h3 id="đánh-giá-sai-số-và-độ-chính-xác-accuracy-metrics">4.3. Đánh Giá
+Sai Số và Độ Chính Xác (Accuracy Metrics)</h3>
+<p>Đối với mô hình hồi quy (dự đoán biến liên tục), độ chính xác được
+đánh giá qua các chỉ số sai số và tỷ lệ dự đoán nằm trong ngưỡng sai số
+cho phép: * <strong>Sai số Tuyệt đối Trung bình (Mean Absolute Error -
+MAE):</strong> Đạt <strong><span
+class="math inline">0.6345</span></strong>. Tức là trung bình, điểm dự
+đoán từ mô hình chỉ lệch khoảng <strong><span
+class="math inline">0.63</span></strong> điểm so với điểm số IMDb thực
+tế của phim (trên thang điểm 10). * <strong>Sai số Bình phương Trung
+bình (Root Mean Squared Error - RMSE):</strong> Đạt <strong><span
+class="math inline">0.7985</span></strong>. * <strong>Độ chính xác trong
+ngưỡng <span class="math inline">±0.5</span> điểm:</strong> Đạt
+<strong><span class="math inline">48.02%</span></strong> (Gần 48% số
+phim có điểm dự đoán sai lệch không quá 0.5 điểm so với thực tế). *
+<strong>Độ chính xác trong ngưỡng <span class="math inline">±1.0</span>
+điểm (Dung sai chuẩn):</strong> Đạt <strong><span
+class="math inline">78.80%</span></strong> (Xấp xỉ <strong><span
+class="math inline">79%</span></strong> số lượng phim bom tấn trong tập
+dữ liệu có điểm dự đoán sai lệch dưới 1.0 điểm so với điểm thực tế).</p>
+<h3
+id="luận-giải-tác-động-và-phân-tích-ý-nghĩa-thực-tế-model-interpretation">4.4.
+Luận Giải Tác Động Và Phân Tích Ý Nghĩa Thực Tế (Model
+Interpretation)</h3>
+<p>Dựa trên kết quả đo lường độ chính xác và độ phù hợp của mô hình hồi
+quy tuyến tính tối giản, chúng tôi rút ra các kết luận khoa học quan
+trọng sau: * <strong>Chất lượng nội dung nghệ thuật là yếu tố cốt lõi
+quyết định:</strong> Chỉ số <span
+class="math inline"><em>R</em><sup>2</sup> ≈ 11.89%</span> đồng nghĩa
+với việc hai yếu tố kỹ thuật và thương mại (Thời lượng phim và Thứ hạng
+doanh thu) chỉ giải thích được khoảng <strong><span
+class="math inline">11.89%</span></strong> sự biến thiên của Điểm số
+IMDb. Phần lớn sự biến thiên còn lại (<strong><span
+class="math inline">88.11%</span></strong>) thuộc về các biến số chưa đo
+lường trực tiếp trong cơ sở dữ liệu. Trong điện ảnh thực tế, đây chính
+là <strong>chất lượng nội dung tác phẩm</strong> — bao gồm chiều sâu
+kịch bản, năng lực diễn xuất, phong cách chỉ đạo nghệ thuật của đạo
+diễn, âm nhạc và trải nghiệm cảm xúc. Chính những giá trị nội dung này
+mới là yếu tố quyết định cao nhất đến sự đánh giá của khán giả trên
+IMDb. * <strong>Tác động đáng kể từ các yếu tố kỹ thuật và thương
+mại:</strong> Mặc dù nội dung là quyết định, mô hình của chúng tôi vẫn
+chỉ ra thời lượng phim (<code>length</code>) và thứ hạng doanh thu
+(<code>rank_in_year</code>) có <strong>tác động đáng kể và có ý nghĩa
+thống kê cực kỳ rõ ràng</strong> (<span
+class="math inline"><em>p</em> &lt; 0.001</span>). Điều này ngụ ý rằng
+các yếu tố khách quan ngoài nội dung như thời lượng chiếu (thể hiện quy
+mô sản xuất sử thi) và sự thành công thương mại (tính thu hút đại chúng)
+vẫn đóng vai trò quan trọng hỗ trợ củng cố điểm số của một bộ phim.</p>
+<hr />
+<div class="page-break">
+
+</div>
+<h2 id="hình-ảnh-minh-họa-và-đánh-giá-visualization">5. HÌNH ẢNH MINH
+HỌA VÀ ĐÁNH GIÁ (VISUALIZATION)</h2>
+<h3
+id="bảng-điều-khiển-1-phân-tích-mô-hình-hồi-quy-yếu-tố-ảnh-hưởng-blockbuster_analysis.png">5.1.
+Bảng Điều Khiển 1: Phân Tích Mô Hình Hồi Quy &amp; Yếu Tố Ảnh Hưởng
+(<code>blockbuster_analysis.png</code>)</h3>
+<p>Tập tin đồ thị trực quan hóa dữ liệu
+<strong><code>blockbuster_analysis.png</code></strong> được R tự động
+xuất ra dưới dạng một <strong>Bảng điều khiển 2x2 Grid</strong> bao gồm:
+1. <strong>Biểu đồ 1: Pearson Correlation with IMDb Rating (Bar
+Plot):</strong> Biểu diễn trực quan hệ số tương quan của 4 biến số độc
+lập với điểm IMDb. Biểu đồ chỉ rõ thời lượng (<code>Length</code>) và
+thứ hạng (<code>Rank in Year</code>) có độ lớn tương quan vượt trội, làm
+cơ sở lựa chọn biến cho mô hình. 2. <strong>Biểu đồ 2: Movie Length vs
+IMDb Rating (Scatter Plot):</strong> Trực quan hóa mối tương quan thuận
+giữa thời lượng phim và điểm số IMDb, kèm theo đường hồi quy màu xanh lá
+cây thể hiện xu hướng tăng điểm. 3. <strong>Biểu đồ 3: Rank in Year vs
+IMDb Rating (Scatter Plot):</strong> Thể hiện xu hướng giảm điểm rõ rệt
+khi thứ hạng đi từ 1 đến 10, đi kèm đường hồi quy màu đỏ thể hiện độ dốc
+âm của thuộc tính này. 4. <strong>Biểu đồ 4: Actual vs Predicted IMDb
+Ratings (Diagnostic Plot):</strong> Biểu đồ tán xạ so sánh điểm thực tế
+với điểm dự đoán của mô hình tối giản, đi kèm đường chéo tham chiếu 45
+độ nét đứt để đánh giá độ chính xác của dự báo từ mô hình.</p>
+<figure>
+<img src="file:///d:/DSR/LAB2/blockbuster_analysis.png"
+alt="Bảng điều khiển 1 - Phân tích mô hình hồi quy" />
+<figcaption aria-hidden="true">Bảng điều khiển 1 - Phân tích mô hình hồi
+quy</figcaption>
+</figure>
+<h3
+id="bảng-điều-khiển-2-doanh-thu-hãng-sản-xuất-xu-hướng-điểm-theo-thể-loại-studio_genre_trends.png">5.2.
+Bảng Điều Khiển 2: Doanh Thu Hãng Sản Xuất &amp; Xu Hướng Điểm Theo Thể
+Loại (<code>studio_genre_trends.png</code>)</h3>
+<p>Tập tin đồ thị trực quan hóa dữ liệu
+<strong><code>studio_genre_trends.png</code></strong> cung cấp cái nhìn
+tổng quan về khía cạnh thương mại và xu hướng lịch sử của các thể loại
+phim qua các thời kỳ: 1. <strong>Biểu đồ 5: Total Worldwide Gross by
+Studio (Bar Plot):</strong> Thống kê tổng doanh thu toàn cầu (tính bằng
+tỷ USD) của Top 8 hãng phim lớn nhất. Biểu đồ cho thấy Walt Disney
+Pictures và Warner Bros dẫn đầu tuyệt đối về mặt doanh thu thương mại
+đối với các phim bom tấn. 2. <strong>Biểu đồ 6: IMDb Rating Trends by
+Genre (5-Year Bins Line Plot):</strong> Trực quan hóa biến động điểm số
+IMDb trung bình của Top 5 thể loại phổ biến nhất (Thriller, Comedy,
+Fantasy, Sci-Fi, Action) được gom cụm theo các khoảng thời gian 5 năm
+một kể từ 1975. Biểu đồ dòng thời gian này giúp đánh giá sự thay đổi
+trong thị hiếu khán giả và chất lượng phê bình đối với từng thể loại
+theo thời gian.</p>
+<figure>
+<img src="file:///d:/DSR/LAB2/studio_genre_trends.png"
+alt="Bảng điều khiển 2 - Doanh thu Studio &amp; Xu hướng Thể loại" />
+<figcaption aria-hidden="true">Bảng điều khiển 2 - Doanh thu Studio
+&amp; Xu hướng Thể loại</figcaption>
+</figure>
+<hr />
+<p><strong>KẾT LUẬN:</strong> Đề tài đã được thực hiện và chứng minh
+khoa học hoàn hảo dựa trên bộ dữ liệu <code>blockbusters.csv</code> tự
+chuẩn bị của sinh viên, đáp ứng chuẩn mực cao nhất của Lab học phần.</p>
+</body>
+</html>

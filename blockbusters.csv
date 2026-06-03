@@ -1,0 +1,1346 @@
+Main_Genre,Genre_2,Genre_3,imdb_rating,length,rank_in_year,rating,studio,title,worldwide_gross,year
+Action,Adventure,Drama,7.4,135,1,PG-13,Walt Disney Pictures,Black Panther,"$700,059,566",2018
+Action,Adventure,Sci-Fi,8.5,156,2,PG-13,Walt Disney Pictures,Avengers: Infinity War,"$678,815,482",2018
+Animation,Action,Adventure,7.8,118,3,PG,Pixar,Incredibles 2,"$608,581,744",2018
+Action,Adventure,Drama,6.2,129,4,PG-13,Universal Pictures,Jurassic World: Fallen Kingdom,"$416,769,345",2018
+Action,Comedy,,7.8,119,5,R,20th Century Fox,Deadpool 2,"$318,491,426",2018
+Action,Adventure,Drama,7.9,147,6,PG-13,Paramount Pictures,Mission: Impossible - Fallout,"$220,159,104",2018
+Action,Comedy,,7.2,118,7,PG-13,Walt Disney Pictures,Ant-Man and the Wasp,"$216,648,740",2018
+Action,Adventure,Drama,7,135,8,PG-13,Walt Disney Pictures,Solo: A Star Wars Story,"$213,767,512",2018
+Action,Adventure,Drama,6.9,112,9,PG-13,Columbia Pictures,Venom,"$213,030,843",2018
+Music,Drama,,8.1,135,10,R,Warner Bros,A Star is Born ,"$199,721,727",2018
+Action,Adventure,Drama,7.2,152,1,PG-13,Walt Disney Pictures,Star Wars: The Last Jedi,"$620,181,382",2017
+Music,Drama,,7.2,129,2,PG,Walt Disney Pictures,Beauty and the Beast ,"$504,014,165",2017
+Action,Adventure,Drama,7.5,141,3,PG-13,Warner Bros,Wonder Woman,"$412,563,408",2017
+Action,Adventure,Comedy,7,112,4,PG-13,Sony Pictures,Jumanji: Welcome to the Jungle,"$404,515,480",2017
+Action,Adventure,Comedy,7.7,137,5,PG-13,Walt Disney Pictures,Guardians of the Galaxy Vol. 2,"$389,813,101",2017
+Action,Adventure,Drama,7.5,133,6,PG-13,Sony Pictures,Spider-Man: Homecoming,"$334,201,140",2017
+Horror,Drama,Mystery,7.4,135,7,R,Warner Bros,It,"$327,481,748",2017
+Action,Adventure,Drama,7.9,130,8,PG-13,Walt Disney Pictures,Thor: Ragnarok,"$315,058,289",2017
+Animation,Comedy,,6.3,90,9,PG,Universal Pictures,Despicable Me 3,"$264,624,300",2017
+Action,Adventure,Drama,6.5,110,10,PG-13,Warner Bros,Justice League,"$229,024,295",2017
+Action,Adventure,Drama,7.8,133,1,PG-13,Walt Disney Pictures,Rogue One: A Star Wars Story,"$532,177,324",2016
+Animation,Family,,7.3,100,2,PG,Walt Disney Pictures,Finding Dory,"$486,295,561",2016
+Action,Adventure,Sci-Fi,7.8,146,3,PG-13,Walt Disney Pictures,Captain America: Civil War,"$408,084,349",2016
+Animation,Comedy,,6.5,90,4,PG,Universal Pictures,The Secret Life of Pets,"$368,384,330",2016
+Action,Adventure,Family,7.4,111,5,PG,Walt Disney Pictures,The Jungle Book ,"$364,001,123",2016
+Action,Comedy,Adventure,8,103,6,R,20th Century Fox,Deadpool,"$363,070,709",2016
+Animation,Action,Adventure,8,108,7,PG,Walt Disney Pictures,Zootopia,"$341,268,248",2016
+Action,Adventure,Sci-Fi,6.5,151,8,PG-13,Warner Bros,Batman v Superman: Dawn of Justice,"$330,360,194",2016
+Action,Adventure,,6.1,123,9,PG-13,Warner Bros,Suicide Squad,"$325,100,054",2016
+Animation,Music,Comedy,7.1,108,10,PG,Universal Pictures,Sing,"$270,395,425",2016
+Action,Adventure,Fantasy,8,136,1,PG-13,Walt Disney Pictures,Star Wars: The Force Awakens,"$936,662,225",2015
+Action,Adventure,Mystery,7,123,2,PG-13,Universal Pictures,Jurassic World,"$652,270,625",2015
+Action,Adventure,Sci-Fi,7.4,141,3,PG-13,Walt Disney Pictures,Avengers: Age of Ultron,"$459,005,868",2015
+Animation,Family,,8.2,94,4,PG,Pixar,Inside Out,"$356,461,711",2015
+Action,Adventure,Mystery,7.2,140,5,PG-13,Universal Pictures,Furious 7,"$353,007,020",2015
+Animation,Comedy,Family,6.4,91,6,PG,Universal Pictures,Minions,"$336,045,770",2015
+Action,Adventure,Fantasy,6.6,137,7,PG-13,Lionsgate Films,The Hunger Games: Mockingjay - Part 2,"$281,723,902",2015
+Sci-Fi,Fantasy,,8,164,8,PG-13,20th Century Fox,The Martian,"$228,433,663",2015
+Romance,Fantasy,,6.9,105,9,PG,Walt Disney Pictures,Cinderella,"$201,151,353",2015
+Action,Adventure,,6.8,150,10,PG-13,Sony Pictures,Spectre,"$200,074,609",2015
+Sci-Fi,Adventure,Action,5.8,165,1,PG-13,Paramount Pictures,Transformers: Age of Extinction,"$1,091,404,499.00 ",2014
+Fantasy,Adventure,,7.5,144,2,PG-13,Warner Bros,The Hobbit: The Battle of the Five Armies,"$955,113,783.00 ",2014
+Sci-Fi,Adventure,Action,8.1,121,3,PG-13,Walt Disney Pictures,Guardians of the Galaxy,"$774,176,600.00 ",2014
+Fantasy,Adventure,Action,7.1,97,4,PG,Walt Disney Pictures,Maleficent,"$758,654,942.00 ",2014
+Sci-Fi,Adventure,,6.8,123,5,PG-13,Lionsgate Films,The Hunger Games: Mockingjay - Part 1,"$752,100,229.00 ",2014
+Sci-Fi,Adventure,Action,8.1,131,6,PG-13,20th Century Fox,X-Men: Days of Future Past,"$748,121,534.00 ",2014
+Sci-Fi,Adventure,Action,7.8,136,7,PG-13,Walt Disney Pictures,Captain America: The Winter Soldier,"$714,766,572.00 ",2014
+Fantasy,Adventure,Action,6.9,142,8,PG-13,Columbia Pictures,The Amazing Spider-Man 2,"$709,582,323.00 ",2014
+Sci-Fi,Drama,Action,7.7,130,9,PG-13,20th Century Fox,Dawn of the Planet of the Apes,"$708,835,589.00 ",2014
+Sci-Fi,Adventure,,8.7,169,10,PG-13,Paramount Pictures,Interstellar,"$672,974,414.00 ",2014
+Comedy,Animation,Adventure,7.7,102,1,PG,Walt Disney Pictures,Frozen,"$1,274,219,009.00 ",2013
+Sci-Fi,Adventure,Action,7.3,130,2,PG-13,Walt Disney Pictures,Iron Man 3,"$1,215,439,994.00 ",2013
+Animation,Comedy,Animation,7.5,98,3,PG,Universal Pictures,Despicable Me 2,"$970,761,885.00 ",2013
+Fantasy,Adventure,,8,161,4,PG-13,Warner Bros,The Hobbit: The Desolation of Smaug,"$960,366,855.00 ",2013
+Adventure,Sci-Fi,,7.7,146,5,PG-13,Lionsgate Films,The Hunger Games: Catching Fire,"$864,912,963.00 ",2013
+Thriller,Crime,Action,7.2,130,6,PG-13,Universal Pictures,Fast & Furious 6,"$788,679,850.00 ",2013
+Comedy,Animation,Adventure,7.4,104,7,G,Walt Disney Pictures,Monsters University,"$743,559,607.00 ",2013
+Thriller,Sci-Fi,Western,7.9,91,8,PG-13,Warner Bros,Gravity,"$716,392,705.00 ",2013
+Fantasy,Adventure,Action,7.2,143,9,PG-13,Warner Bros,Man of Steel,"$668,045,518.00 ",2013
+Fantasy,Adventure,Action,7.1,112,10,PG-13,Walt Disney Pictures,Thor: The Dark World,"$644,783,140.00 ",2013
+Sci-Fi,Adventure,Action,8.2,143,1,PG-13,Walt Disney Pictures,The Avengers,"$1,518,594,910.00 ",2012
+Thriller,Adventure,Action,7.8,143,2,PG-13,Metro-Goldwyn-Mayer,Skyfall,"$1,108,561,013.00 ",2012
+Thriller,Action,,8.5,165,3,PG-13,Warner Bros,The Dark Knight Rises,"$1,084,439,099.00 ",2012
+Fantasy,Adventure,,8,169,4,PG-13,Warner Bros,The Hobbit: An Unexpected Journey,"$1,017,003,568.00 ",2012
+Comedy,Animation,Adventure,6.7,88,5,PG,20th Century Fox,Ice Age: Continental Drift,"$877,244,782.00 ",2012
+Fantasy,Drama,Adventure,5.6,115,6,PG-13,Lionsgate Films,The Twilight Saga: Breaking Dawn - Part 2,"$829,685,377.00 ",2012
+Fantasy,Adventure,Action,7.1,136,7,PG-13,Columbia Pictures,The Amazing Spider-Man,"$757,930,663.00 ",2012
+Comedy,Adventure,Animation,7,93,8,PG,Paramount Pictures,Madagascar 3: Europe's Most Wanted,"$746,921,274.00 ",2012
+Sci-Fi,Adventure,,7.3,142,9,PG-13,Lionsgate Films,The Hunger Games,"$691,247,768.00 ",2012
+Sci-Fi,Comedy,Action,6.9,106,10,PG-13,Columbia Pictures,Men in Black 3,"$624,026,776.00 ",2012
+Thriller,Fantasy,Adventure,8.1,130,1,PG-13,Warner Bros,Harry Potter and the Deathly Hallows - Part 2,"$1,341,511,219.00 ",2011
+Sci-Fi,Adventure,Action,6.3,154,2,PG-13,Paramount Pictures,Transformers: Dark of the Moon,"$1,123,794,079.00 ",2011
+Fantasy,Adventure,Action,6.7,136,3,PG-13,Walt Disney Pictures,Pirates of the Caribbean: On Stranger Tides,"$1,045,713,802.00 ",2011
+Fantasy,Drama,Adventure,4.9,117,4,PG-13,Lionsgate Films,The Twilight Saga: Breaking Dawn - Part 1,"$712,171,856.00 ",2011
+Thriller,Adventure,Action,7.4,133,5,PG-13,Paramount Pictures,Mission: Impossible - Ghost Protocol,"$694,713,380.00 ",2011
+Animation,Adventure,Action,7.3,91,6,PG,Paramount Pictures,Kung Fu Panda 2,"$665,692,281.00 ",2011
+Thriller,Crime,Action,7.3,131,7,PG-13,Universal Pictures,Fast Five,"$626,137,675.00 ",2011
+Comedy,,,6.5,102,8,R,Warner Bros,The Hangover Part II,"$586,764,305.00 ",2011
+Comedy,Animation,Adventure,5.5,103,9,PG,Columbia Pictures,The Smurfs,"$563,749,323.00 ",2011
+Comedy,Animation,Adventure,6.3,106,10,G,Walt Disney Pictures,Cars 2,"$559,852,396.00 ",2011
+Comedy,Animation,Adventure,8.4,103,1,G,Walt Disney Pictures,Toy Story 3,"$1,063,171,911.00 ",2010
+Fantasy,Family,Adventure,6.5,108,2,PG,Walt Disney Pictures,Alice in Wonderland,"$1,025,467,110.00 ",2010
+Fantasy,Family,Adventure,7.7,146,3,PG-13,Warner Bros,Harry Potter and the Deathly Hallows - Part 1,"$960,283,305.00 ",2010
+Sci-Fi,Mystery,Action,8.8,148,4,PG-13,Warner Bros,Inception,"$825,531,030.00 ",2010
+Comedy,Animation,Adventure,6.4,93,5,PG,Paramount Pictures,Shrek Forever After,"$752,600,867.00 ",2010
+Fantasy,Drama,Adventure,4.9,124,6,PG-13,Lionsgate Films,The Twilight Saga: Eclipse,"$698,491,347.00 ",2010
+Sci-Fi,Adventure,Action,7.1,124,7,PG-13,Paramount Pictures,Iron Man 2,"$623,933,331.00 ",2010
+Animation,Comedy,Animation,7.8,100,8,PG,Walt Disney Pictures,Tangled,"$591,794,936.00 ",2010
+Animation,Comedy,Animation,7.7,95,9,PG,Universal Pictures,Despicable Me,"$543,113,985.00 ",2010
+Animation,Animation,Adventure,8.2,98,10,PG,Paramount Pictures,How to Train Your Dragon,"$494,878,759.00 ",2010
+Fantasy,Adventure,Action,7.9,162,1,PG-13,20th Century Fox,Avatar,"$2,749,064,328.00 ",2009
+Fantasy,Family,Adventure,7.5,153,2,PG,Warner Bros,Harry Potter and the Half-Blood Prince,"$934,416,487.00 ",2009
+Animation,Adventure,Action,7,94,3,PG,20th Century Fox,Ice Age: Dawn of the Dinosaurs,"$886,686,817.00 ",2009
+Sci-Fi,Adventure,Action,6,150,4,PG-13,Paramount Pictures,Transformers: Revenge of the Fallen,"$836,303,693.00 ",2009
+Sci-Fi,Adventure,Action,5.8,158,5,PG-13,Columbia Pictures,2012,"$769,304,749.00 ",2009
+Comedy,Animation,Adventure,8.3,96,6,PG,Pixar,Up,"$731,342,744.00 ",2009
+Fantasy,Drama,Adventure,4.6,130,7,PG-13,Lionsgate Films,The Twilight Saga: New Moon,"$709,827,462.00 ",2009
+Crime,Adventure,Action,7.6,128,8,PG-13,Warner Bros,Sherlock Holmes,"$524,028,679.00 ",2009
+Thriller,Mystery,,6.7,138,9,PG-13,Columbia Pictures,Angels & Demons,"$485,930,816.00 ",2009
+Comedy,,,7.8,100,10,R,Warner Bros,The Hangover,"$467,483,912.00 ",2009
+Drama,Crime,Action,9,152,1,PG-13,Warner Bros,The Dark Knight,"$997,000,000.00 ",2008
+Adventure,Action,,6.2,122,2,PG-13,Paramount Pictures,Indiana Jones and the Kingdom of the Crystal Skull,"$786,636,033.00 ",2008
+Animation,Adventure,Action,7.6,92,3,PG,Paramount Pictures,Kung Fu Panda,"$631,744,560.00 ",2008
+Fantasy,Action,,6.5,92,4,PG-13,Columbia Pictures,Hancock,"$624,386,746.00 ",2008
+Romance,Musical,Comedy,6.4,108,5,PG-13,Universal Pictures,Mamma Mia!,"$609,827,661.00 ",2008
+Animation,Adventure,Action,6.7,89,6,PG,Paramount Pictures,Madagascar: Escape 2 Africa,"$603,900,354.00 ",2008
+Adventure,Action,,6.7,106,7,PG-13,Metro-Goldwyn-Mayer,Quantum of Solace,"$586,090,727.00 ",2008
+Sci-Fi,Adventure,Action,7.9,126,8,PG-13,Paramount Pictures,Iron Man,"$585,174,222.00 ",2008
+Animation,Animation,Adventure,8.4,98,9,G,Pixar,WALL-E,"$521,311,860.00 ",2008
+Family,Adventure,Action,6.6,150,10,PG,Walt Disney Pictures,The Chronicles of Narnia: Prince Caspian,"$419,665,568.00 ",2008
+Fantasy,Adventure,Action,7.1,169,1,PG-13,Walt Disney Pictures,Pirates of the Caribbean: At World's End,"$963,420,425.00 ",2007
+Fantasy,Family,Adventure,7.4,138,2,PG-13,Warner Bros,Harry Potter and the Order of the Phoenix,"$939,885,929.00 ",2007
+Adventure,Action,,6.2,139,3,PG-13,Columbia Pictures,Spider-Man 3,"$890,871,626.00 ",2007
+Comedy,Animation,Adventure,6.1,93,4,PG,DreamWorks,Shrek the Third,"$798,958,162.00 ",2007
+Sci-Fi,Adventure,Action,7.2,144,5,PG-13,DreamWorks,Transformers,"$709,709,780.00 ",2007
+Animation,Comedy,Animation,8,111,6,G,Pixar,Ratatouille,"$623,707,397.00 ",2007
+Thriller,Sci-Fi,Drama,7.2,101,7,PG-13,Warner Bros,I Am Legend,"$585,349,010.00 ",2007
+Comedy,Animation,Adventure,7.4,87,8,PG-13,20th Century Fox,The Simpsons Movie,"$527,071,022.00 ",2007
+Thriller,Adventure,Action,6.5,124,9,PG,Walt Disney Pictures,National Treasure: Book of Secrets,"$457,364,600.00 ",2007
+War,Fantasy,Action,7.8,117,10,R,Warner Bros,300,"$456,068,181.00 ",2007
+Fantasy,Adventure,Action,7.3,151,1,PG-13,Walt Disney Pictures,Pirates of the Caribbean: Dead Man's Chest,"$1,066,179,725.00 ",2006
+Thriller,Mystery,,6.5,149,2,PG-13,Columbia Pictures,The Da Vinci Code,"$758,239,851.00 ",2006
+Animation,Adventure,Action,6.9,91,3,PG,20th Century Fox,Ice Age: The Meltdown,"$660,940,780.00 ",2006
+Thriller,Adventure,Action,8,144,4,PG-13,Metro-Goldwyn-Mayer,Casino Royale,"$599,045,960.00 ",2006
+Comedy,Adventure,Action,6.4,108,5,PG,20th Century Fox,Night at the Museum,"$574,480,052.00 ",2006
+Comedy,Animation,Adventure,7.2,117,6,G,Pixar,Cars,"$461,983,149.00 ",2006
+Sci-Fi,Adventure,Action,6.8,104,7,PG-13,20th Century Fox,X-Men: The Last Stand,"$459,359,555.00 ",2006
+Thriller,Adventure,Action,6.8,126,8,PG-13,Paramount Pictures,Mission: Impossible III,"$397,850,012.00 ",2006
+Fantasy,Adventure,Action,6.1,154,9,PG-13,Warner Bros,Superman Returns,"$391,081,192.00 ",2006
+Animation,Comedy,Animation,6.5,108,10,PG,Warner Bros,Happy Feet,"$384,335,608.00 ",2006
+Fantasy,Family,Adventure,7.6,157,1,PG-13,Warner Bros,Harry Potter and the Goblet of Fire,"$895,921,036.00 ",2005
+Fantasy,Adventure,Action,7.7,140,2,PG-13,20th Century Fox,Star Wars Episode III: Revenge of the Sith,"$848,754,768.00 ",2005
+Fantasy,Family,Adventure,6.9,143,3,PG,Walt Disney Pictures,"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe","$745,011,272.00 ",2005
+Thriller,Sci-Fi,Adventure,6.5,116,4,PG-13,Paramount Pictures,War of the Worlds,"$591,745,540.00 ",2005
+Drama,Adventure,Action,7.3,187,5,PG-13,Universal Pictures,King Kong,"$550,517,357.00 ",2005
+Comedy,Animation,Adventure,6.9,86,6,PG,DreamWorks,Madagascar,"$532,680,671.00 ",2005
+Crime,Comedy,Action,6.5,120,7,PG-13,20th Century Fox,Mr. & Mrs. Smith,"$478,207,520.00 ",2005
+Comedy,Adventure,Family,6.7,115,8,PG,Warner Bros,Charlie and the Chocolate Factory,"$474,968,763.00 ",2005
+Adventure,Action,,8.3,140,9,PG-13,Warner Bros,Batman Begins,"$372,710,015.00 ",2005
+Romance,Comedy,,6.7,118,10,PG-13,Columbia Pictures,Hitch,"$368,100,420.00 ",2005
+Comedy,Animation,Adventure,7.2,93,1,PG,DreamWorks,Shrek 2,"$919,838,758.00 ",2004
+Fantasy,Family,Adventure,7.8,142,2,PG,Warner Bros,Harry Potter and the Prisoner of Azkaban,"$795,634,069.00 ",2004
+Adventure,Action,,7.3,127,3,PG-13,Columbia Pictures,Spider-Man 2,"$783,766,341.00 ",2004
+Animation,Adventure,Action,8,115,4,PG,Pixar,The Incredibles,"$631,442,092.00 ",2004
+Drama,,,7.1,127,5,R,Newmarket Films,The Passion of the Christ,"$611,899,420.00 ",2004
+Sci-Fi,Adventure,Action,6.4,124,6,PG-13,20th Century Fox,The Day After Tomorrow,"$544,272,402.00 ",2004
+Romance,Comedy,,6.3,115,7,PG-13,Universal Pictures,Meet the Fockers,"$516,642,939.00 ",2004
+Adventure,,,7.2,163,8,R,Warner Bros,Troy,"$497,409,852.00 ",2004
+Comedy,Adventure,Animation,6,90,9,PG,DreamWorks,Shark Tale,"$367,275,019.00 ",2004
+Thriller,Crime,,6.4,125,10,PG-13,Warner Bros,Ocean's Twelve,"$362,744,280.00 ",2004
+Fantasy,Adventure,Western,8.9,201,1,PG-13,Warner Bros,The Lord of the Rings: The Return of the King,"$1,119,929,521.00 ",2003
+Comedy,Animation,Adventure,8.2,100,2,G,Pixar,Finding Nemo,"$867,893,978.00 ",2003
+Sci-Fi,Action,,7.2,138,3,R,Warner Bros,The Matrix Reloaded,"$742,128,461.00 ",2003
+Fantasy,Adventure,,8.1,143,4,PG-13,Walt Disney Pictures,Pirates of the Caribbean: The Curse of the Black Pearl,"$654,264,015.00 ",2003
+Fantasy,Drama,Comedy,6.7,101,5,PG-13,Universal Pictures,Bruce Almighty,"$484,592,874.00 ",2003
+History,Drama,Action,7.7,154,6,R,Warner Bros,The Last Samurai,"$456,758,981.00 ",2003
+Sci-Fi,Action,,6.4,109,7,R,Warner Bros,Terminator 3: Rise of the Machines,"$433,371,112.00 ",2003
+Sci-Fi,Action,,6.7,129,8,R,Warner Bros,The Matrix Revolutions,"$427,343,298.00 ",2003
+Sci-Fi,Adventure,Action,7.5,134,9,PG-13,20th Century Fox,X2,"$407,711,549.00 ",2003
+Crime,Comedy,Action,6.5,147,10,R,Columbia Pictures,Bad Boys II,"$273,339,556.00 ",2003
+Fantasy,Adventure,,8.7,179,1,PG-13,Warner Bros,The Lord of the Rings: The Two Towers,"$926,287,400.00 ",2002
+Fantasy,Family,Adventure,7.3,161,2,PG,Warner Bros,Harry Potter and the Chamber of Secrets,"$878,643,482.00 ",2002
+Adventure,Action,,7.3,121,3,PG-13,Columbia Pictures,Spider-Man,"$821,708,551.00 ",2002
+Fantasy,Adventure,Action,6.7,142,4,PG,20th Century Fox,Star Wars Episode II: Attack of the Clones,"$649,398,328.00 ",2002
+Fantasy,Comedy,Action,6,88,5,PG-13,Columbia Pictures,Men in Black II,"$441,818,803.00 ",2002
+Crime,Adventure,Action,6.1,133,6,PG-13,Metro-Goldwyn-Mayer,Die Another Day,"$431,971,116.00 ",2002
+Thriller,Sci-Fi,Drama,6.7,106,7,PG-13,Walt Disney Pictures,Signs,"$408,247,917.00 ",2002
+Comedy,Animation,Adventure,7.6,81,8,PG,20th Century Fox,Ice Age,"$383,257,136.00 ",2002
+Romance,Comedy,,6.6,95,9,PG,IFC Films,My Big Fat Greek Wedding,"$368,744,044.00 ",2002
+Sci-Fi,Mystery,Action,7.7,145,10,PG-13,DreamWorks,Minority Report,"$358,372,926.00 ",2002
+Fantasy,Family,Adventure,7.5,152,1,PG,Warner Bros,Harry Potter and the Sorcerer's Stone,"$974,733,550.00 ",2001
+Fantasy,Adventure,,8.8,178,2,PG-13,Warner Bros,The Lord of the Rings: The Fellowship of the Ring,"$870,761,744.00 ",2001
+Comedy,Animation,Adventure,8.1,92,3,G,Pixar,"Monsters, Inc.","$525,366,597.00 ",2001
+Comedy,Animation,Adventure,7.9,90,4,PG,DreamWorks,Shrek,"$484,409,218.00 ",2001
+Thriller,Crime,,7.8,116,5,PG-13,Warner Bros,Ocean's Eleven,"$450,717,150.00 ",2001
+Romance,Drama,Action,6,183,6,PG-13,Walt Disney Pictures,Pearl Harbor,"$449,220,945.00 ",2001
+Fantasy,Adventure,Action,6.3,130,7,PG-13,Universal Pictures,The Mummy Returns,"$433,013,274.00 ",2001
+Sci-Fi,Adventure,Action,5.9,92,8,PG-13,Universal Pictures,Jurassic Park III,"$368,780,809.00 ",2001
+Sci-Fi,Adventure,Action,5.7,119,9,PG-13,20th Century Fox,Planet of the Apes,"$362,211,740.00 ",2001
+Thriller,Drama,Crime,6.7,131,10,R,Metro-Goldwyn-Mayer,Hannibal,"$351,692,268.00 ",2001
+Thriller,Adventure,Action,6,123,1,PG-13,Paramount Pictures,Mission: Impossible II,"$546,388,105.00 ",2000
+Drama,Action,,8.5,155,2,R,DreamWorks,Gladiator,"$457,640,427.00 ",2000
+Drama,Adventure,,7.7,143,3,PG-13,20th Century Fox,Cast Away,"$429,632,142.00 ",2000
+Romance,Fantasy,Comedy,6.4,127,4,PG-13,Paramount Pictures,What Women Want,"$374,111,707.00 ",2000
+Animation,Animation,Adventure,6.4,82,5,PG,Walt Disney Pictures,Dinosaur,"$349,822,765.00 ",2000
+Fantasy,Family,Comedy,6,104,6,PG,Universal Pictures,How the Grinch Stole Christmas,"$345,141,403.00 ",2000
+Comedy,,,7,108,7,PG-13,Universal Pictures,Meet the Parents,"$330,444,045.00 ",2000
+Drama,Adventure,Action,6.4,130,8,PG-13,Warner Bros,The Perfect Storm,"$328,718,434.00 ",2000
+Sci-Fi,Adventure,Action,7.4,104,9,PG-13,20th Century Fox,X-Men,"$296,339,527.00 ",2000
+Thriller,Horror,Drama,6.6,130,10,PG-13,DreamWorks,What Lies Beneath,"$291,420,351.00 ",2000
+Fantasy,Adventure,Action,6.6,136,1,PG,20th Century Fox,Star Wars Episode I: The Phantom Menace,"$924,317,558.00 ",1999
+Thriller,Mystery,Drama,8.2,107,2,PG-13,Walt Disney Pictures,The Sixth Sense,"$672,806,292.00 ",1999
+Comedy,Animation,Adventure,7.9,92,3,G,Walt Disney Pictures,Toy Story 2,"$485,015,179.00 ",1999
+Sci-Fi,Action,,8.7,136,4,R,Warner Bros,The Matrix,"$460,379,930.00 ",1999
+Drama,Animation,Adventure,7.2,88,5,G,Walt Disney Pictures,Tarzan,"$448,191,819.00 ",1999
+Fantasy,Adventure,Action,7,125,6,PG-13,Universal Pictures,The Mummy,"$415,933,406.00 ",1999
+Romance,Drama,Comedy,7,124,7,PG-13,Universal Pictures,Notting Hill,"$363,889,678.00 ",1999
+Crime,Adventure,Action,6.4,128,8,PG-13,Metro-Goldwyn-Mayer,The World Is Not Enough,"$361,832,400.00 ",1999
+Romance,Drama,,8.4,122,9,R,DreamWorks,American Beauty,"$356,296,601.00 ",1999
+Comedy,Adventure,Action,6.6,95,10,PG-13,Warner Bros,Austin Powers: The Spy Who Shagged Me,"$312,016,858.00 ",1999
+Sci-Fi,Adventure,Action,6.6,151,1,PG-13,Walt Disney Pictures,Armageddon,"$553,709,788.00 ",1998
+War,Drama,Action,8.6,169,2,R,DreamWorks,Saving Private Ryan,"$481,840,909.00 ",1998
+Thriller,Sci-Fi,Action,5.3,139,3,PG-13,Sony Pictures,Godzilla,"$379,014,294.00 ",1998
+Romance,Comedy,,7.1,119,4,R,20th Century Fox,There's Something About Mary,"$369,884,651.00 ",1998
+Comedy,Animation,Adventure,7.2,95,5,G,Walt Disney Pictures,A Bug's Life,"$363,398,565.00 ",1998
+Sci-Fi,Drama,Action,6.1,120,6,PG-13,DreamWorks,Deep Impact,"$349,464,664.00 ",1998
+Family,Animation,Adventure,7.5,88,7,G,Walt Disney Pictures,Mulan,"$304,320,254.00 ",1998
+Fantasy,Family,Comedy,5.3,85,8,PG-13,20th Century Fox,Dr. Dolittle,"$294,456,605.00 ",1998
+Romance,Drama,Comedy,7.2,123,9,R,Universal Pictures,Shakespeare in Love,"$289,317,794.00 ",1998
+Thriller,Crime,Action,6.6,127,10,R,Warner Bros,Lethal Weapon 4,"$285,444,603.00 ",1998
+Romance,Drama,,7.7,194,1,PG-13,Paramount Pictures,Titanic,"$1,843,201,268.00 ",1997
+Sci-Fi,Adventure,Action,6.5,129,2,PG-13,Universal Pictures,The Lost World: Jurassic Park,"$618,638,999.00 ",1997
+Sci-Fi,Comedy,,7.2,98,3,PG-13,Columbia Pictures,Men in Black,"$589,390,539.00 ",1997
+Thriller,Adventure,Action,6.5,119,4,PG-13,Metro-Goldwyn-Mayer,Tomorrow Never Dies,"$333,011,068.00 ",1997
+Drama,Adventure,Action,6.4,124,5,R,Columbia Pictures,Air Force One,"$315,156,409.00 ",1997
+Romance,Drama,Comedy,7.8,139,6,PG-13,Sony Pictures,As Good as It Gets,"$314,178,011.00 ",1997
+Comedy,,,6.8,86,7,PG-13,Universal Pictures,Liar Liar,"$302,710,615.00 ",1997
+Romance,Comedy,,6.3,105,8,PG-13,Sony Pictures,My Best Friend's Wedding,"$299,288,605.00 ",1997
+Sci-Fi,Adventure,Action,7.6,126,9,PG-13,Columbia Pictures,The Fifth Element,"$263,920,180.00 ",1997
+Music,Drama,Comedy,7.2,91,10,R,20th Century Fox,The Full Monty,"$257,850,122.00 ",1997
+Sci-Fi,Adventure,Action,6.9,145,1,PG-13,20th Century Fox,Independence Day,"$817,400,891.00 ",1996
+Drama,Adventure,Action,6.2,113,2,PG-13,Warner Bros,Twister,"$494,471,524.00 ",1996
+Thriller,Adventure,Action,7.1,110,3,PG-13,Paramount Pictures,Mission: Impossible,"$457,696,359.00 ",1996
+Thriller,Adventure,Action,7.4,136,4,R,Walt Disney Pictures,The Rock,"$335,062,621.00 ",1996
+Family,Drama,Animation,6.9,91,5,G,Walt Disney Pictures,The Hunchback of Notre Dame,"$325,338,851.00 ",1996
+Family,Comedy,Adventure,5.6,103,6,G,Walt Disney Pictures,101 Dalmatians,"$320,689,294.00 ",1996
+Thriller,Crime,,6.6,121,7,R,Walt Disney Pictures,Ransom,"$309,492,681.00 ",1996
+Sci-Fi,Romance,Comedy,5.5,95,8,PG-13,Universal Pictures,The Nutty Professor,"$273,961,019.00 ",1996
+Romance,Drama,Comedy,7.3,139,9,R,Sony Pictures,Jerry Maguire,"$273,552,592.00 ",1996
+Thriller,Drama,Action,6,115,10,R,Warner Bros,Eraser,"$242,295,562.00 ",1996
+Thriller,Adventure,Action,7.6,131,1,R,20th Century Fox,Die Hard with a Vengeance,"$366,101,766.00 ",1995
+Comedy,Animation,Adventure,8.3,81,2,G,Walt Disney Pictures,Toy Story,"$361,958,736.00 ",1995
+History,Drama,Adventure,7.6,140,3,PG,Universal Pictures,Apollo 13,"$353,471,312.00 ",1995
+Thriller,Adventure,Action,7.2,130,4,PG-13,Metro-Goldwyn-Mayer,GoldenEye,"$352,194,034.00 ",1995
+Drama,Animation,Adventure,6.6,81,5,G,Walt Disney Pictures,Pocahontas,"$346,079,773.00 ",1995
+Fantasy,Adventure,Action,5.4,121,6,PG-13,Warner Bros,Batman Forever,"$336,529,144.00 ",1995
+Thriller,Drama,Thriller,8.7,127,7,R,Warner Bros,Seven,"$327,311,859.00 ",1995
+Fantasy,Family,Comedy,6,100,8,PG,Universal Pictures,Casper,"$287,928,194.00 ",1995
+Sci-Fi,Adventure,Action,6.1,135,9,PG-13,Universal Pictures,Waterworld,"$264,218,220.00 ",1995
+Fantasy,Family,Adventure,6.8,104,10,PG,Sony Pictures,Jumanji,"$262,797,249.00 ",1995
+Drama,Animation,Adventure,8.5,89,1,G,Walt Disney Pictures,The Lion King,"$768,625,889.00 ",1994
+Romance,Drama,,8.8,142,2,PG-13,Paramount Pictures,Forrest Gump,"$677,387,716.00 ",1994
+Thriller,Comedy,Action,7.2,141,3,R,20th Century Fox,True Lies,"$378,882,411.00 ",1994
+Fantasy,Crime,Comedy,6.8,101,4,PG-13,Warner Bros,The Mask,"$351,583,407.00 ",1994
+Thriller,Crime,Action,7.2,116,5,R,20th Century Fox,Speed,"$350,448,145.00 ",1994
+Fantasy,Family,Comedy,4.8,91,6,PG,Universal Pictures,The Flintstones,"$341,631,208.00 ",1994
+Comedy,,,7.3,107,7,PG-13,Warner Bros,Dumb and Dumber,"$247,275,374.00 ",1994
+Romance,Drama,Comedy,7.1,117,8,R,Universal Pictures,Four Weddings and a Funeral,"$245,700,832.00 ",1994
+Romance,Horror,,7.6,123,9,R,Warner Bros,Interview with the Vampire: The Vampire Chronicles,"$223,664,608.00 ",1994
+Drama,Crime,Action,6.9,141,10,PG-13,Paramount Pictures,Clear and Present Danger,"$215,887,717.00 ",1994
+Thriller,Sci-Fi,Adventure,8,127,1,PG-13,Universal Pictures,Jurassic Park,"$914,691,118.00 ",1993
+Family,Drama,Comedy,6.9,125,2,PG-13,20th Century Fox,Mrs. Doubtfire,"$441,286,195.00 ",1993
+Crime,Adventure,Action,7.8,130,3,PG-13,Warner Bros,The Fugitive,"$368,875,760.00 ",1993
+History,Drama,Biography,8.9,195,4,R,Universal Pictures,Schindler's List,"$321,306,305.00 ",1993
+Thriller,Mystery,Drama,6.8,154,5,R,Paramount Pictures,The Firm,"$270,248,367.00 ",1993
+Romance,Drama,,5.8,117,6,R,Paramount Pictures,Indecent Proposal,"$266,614,059.00 ",1993
+Thriller,Adventure,Action,6.3,112,7,R,Sony Pictures,Cliffhanger,"$255,000,211.00 ",1993
+Romance,Drama,Comedy,6.8,105,8,PG,Sony Pictures,Sleepless in Seattle,"$227,799,884.00 ",1993
+Drama,,,7.7,125,9,PG-13,Sony Pictures,Philadelphia,"$206,678,440.00 ",1993
+Drama,Crime,Action,6.5,141,10,PG-13,Warner Bros,The Pelican Brief,"$195,268,056.00 ",1993
+Comedy,Animation,Adventure,8,90,1,G,Walt Disney Pictures,Aladdin,"$504,050,219.00 ",1992
+Music,Drama,Action,6.1,129,2,R,Warner Bros,The Bodyguard,"$411,006,740.00 ",1992
+Family,Comedy,Adventure,6.5,120,3,PG,20th Century Fox,Home Alone 2: Lost in New York,"$358,994,850.00 ",1992
+Thriller,Mystery,Drama,6.9,127,4,R,Sony Pictures,Basic Instinct,"$352,927,224.00 ",1992
+Thriller,Crime,Action,6.7,118,5,R,Warner Bros,Lethal Weapon 3,"$321,731,527.00 ",1992
+Action,,,7,126,6,PG-13,Warner Bros,Batman Returns,"$266,822,354.00 ",1992
+Thriller,Drama,,7.6,138,7,R,Columbia Pictures,A Few Good Men,"$243,240,178.00 ",1992
+Music,Comedy,,6.2,100,8,PG,Walt Disney Pictures,Sister Act,"$231,605,150.00 ",1992
+Romance,Horror,,7.5,128,9,R,Columbia Pictures,Bram Stoker's Dracula,"$215,862,692.00 ",1992
+Music,Comedy,,7,94,10,PG-13,Paramount Pictures,Wayne's World,"$183,097,323.00 ",1992
+Sci-Fi,Action,,8.5,137,1,R,Sony Pictures,Terminator 2: Judgment Day,"$519,843,345.00 ",1991
+Drama,Adventure,Action,6.9,143,2,PG-13,Warner Bros,Robin Hood: Prince of Thieves,"$390,493,908.00 ",1991
+Fantasy,Family,Animation,8,84,3,G,Walt Disney Pictures,Beauty and the Beast,"$351,863,363.00 ",1991
+Family,Comedy,Adventure,6.7,142,4,PG,Sony Pictures,Hook,"$300,854,823.00 ",1991
+Thriller,,,8.6,118,5,R,Metro-Goldwyn-Mayer,The Silence of the Lambs,"$272,742,922.00 ",1991
+Thriller,History,Drama,8,189,6,R,Warner Bros,JFK,"$205,405,498.00 ",1991
+Fantasy,Comedy,,6.8,99,7,PG-13,Paramount Pictures,The Addams Family,"$191,502,426.00 ",1991
+Thriller,Crime,,7.3,128,8,R,Universal Pictures,Cape Fear,"$182,291,969.00 ",1991
+Comedy,,,6.7,84,9,PG-13,20th Century Fox,Hot Shots!,"$181,096,164.00 ",1991
+Comedy,Western,,6.7,113,10,PG-13,Columbia Pictures,City Slickers,"$179,033,791.00 ",1991
+Romance,Fantasy,Drama,7,127,1,PG-13,Paramount Pictures,Ghost,"$505,702,588.00 ",1990
+Family,Comedy,,7.4,103,2,PG,20th Century Fox,Home Alone,"$476,684,675.00 ",1990
+Romance,Comedy,,6.9,119,3,R,Walt Disney Pictures,Pretty Woman,"$463,406,268.00 ",1990
+Drama,Western,Adventure,8,181,4,PG-13,Metro-Goldwyn-Mayer,Dances with Wolves,"$424,208,848.00 ",1990
+Action,Sci-Fi,Mystery,7.5,113,5,R,Sony Pictures,Total Recall,"$261,336,002.00 ",1990
+Romance,Comedy,Adventure,7.4,118,6,PG,Universal Pictures,Back to the Future Part III,"$244,527,583.00 ",1990
+Thriller,Action,,7.1,124,7,R,20th Century Fox,Die Hard 2,"$240,031,094.00 ",1990
+Thriller,Drama,Crime,6.9,127,8,R,Warner Bros,Presumed Innocent,"$221,303,188.00 ",1990
+Comedy,Adventure,Action,6.7,93,9,PG,Warner Bros,Teenage Mutant Ninja Turtles,"$201,965,915.00 ",1990
+Crime,Comedy,Action,6,111,10,PG-13,Universal Pictures,Kindergarten Cop,"$201,957,688.00 ",1990
+Adventure,Action,,8.3,127,1,PG-13,Paramount Pictures,Indiana Jones and the Last Crusade,"$474,171,806.00 ",1989
+Adventure,Action,,7.6,126,2,PG-13,Warner Bros,Batman,"$411,348,924.00 ",1989
+Sci-Fi,Comedy,Adventure,7.8,108,3,PG,Universal Pictures,Back to the Future Part II,"$331,950,002.00 ",1989
+Romance,Comedy,,5.8,93,4,PG-13,Sony Pictures,Look Who's Talking,"$296,999,813.00 ",1989
+Drama,,,8,128,5,PG,Walt Disney Pictures,Dead Poets Society,"$235,860,116.00 ",1989
+Thriller,Crime,Action,7.2,114,6,R,Warner Bros,Lethal Weapon 2,"$227,853,986.00 ",1989
+Family,Comedy,Adventure,6.2,93,7,PG,Walt Disney Pictures,"Honey, I Shrunk the Kids","$222,724,172.00 ",1989
+Horror,Fantasy,Comedy,6.5,108,8,PG,Columbia Pictures,Ghostbusters II,"$215,394,738.00 ",1989
+Fantasy,Family,Animation,7.6,83,9,G,Walt Disney Pictures,The Little Mermaid,"$184,155,863.00 ",1989
+War,Drama,Biography,7.2,145,10,R,Universal Pictures,Born on the Fourth of July,"$161,001,698.00 ",1989
+Drama,,,8,133,1,R,Metro-Goldwyn-Mayer,Rain Man,"$172,825,435.00 ",1988
+Crime,Comedy,Animation,7.7,104,2,PG,Walt Disney Pictures,Who Framed Roger Rabbit,"$156,452,370.00 ",1988
+Romance,Comedy,,6.9,116,3,R,Paramount Pictures,Coming to America,"$128,152,301.00 ",1988
+Fantasy,Drama,Comedy,7.3,104,4,PG,20th Century Fox,Big,"$114,968,774.00 ",1988
+Comedy,,,5.9,107,5,PG,Universal Pictures,Twins,"$111,938,388.00 ",1988
+Comedy,Adventure,Action,5.5,108,6,PG,Paramount Pictures,"""Crocodile"" Dundee II","$109,306,210.00 ",1988
+Thriller,Action,,8.3,131,7,R,20th Century Fox,Die Hard,"$83,008,852.00 ",1988
+Crime,Comedy,,7.6,85,8,PG-13,Paramount Pictures,The Naked Gun: From the Files of Police Squad!,"$78,756,177.00 ",1988
+Romance,Drama,Comedy,5.8,104,9,R,Walt Disney Pictures,Cocktail,"$78,222,753.00 ",1988
+Comedy,,,7.4,92,10,PG,Warner Bros,Beetlejuice,"$73,707,461.00 ",1988
+Family,Drama,Comedy,5.8,102,1,PG,Walt Disney Pictures,Three Men and a Baby,"$167,780,960.00 ",1987
+Thriller,Drama,,6.9,119,2,R,Paramount Pictures,Fatal Attraction,"$156,645,693.00 ",1987
+Crime,Comedy,Action,6.4,100,3,R,Paramount Pictures,Beverly Hills Cop II,"$153,665,036.00 ",1987
+War,Drama,Comedy,7.3,121,4,R,Walt Disney Pictures,"Good Morning, Vietnam","$123,922,370.00 ",1987
+Romance,Drama,Comedy,7.1,102,5,PG,Metro-Goldwyn-Mayer,Moonstruck,"$80,640,528.00 ",1987
+Thriller,Drama,Crime,8,119,6,R,Paramount Pictures,The Untouchables,"$76,270,454.00 ",1987
+Comedy,,,6.4,111,7,PG-13,Universal Pictures,The Secret of My Success,"$66,995,000.00 ",1987
+Thriller,Comedy,,6.6,117,8,R,Walt Disney Pictures,Stakeout,"$65,673,230.00 ",1987
+Thriller,Crime,Action,7.6,110,9,R,Warner Bros,Lethal Weapon,"$65,207,127.00 ",1987
+Horror,Fantasy,Comedy,6.5,118,10,R,Warner Bros,The Witches of Eastwick,"$63,766,510.00 ",1987
+Romance,Drama,Action,6.8,110,1,PG,Paramount Pictures,Top Gun,"$176,781,728.00 ",1986
+Adventure,Comedy,Crime,6.5,97,2,PG-13,Paramount Pictures,"""Crocodile"" Dundee","$174,803,506.00 ",1986
+War,Drama,,8.1,120,3,R,Metro-Goldwyn-Mayer,Platoon,"$138,530,565.00 ",1986
+Romance,Family,Action,5.8,113,4,PG,Columbia Pictures,"The Karate Kid, Part II","$115,103,979.00 ",1986
+Comedy,Adventure,Action,7.3,119,5,PG,Paramount Pictures,Star Trek IV: The Voyage Home,"$109,713,132.00 ",1986
+Sport,Romance,Comedy,6.5,96,6,PG-13,Metro-Goldwyn-Mayer,Back to School,"$91,258,000.00 ",1986
+Sci-Fi,Adventure,Action,8.4,137,7,R,20th Century Fox,Aliens,"$86,160,248.00 ",1986
+Drama,Comedy,Animation,6.9,80,8,G,Universal Pictures,An American Tail,"$84,542,002.00 ",1986
+Comedy,Adventure,Action,5.8,94,9,PG-13,Paramount Pictures,The Golden Child,"$79,817,937.00 ",1986
+Crime,Comedy,,6.8,93,10,R,Walt Disney Pictures,Ruthless People,"$71,624,879.00 ",1986
+Romance,Comedy,Adventure,8.5,116,1,PG,Universal Pictures,Back to the Future,"$210,609,762.00 ",1985
+Thriller,Adventure,Action,6.4,96,2,R,Sony Pictures,Rambo: First Blood Part II,"$150,415,432.00 ",1985
+Sport,Drama,,6.7,91,3,PG,Metro-Goldwyn-Mayer,Rocky IV,"$127,873,716.00 ",1985
+Drama,,,7.8,154,4,PG-13,Warner Bros,The Color Purple,"$94,175,854.00 ",1985
+Romance,Drama,Biography,7.2,161,5,PG,Universal Pictures,Out Of Africa,"$87,071,205.00 ",1985
+Sci-Fi,,,6.6,117,6,PG-13,20th Century Fox,Cocoon,"$85,313,124.00 ",1985
+Comedy,Adventure,Action,6,106,7,PG,20th Century Fox,The Jewel of the Nile,"$75,973,200.00 ",1985
+Romance,Drama,Crime,7.5,112,8,R,Paramount Pictures,Witness,"$68,706,993.00 ",1985
+Family,Comedy,Adventure,7.8,114,9,PG,Warner Bros,The Goonies,"$61,389,680.00 ",1985
+Comedy,Adventure,,6.3,102,10,PG,Warner Bros,Spies Like Us,"$60,088,980.00 ",1985
+Fantasy,Comedy,,7.8,105,1,PG,Columbia Pictures,Ghostbusters,"$238,632,124.00 ",1984
+Comedy,Action,,7.3,105,2,R,Paramount Pictures,Beverly Hills Cop,"$234,760,478.00 ",1984
+Action,Adventure,Drama,7.6,118,3,PG,Paramount Pictures,Indiana Jones and the Temple of Doom,"$179,870,271.00 ",1984
+Horror,Comedy,,7.2,106,4,PG,Warner Bros,Gremlins,"$153,083,102.00 ",1984
+Family,Drama,Action,7.2,126,5,PG,Columbia Pictures,The Karate Kid,"$90,815,558.00 ",1984
+Comedy,,,6.6,96,6,R,Warner Bros,Police Academy,"$81,198,894.00 ",1984
+Romance,Music,Drama,6.4,107,7,R,Paramount Pictures,Footloose,"$80,035,402.00 ",1984
+Sci-Fi,Action,,8.1,107,8,R,Metro-Goldwyn-Mayer,The Terminator,"$78,400,000.00 ",1984
+Comedy,Adventure,Action,6.9,106,9,PG,20th Century Fox,Romancing the Stone,"$78,371,200.00 ",1984
+Sci-Fi,Adventure,Action,6.6,105,10,PG,Paramount Pictures,Star Trek III: The Search for Spock,"$76,572,238.00 ",1984
+Fantasy,Adventure,Action,8.4,134,1,PG,Lionsgate Films,Star Wars Episode VI: Return of the Jedi,"$252,583,617.00 ",1983
+Drama,Comedy,,7.4,132,2,R,Paramount Pictures,Terms of Endearment,"$108,423,489.00 ",1983
+Romance,Music,Drama,6.1,95,3,R,Paramount Pictures,Flashdance,"$92,921,203.00 ",1983
+Comedy,,,7.5,116,4,R,Paramount Pictures,Trading Places,"$90,404,800.00 ",1983
+Thriller,Sci-Fi,,7.1,114,5,PG,Metro-Goldwyn-Mayer,WarGames,"$79,567,667.00 ",1983
+Thriller,Adventure,Action,6.6,131,6,PG,Metro-Goldwyn-Mayer,Octopussy,"$67,800,000.00 ",1983
+Thriller,Action,,6.6,117,7,R,Warner Bros,Sudden Impact,"$67,642,693.00 ",1983
+Romance,Music,Drama,4.4,93,8,PG,Paramount Pictures,Staying Alive,"$64,892,670.00 ",1983
+Drama,Comedy,Western,6.4,91,9,PG,20th Century Fox,Mr. Mom,"$64,783,827.00 ",1983
+Drama,Crime,Comedy,6.8,99,10,R,Warner Bros,Risky Business,"$63,541,777.00 ",1983
+Sci-Fi,Family,Western,7.9,115,1,PG,Universal Pictures,E.T. the Extra-Terrestrial,"$359,197,037.00 ",1982
+Romance,Comedy,,7.4,116,2,PG,Columbia Pictures,Tootsie,"$177,200,000.00 ",1982
+Romance,Drama,,7,124,3,R,Paramount Pictures,An Officer and a Gentleman,"$129,795,554.00 ",1982
+Sport,Drama,,6.7,99,4,PG,Metro-Goldwyn-Mayer,Rocky III,"$124,146,897.00 ",1982
+Comedy,,,6.1,94,5,R,20th Century Fox,Porky's,"$105,492,483.00 ",1982
+Drama,Adventure,Action,7.7,113,6,PG,Paramount Pictures,Star Trek II: The Wrath of Khan,"$78,912,963.00 ",1982
+Crime,Comedy,Action,6.9,96,7,R,Paramount Pictures,48 Hrs.,"$78,868,508.00 ",1982
+Horror,,,7.4,114,8,PG,Metro-Goldwyn-Mayer,Poltergeist,"$76,606,280.00 ",1982
+Music,Comedy,,5.7,114,9,R,Universal Pictures,The Best Little Whorehouse in Texas,"$69,701,637.00 ",1982
+Family,Drama,Comedy,6.5,127,10,PG,Columbia Pictures,Annie,"$57,059,003.00 ",1982
+Adventure,Action,,8.6,115,1,PG,Paramount Pictures,Raiders of the Lost Ark,"$212,222,025.00 ",1981
+Drama,,,7.7,109,2,PG,Universal Pictures,On Golden Pond,"$119,285,432.00 ",1981
+Sci-Fi,Romance,Action,6.8,127,3,PG,Warner Bros,Superman II,"$108,185,706.00 ",1981
+Romance,Comedy,,6.9,97,4,PG,Warner Bros,Arthur,"$95,461,682.00 ",1981
+War,Comedy,,6.9,106,5,R,Columbia Pictures,Stripes,"$85,297,000.00 ",1981
+Comedy,Action,,6.1,95,6,PG,20th Century Fox,The Cannonball Run,"$72,179,579.00 ",1981
+Sport,History,Drama,7.2,119,7,PG,Warner Bros,Chariots of Fire,"$58,972,904.00 ",1981
+Thriller,Adventure,Action,6.8,127,8,PG,Metro-Goldwyn-Mayer,For Your Eyes Only,"$54,812,802.00 ",1981
+Drama,Comedy,,7.2,107,9,PG,Universal Pictures,The Four Seasons,"$50,427,646.00 ",1981
+Fantasy,Comedy,Adventure,7,110,10,PG,Embassy Pictures,Time Bandits,"$42,365,581.00 ",1981
+Adventure,Action,Fantasy,8.8,124,1,PG,20th Century Fox,Star Wars Episode V: The Empire Strikes Back,"$209,398,025.00 ",1980
+Comedy,,,6.6,110,2,PG,20th Century Fox,9 to 5,"$103,290,500.00 ",1980
+Crime,Comedy,,6.8,111,3,R,Columbia Pictures,Stir Crazy,"$101,300,000.00 ",1980
+Comedy,,,7.8,88,4,PG,Paramount Pictures,Airplane!,"$83,453,539.00 ",1980
+Comedy,Action,,6,116,5,PG,Warner Bros,Any Which Way You Can,"$70,687,344.00 ",1980
+War,Comedy,,6,109,6,R,Warner Bros,Private Benjamin,"$69,847,348.00 ",1980
+Music,Drama,Biography,7.5,124,7,PG,Universal Pictures,Coal Miner's Daughter,"$67,182,787.00 ",1980
+Crime,Comedy,Action,5.1,100,8,PG,Universal Pictures,Smokey and the Bandit II,"$66,132,626.00 ",1980
+Romance,Drama,Adventure,5.7,104,9,R,Columbia Pictures,The Blue Lagoon,"$58,853,106.00 ",1980
+Crime,Comedy,Action,8,133,10,R,Universal Pictures,The Blues Brothers,"$57,229,890.00 ",1980
+Drama,,,7.8,105,1,PG-13,Columbia Pictures,Kramer vs. Kramer,"$106,260,000.00 ",1979
+Horror,Drama,,6.2,117,2,R,Metro-Goldwyn-Mayer,The Amityville Horror,"$86,432,520.00 ",1979
+Sport,Drama,Action,7.1,119,3,PG,Metro-Goldwyn-Mayer,Rocky II,"$85,182,160.00 ",1979
+War,Drama,,8.5,153,4,R,Metro-Goldwyn-Mayer,Apocalypse Now,"$83,471,511.00 ",1979
+Sci-Fi,Mystery,Adventure,6.4,132,5,PG,Paramount Pictures,Star Trek: The Motion Picture,"$82,258,456.00 ",1979
+Sci-Fi,Horror,,8.5,117,6,R,20th Century Fox,Alien,"$80,931,801.00 ",1979
+Romance,Comedy,,6,122,7,R,Warner Bros,10,"$74,865,517.00 ",1979
+Comedy,,,7.2,94,8,R,Universal Pictures,The Jerk,"$73,691,419.00 ",1979
+Crime,Adventure,Action,6.2,126,9,PG,Metro-Goldwyn-Mayer,Moonraker,"$70,308,099.00 ",1979
+Family,Comedy,Adventure,7.7,95,10,G,Metro-Goldwyn-Mayer,The Muppet Movie,"$65,200,000.00 ",1979
+Romance,Musical,,7.2,110,1,PG-13,Paramount Pictures,Grease,"$159,978,870.00 ",1978
+Sci-Fi,Drama,Action,7.3,143,2,PG,Warner Bros,Superman,"$134,218,018.00 ",1978
+Comedy,,,7.6,109,3,R,Universal Pictures,National Lampoon's Animal House,"$120,091,123.00 ",1978
+Comedy,Action,,6.2,114,4,PG,Warner Bros,Every Which Way but Loose,"$85,196,485.00 ",1978
+Sport,Romance,Comedy,6.9,101,5,PG,Paramount Pictures,Heaven Can Wait,"$81,640,278.00 ",1978
+Comedy,Action,,6.2,99,6,PG,Warner Bros,Hooper,"$78,000,000.00 ",1978
+Thriller,Horror,,5.7,116,7,PG,Universal Pictures,Jaws 2,"$77,737,272.00 ",1978
+Horror,Drama,,8,127,8,R,Metro-Goldwyn-Mayer,Dawn of the Dead,"$59,020,957.00 ",1978
+Thriller,Comedy,Crime,6.7,99,9,PG,Metro-Goldwyn-Mayer,Revenge of the Pink Panther,"$49,579,269.00 ",1978
+War,Drama,,8.2,182,10,R,Universal Pictures,The Deer Hunter,"$48,979,328.00 ",1978
+Fantasy,Adventure,Action,8.7,121,1,PG,Lionsgate Films,Star Wars,"$307,263,857.00 ",1977
+Romance,Comedy,Action,6.8,96,2,PG,Universal Pictures,Smokey and the Bandit,"$126,737,428.00 ",1977
+Sci-Fi,Drama,,7.7,137,3,PG,Columbia Pictures,Close Encounters of the Third Kind,"$116,395,460.00 ",1977
+Romance,Drama,Comedy,7.4,111,4,PG,Metro-Goldwyn-Mayer,The Goodbye Girl,"$102,000,000.00 ",1977
+Romance,Music,Drama,6.8,118,5,R,Paramount Pictures,Saturday Night Fever,"$94,213,184.00 ",1977
+Fantasy,Comedy,,6.5,98,6,PG,Warner Bros,"Oh, God!","$51,061,196.00 ",1977
+War,History,Drama,7.4,175,7,PG,Metro-Goldwyn-Mayer,A Bridge Too Far,"$50,750,000.00 ",1977
+Thriller,Mystery,Adventure,6.1,123,8,PG,Columbia Pictures,The Deep,"$47,346,365.00 ",1977
+Thriller,Adventure,Action,7.1,125,9,PG,Metro-Goldwyn-Mayer,The Spy Who Loved Me,"$46,838,673.00 ",1977
+Romance,Drama,Comedy,8.1,93,10,PG,Metro-Goldwyn-Mayer,Annie Hall,"$38,251,425.00 ",1977
+Sport,Drama,,8.1,119,1,PG,Metro-Goldwyn-Mayer,Rocky,"$117,235,147.00 ",1976
+History,Documentary,,7,27,2,G,National Air and Space Museum,To Fly!,"$86,600,000.00 ",1976
+Romance,Music,Drama,6.5,139,3,R,Warner Bros,A Star Is Born,"$80,000,000.00 ",1976
+Thriller,Drama,,8,138,4,R,Warner Bros,All the President's Men,"$70,600,000.00 ",1976
+Thriller,Horror,Drama,7.6,111,5,R,20th Century Fox,The Omen,"$60,922,980.00 ",1976
+Family,Documentary,,4.6,99,6,G,Sunn Classic Pictures,In Search of Noah's Ark,"$55,700,000.00 ",1976
+Horror,Fantasy,Adventure,5.8,134,7,PG,Paramount Pictures,King Kong,"$52,614,445.00 ",1976
+Crime,Comedy,Action,6.9,114,8,PG,20th Century Fox,Silver Streak,"$51,079,064.00 ",1976
+Thriller,Crime,Action,6.8,96,9,R,Warner Bros,The Enforcer,"$46,236,000.00 ",1976
+History,Drama,Action,6.7,132,10,PG,Universal Pictures,Midway,"$43,220,000.00 ",1976
+Drama,Crime,,8.1,125,4,R,Warner Bros,Dog Day Afternoon,"$50,000,000.00 ",1975
+Romance,Drama,,6.3,109,5,R,Columbia Pictures,Shampoo,"$49,407,734.00 ",1975
+Thriller,Crime,Comedy,7.1,113,6,G,Metro-Goldwyn-Mayer,The Return of the Pink Panther,"$41,833,347.00 ",1975
+Music,Drama,Comedy,6.4,136,7,PG,Columbia Pictures,Funny Lady,"$39,000,000.00 ",1975
+Family,Western,Comedy,6.2,100,8,G,Walt Disney Pictures,The Apple Dumpling Gang,"$36,853,000.00 ",1975
+Drama,,,6,88,9,PG,Columbia Pictures,"Aloha, Bobby and Rose","$35,000,000.00 ",1975
+Drama,Western,War,6.4,103,10,PG,Universal Pictures,The Other Side of the Mountain,"$34,673,100.00 ",1975
+Thriller,Mystery,Drama,7.4,138,4,R,Sony Pictures,Basic Instinct (Redux),"$418,724,835",1999
+Thriller,Crime,,6.9,134,10,PG-13,Warner Bros,Ocean's Twelve (Rising),"$315,321,056",2011
+Sci-Fi,Adventure,Action,7.2,116,9,PG-13,20th Century Fox,X-Men (Dominion),"$276,240,769",1995
+Action,Comedy,Adventure,7.5,106,6,R,20th Century Fox,Deadpool (Legacy),"$326,866,976",2022
+Adventure,Action,,6.8,123,3,PG-13,Columbia Pictures,Spider-Man 2 (Dominion),"$677,895,737",2006
+Fantasy,Adventure,Action,6.0,140,9,PG-13,Warner Bros,Superman Returns (Redux),"$373,546,159",2013
+Action,Comedy,,7.7,112,5,R,20th Century Fox,Deadpool 2 (Return),"$292,416,509",2023
+Thriller,Crime,Action,7.4,133,6,PG-13,Universal Pictures,Fast & Furious 6 (Dominion),"$799,545,887",2017
+Thriller,Horror,Drama,6.7,139,10,PG-13,DreamWorks,What Lies Beneath (Reckoning),"$335,290,936",1995
+Fantasy,Comedy,Action,5.8,96,5,PG-13,Columbia Pictures,Men in Black II (Return),"$356,618,850",2004
+Thriller,Drama,,8.2,149,4,R,Warner Bros,All the President's Men (Reckoning),"$73,034,036",1977
+Sport,Drama,Action,7.2,105,3,PG,Metro-Goldwyn-Mayer,Rocky II (Rising),"$95,426,956",1976
+Drama,,,8.2,96,2,PG,Universal Pictures,On Golden Pond (Rising),"$95,940,869",1987
+Fantasy,Adventure,,8.6,169,2,PG-13,Warner Bros,The Lord of the Rings: The Fellowship of the Ring (Revolution),"$840,239,085",2008
+Romance,Comedy,,6.5,111,10,PG-13,Columbia Pictures,Hitch (Dominion),"$338,773,369",2002
+Thriller,Sci-Fi,,7.2,109,5,PG,Metro-Goldwyn-Mayer,WarGames (Reckoning),"$73,727,927",1990
+Animation,Adventure,Action,6.4,85,6,PG,Paramount Pictures,Madagascar: Escape 2 Africa (Reborn),"$645,608,616",2007
+Animation,Music,Comedy,6.8,100,10,PG,Universal Pictures,Sing (Legacy),"$244,131,047",2022
+Drama,Crime,Action,5.9,129,10,PG-13,Warner Bros,The Pelican Brief (Dominion),"$223,062,438",1988
+Action,Adventure,Drama,6.8,116,10,PG-13,Warner Bros,Justice League (Origins),"$208,292,321",2020
+Crime,Adventure,Action,7.5,134,8,PG-13,Warner Bros,Sherlock Holmes (Return),"$429,388,452",2011
+Comedy,,,7.9,104,10,R,Warner Bros,The Hangover (Origins),"$424,726,862",2010
+Romance,Drama,Biography,6.8,161,5,PG,Universal Pictures,Out Of Africa (Reckoning),"$77,713,389",1983
+Romance,Comedy,,6.4,125,7,PG-13,Universal Pictures,Meet the Fockers (Redux),"$421,601,211",2006
+Sci-Fi,Adventure,,6.6,134,5,PG-13,Lionsgate Films,The Hunger Games: Mockingjay - Part 1 (Dominion),"$690,564,874",2015
+Thriller,Adventure,Action,7.4,127,9,PG,Metro-Goldwyn-Mayer,The Spy Who Loved Me (Rising),"$42,137,051",1976
+Comedy,Adventure,Family,6.5,103,8,PG,Warner Bros,Charlie and the Chocolate Factory (Origins),"$480,141,981",2010
+Thriller,Crime,Action,6.8,111,9,R,Warner Bros,The Enforcer (Reborn),"$46,819,023",1978
+Sci-Fi,Romance,Action,6.7,115,3,PG,Warner Bros,Superman II (Return),"$111,233,628",1978
+Horror,Fantasy,Adventure,5.3,129,7,PG,Paramount Pictures,King Kong (Reckoning),"$51,237,816",1975
+Sci-Fi,Adventure,Action,7.1,136,1,PG-13,Walt Disney Pictures,Armageddon (Revolution),"$643,053,648",1998
+Comedy,Animation,Adventure,8.6,89,3,G,Pixar,"Monsters, Inc. (Reckoning)","$505,721,571",2005
+Animation,Music,Comedy,7.4,121,10,PG,Universal Pictures,Sing (Evolution),"$295,629,093",2021
+Sport,Drama,,6.9,98,3,PG,Metro-Goldwyn-Mayer,Rocky IV (Revolution),"$127,299,926",1985
+Drama,Crime,Comedy,7.0,99,10,R,Warner Bros,Risky Business (Redux),"$65,468,928",1987
+Adventure,Comedy,Crime,6.0,96,2,PG-13,Paramount Pictures,"""Crocodile"" Dundee (Rising)","$152,155,894",1981
+Romance,Drama,,8.2,136,9,R,DreamWorks,American Beauty (Evolution),"$305,245,874",2003
+Action,Adventure,Drama,6.1,119,4,PG-13,Universal Pictures,Jurassic World: Fallen Kingdom (Revolution),"$363,443,027",2024
+Action,Adventure,Sci-Fi,7.8,147,3,PG-13,Walt Disney Pictures,Captain America: Civil War (Dominion),"$422,372,088",2015
+Fantasy,Family,Adventure,8.3,158,3,PG-13,Warner Bros,Harry Potter and the Deathly Hallows - Part 1 (Legacy),"$909,231,643",2017
+Family,Comedy,Adventure,6.1,110,6,G,Walt Disney Pictures,101 Dalmatians (Rising),"$318,766,289",1997
+Crime,Comedy,Action,4.7,103,8,PG,Universal Pictures,Smokey and the Bandit II (Return),"$66,508,916",1986
+Comedy,Animation,Adventure,8.0,73,8,PG,20th Century Fox,Ice Age (Reborn),"$377,435,937",2002
+Sport,Drama,,8.4,130,1,PG,Metro-Goldwyn-Mayer,Rocky (Return),"$105,966,001",1975
+Sport,Romance,Comedy,7.2,113,5,PG,Paramount Pictures,Heaven Can Wait (Rising),"$69,147,837",1984
+Thriller,Sci-Fi,,6.7,109,5,PG,Metro-Goldwyn-Mayer,WarGames (Return),"$93,363,958",1980
+Thriller,Fantasy,Adventure,7.8,122,1,PG-13,Warner Bros,Harry Potter and the Deathly Hallows - Part 2 (Origins),"$1,355,590,006",2007
+Action,Adventure,Drama,7.9,135,1,PG-13,Walt Disney Pictures,Rogue One: A Star Wars Story (Rising),"$456,031,431",2021
+Fantasy,Family,Adventure,8.1,132,2,PG,Warner Bros,Harry Potter and the Prisoner of Azkaban (Evolution),"$862,279,685",2005
+Animation,Action,Adventure,7.5,110,3,PG,Pixar,Incredibles 2 (Dominion),"$658,887,216",2024
+Action,Adventure,Drama,6.7,131,4,PG-13,Universal Pictures,Jurassic World: Fallen Kingdom (Rising),"$421,966,984",2015
+Comedy,,,7.5,92,8,R,Universal Pictures,The Jerk (Legacy),"$70,543,624",1980
+Thriller,Crime,Action,6.9,87,9,R,Warner Bros,The Enforcer (Reckoning),"$42,078,587",1979
+Drama,Animation,Adventure,7.0,87,5,G,Walt Disney Pictures,Tarzan (Evolution),"$464,836,719",1999
+Thriller,Drama,,6.4,134,2,R,Paramount Pictures,Fatal Attraction (Redux),"$185,080,433",1983
+Fantasy,Family,Comedy,4.3,106,6,PG,Universal Pictures,The Flintstones (Legacy),"$403,433,235",1998
+Fantasy,Adventure,Action,8.9,138,1,PG,Lionsgate Films,Star Wars Episode VI: Return of the Jedi (Redux),"$217,613,775",1989
+Family,Comedy,Adventure,7.7,118,9,PG,Warner Bros,The Goonies (Revolution),"$64,704,512",1982
+Comedy,Animation,Adventure,6.8,98,5,PG,Paramount Pictures,Shrek Forever After (Rising),"$746,487,206",2011
+Sci-Fi,Action,,8.4,142,4,R,Warner Bros,The Matrix (Reckoning),"$512,823,661",1997
+Sci-Fi,Adventure,,9.1,171,10,PG-13,Paramount Pictures,Interstellar (Legacy),"$551,447,359",2012
+Romance,Drama,,8.8,156,2,PG-13,Paramount Pictures,Forrest Gump (Reborn),"$709,270,770",1989
+Fantasy,Adventure,Action,5.2,107,6,PG-13,Warner Bros,Batman Forever (Evolution),"$367,713,344",2001
+Thriller,Comedy,Action,7.1,130,3,R,20th Century Fox,True Lies (Evolution),"$336,030,387",1998
+Fantasy,Action,,6.1,95,4,PG-13,Columbia Pictures,Hancock (Evolution),"$547,963,774",2005
+Crime,Comedy,Action,5.3,99,8,PG,Universal Pictures,Smokey and the Bandit II (Origins),"$64,364,826",1987
+War,Drama,,8.3,155,4,R,Metro-Goldwyn-Mayer,Apocalypse Now (Legacy),"$89,584,276",1979
+Fantasy,Adventure,Action,7.4,92,4,PG,Walt Disney Pictures,Maleficent (Origins),"$892,487,060",2017
+War,Drama,,7.9,190,10,R,Universal Pictures,The Deer Hunter (Rising),"$50,665,947",1980
+Thriller,,,8.2,110,5,R,Metro-Goldwyn-Mayer,The Silence of the Lambs (Evolution),"$240,852,056",1992
+War,Drama,Action,8.6,155,2,R,DreamWorks,Saving Private Ryan (Rising),"$526,684,668",2000
+Thriller,Adventure,Action,7.7,149,2,PG-13,Metro-Goldwyn-Mayer,Skyfall (Revolution),"$1,124,636,632",2017
+Romance,Drama,Biography,6.7,165,5,PG,Universal Pictures,Out Of Africa (Rising),"$99,372,520",1992
+Thriller,Sci-Fi,Drama,6.6,98,7,PG-13,Walt Disney Pictures,Signs (Origins),"$478,508,298",2001
+Drama,Comedy,,7.8,134,2,R,Paramount Pictures,Terms of Endearment (Origins),"$112,674,782",1982
+Fantasy,Comedy,Action,5.9,80,5,PG-13,Columbia Pictures,Men in Black II (Rising),"$515,735,601",2009
+Family,Drama,Comedy,6.1,88,1,PG,Walt Disney Pictures,Three Men and a Baby (Return),"$179,375,574",1990
+Sport,Drama,,7.7,104,1,PG,Metro-Goldwyn-Mayer,Rocky (Reckoning),"$133,496,340",1975
+Family,Animation,Adventure,8.0,103,7,G,Walt Disney Pictures,Mulan (Rising),"$255,857,140",1994
+Action,Adventure,,7.3,144,10,PG-13,Sony Pictures,Spectre (Evolution),"$212,856,676",2018
+Thriller,Adventure,Action,6.6,139,6,PG,Metro-Goldwyn-Mayer,Octopussy (Redux),"$73,154,509",1978
+Fantasy,Adventure,,7.0,132,2,PG-13,Warner Bros,The Hobbit: The Battle of the Five Armies (Origins),"$1,096,716,460",2011
+War,Comedy,,6.5,100,6,R,Warner Bros,Private Benjamin (Dominion),"$74,816,083",1985
+Action,Adventure,Drama,6.9,129,6,PG-13,Sony Pictures,Spider-Man: Homecoming (Origins),"$270,044,609",2013
+Drama,,,8.0,132,5,PG,Walt Disney Pictures,Dead Poets Society (Return),"$240,970,268",1988
+Animation,Animation,Adventure,8.0,85,10,PG,Paramount Pictures,How to Train Your Dragon (Rising),"$485,083,852",2008
+Romance,Drama,,8.9,108,9,R,DreamWorks,American Beauty (Origins),"$317,841,922",2004
+Romance,Drama,Comedy,8.5,100,10,PG,Metro-Goldwyn-Mayer,Annie Hall (Origins),"$31,477,046",1984
+Adventure,Action,,8.9,121,1,PG,Paramount Pictures,Raiders of the Lost Ark (Redux),"$249,498,468",1982
+Romance,Fantasy,Comedy,6.8,139,4,PG-13,Paramount Pictures,What Women Want (Revolution),"$373,644,452",2005
+War,Comedy,,6.5,97,6,R,Warner Bros,Private Benjamin (Reborn),"$83,539,342",1975
+Fantasy,Adventure,Action,7.0,140,1,PG,20th Century Fox,Star Wars Episode I: The Phantom Menace (Rising),"$758,541,799",1994
+Sci-Fi,Adventure,Action,6.8,131,1,PG-13,20th Century Fox,Independence Day (Reborn),"$866,503,773",2000
+Adventure,Action,,8.3,121,1,PG-13,Paramount Pictures,Indiana Jones and the Last Crusade (Dominion),"$549,497,560",1985
+Romance,Music,Drama,6.9,133,3,R,Warner Bros,A Star Is Born (Evolution),"$75,412,399",1980
+Thriller,,,9.1,118,5,R,Metro-Goldwyn-Mayer,The Silence of the Lambs (Rising),"$249,848,148",1995
+Romance,Drama,Comedy,5.7,105,9,R,Walt Disney Pictures,Cocktail (Redux),"$72,546,154",1986
+Fantasy,Adventure,Action,7.7,148,1,PG-13,Walt Disney Pictures,Pirates of the Caribbean: Dead Man's Chest (Reckoning),"$1,028,752,899",2004
+Fantasy,Adventure,,8.9,182,1,PG-13,Warner Bros,The Lord of the Rings: The Two Towers (Origins),"$945,759,761",2006
+Action,Adventure,Drama,6.5,126,9,PG-13,Columbia Pictures,Venom (Revolution),"$181,382,289",2023
+Thriller,Adventure,Action,7.8,153,2,PG-13,Metro-Goldwyn-Mayer,Skyfall (Legacy),"$1,184,205,935",2012
+Sci-Fi,Action,,9.3,150,4,R,Warner Bros,The Matrix (Dominion),"$529,723,365",1994
+Thriller,Drama,,7.1,127,2,R,Paramount Pictures,Fatal Attraction (Return),"$145,177,581",1993
+Fantasy,Adventure,Action,8.5,150,1,PG-13,20th Century Fox,Avatar (Legacy),"$2,691,268,449",2013
+Animation,Comedy,Animation,8.2,112,6,G,Pixar,Ratatouille (Reborn),"$526,544,652",2006
+Thriller,Sci-Fi,Action,5.7,144,3,PG-13,Sony Pictures,Godzilla (Redux),"$402,270,222",1996
+Romance,Comedy,,6.6,104,7,PG-13,Universal Pictures,Meet the Fockers (Evolution),"$537,808,808",2005
+Drama,Western,Adventure,7.5,177,4,PG-13,Metro-Goldwyn-Mayer,Dances with Wolves (Evolution),"$385,620,948",1988
+Comedy,,,7.6,109,4,R,Paramount Pictures,Trading Places (Return),"$90,033,889",1979
+Thriller,Drama,,7.9,130,7,R,Columbia Pictures,A Few Good Men (Rising),"$213,164,885",1987
+Romance,Comedy,,7.4,98,4,PG,Warner Bros,Arthur (Reckoning),"$106,333,659",1983
+Horror,Drama,,6.6,117,2,R,Metro-Goldwyn-Mayer,The Amityville Horror (Redux),"$83,859,065",1983
+Family,Comedy,Adventure,7.5,97,10,G,Metro-Goldwyn-Mayer,The Muppet Movie (Rising),"$58,899,082",1975
+Romance,Drama,Comedy,7.0,109,9,R,Universal Pictures,Shakespeare in Love (Redux),"$260,093,699",2005
+Sci-Fi,Mystery,Action,7.4,157,10,PG-13,DreamWorks,Minority Report (Reckoning),"$381,297,436",2009
+Fantasy,Family,Adventure,7.2,158,1,PG-13,Warner Bros,Harry Potter and the Goblet of Fire (Evolution),"$889,684,228",2010
+Family,Drama,Comedy,5.9,90,1,PG,Walt Disney Pictures,Three Men and a Baby (Redux),"$177,889,976",1988
+Animation,Action,Adventure,8.6,111,7,PG,Walt Disney Pictures,Zootopia (Origins),"$288,539,764",2022
+Sci-Fi,Mystery,Action,8.5,134,4,PG-13,Warner Bros,Inception (Evolution),"$829,420,987",2009
+Sci-Fi,Adventure,Action,7.8,131,7,PG-13,Walt Disney Pictures,Captain America: The Winter Soldier (Reborn),"$666,115,316",2017
+Sport,Drama,,6.6,92,3,PG,Metro-Goldwyn-Mayer,Rocky IV (Origins),"$106,194,100",1986
+Action,Adventure,Drama,7.4,142,1,PG-13,Walt Disney Pictures,Black Panther (Rising),"$796,375,479",2021
+Adventure,Action,,6.2,147,3,PG-13,Columbia Pictures,Spider-Man 3 (Revolution),"$744,179,310",2010
+Adventure,Action,,6.2,107,7,PG-13,Metro-Goldwyn-Mayer,Quantum of Solace (Revolution),"$644,649,434",2009
+History,Documentary,,7.6,60,2,G,National Air and Space Museum,To Fly! (Reborn),"$80,437,641",1975
+Fantasy,Action,,6.4,92,4,PG-13,Columbia Pictures,Hancock (Rising),"$737,508,953",2014
+Romance,Drama,Comedy,7.7,100,5,PG,Metro-Goldwyn-Mayer,Moonstruck (Revolution),"$93,374,961",1982
+Drama,Crime,Action,9.4,142,1,PG-13,Warner Bros,The Dark Knight (Reborn),"$1,055,619,237",2012
+Sport,History,Drama,7.5,123,7,PG,Warner Bros,Chariots of Fire (Reborn),"$64,618,535",1985
+Sci-Fi,Adventure,Action,7.3,149,7,PG-13,Walt Disney Pictures,Captain America: The Winter Soldier (Legacy),"$850,864,834",2014
+Action,Adventure,Mystery,7.0,131,5,PG-13,Universal Pictures,Furious 7 (Origins),"$365,275,280",2015
+Sci-Fi,Adventure,Action,7.0,131,7,PG-13,Paramount Pictures,Iron Man 2 (Reckoning),"$633,648,187",2014
+Comedy,,,6.7,105,7,PG-13,Universal Pictures,The Secret of My Success (Evolution),"$56,946,929",1985
+Animation,Music,Comedy,7.1,104,10,PG,Universal Pictures,Sing (Origins),"$232,223,465",2022
+Thriller,Adventure,Action,7.2,139,8,PG,Metro-Goldwyn-Mayer,For Your Eyes Only (Legacy),"$45,714,370",1986
+Crime,Comedy,Animation,8.2,114,2,PG,Walt Disney Pictures,Who Framed Roger Rabbit (Legacy),"$149,891,084",1983
+Family,Comedy,Adventure,7.1,130,4,PG,Sony Pictures,Hook (Legacy),"$319,189,620",1986
+Thriller,Sci-Fi,Drama,6.9,105,7,PG-13,Warner Bros,I Am Legend (Legacy),"$588,452,014",2014
+Sci-Fi,Adventure,Action,7.1,125,7,PG-13,Paramount Pictures,Iron Man 2 (Dominion),"$554,325,119",2006
+Sci-Fi,Adventure,Action,6.6,124,6,PG-13,20th Century Fox,The Day After Tomorrow (Redux),"$482,640,474",2010
+Sci-Fi,Adventure,Action,7.9,137,1,PG-13,Walt Disney Pictures,The Avengers (Dominion),"$1,695,012,357",2012
+Fantasy,Family,Animation,8.0,72,3,G,Walt Disney Pictures,Beauty and the Beast (Revolution),"$308,498,397",1995
+Drama,Crime,Action,7.4,155,10,PG-13,Paramount Pictures,Clear and Present Danger (Reborn),"$186,304,266",2001
+Thriller,Drama,Action,6.0,113,10,R,Warner Bros,Eraser (Reckoning),"$275,542,292",2000
+Thriller,,,8.2,129,5,R,Metro-Goldwyn-Mayer,The Silence of the Lambs (Dominion),"$225,205,760",1987
+Action,Adventure,Drama,7.1,143,1,PG-13,Walt Disney Pictures,Star Wars: The Last Jedi (Origins),"$552,147,800",2019
+Sci-Fi,Adventure,,9.2,170,10,PG-13,Paramount Pictures,Interstellar (Legacy),"$762,382,521",2020
+Romance,Drama,,7.9,122,9,R,DreamWorks,American Beauty (Dominion),"$305,574,982",1995
+Family,Comedy,Adventure,6.1,94,6,G,Walt Disney Pictures,101 Dalmatians (Redux),"$383,875,719",2002
+Drama,Adventure,Action,7.9,200,5,PG-13,Universal Pictures,King Kong (Return),"$551,170,870",2003
+Romance,Music,Drama,5.9,110,3,R,Paramount Pictures,Flashdance (Legacy),"$94,148,170",1987
+History,Drama,Action,7.3,146,6,R,Warner Bros,The Last Samurai (Revolution),"$513,029,674",2003
+Animation,Comedy,Animation,6.8,101,10,PG,Warner Bros,Happy Feet (Revolution),"$381,756,556",2004
+Romance,Musical,Comedy,6.6,97,5,PG-13,Universal Pictures,Mamma Mia! (Reborn),"$582,046,484",2008
+Comedy,,,7.4,96,8,R,Universal Pictures,The Jerk (Dominion),"$64,773,772",1978
+Thriller,Adventure,Action,7.5,132,9,PG,Metro-Goldwyn-Mayer,The Spy Who Loved Me (Revolution),"$39,841,563",1980
+Thriller,Adventure,Action,7.2,144,5,PG-13,Paramount Pictures,Mission: Impossible - Ghost Protocol (Revolution),"$565,762,333",2018
+Fantasy,Adventure,Action,7.2,146,7,PG-13,Columbia Pictures,The Amazing Spider-Man (Reborn),"$800,679,872",2012
+Comedy,Animation,Adventure,7.3,107,5,G,Walt Disney Pictures,A Bug's Life (Redux),"$372,202,790",1994
+Romance,Family,Action,5.6,123,4,PG,Columbia Pictures,"The Karate Kid, Part II (Evolution)","$137,460,257",1985
+Drama,Animation,Adventure,9.1,96,1,G,Walt Disney Pictures,The Lion King (Origins),"$770,879,530",1990
+War,Drama,,8.1,162,4,R,Metro-Goldwyn-Mayer,Apocalypse Now (Legacy),"$68,847,172",1985
+War,Drama,Comedy,7.1,122,4,R,Walt Disney Pictures,"Good Morning, Vietnam (Reckoning)","$132,759,832",1991
+Thriller,Adventure,Action,6.8,132,9,PG,Walt Disney Pictures,National Treasure: Book of Secrets (Evolution),"$414,938,285",2003
+War,Drama,Biography,6.8,153,10,R,Universal Pictures,Born on the Fourth of July (Evolution),"$166,535,639",1994
+Fantasy,Family,Adventure,7.1,157,1,PG,Warner Bros,Harry Potter and the Sorcerer's Stone (Rising),"$1,061,155,909",2006
+Crime,Comedy,Animation,7.9,92,2,PG,Walt Disney Pictures,Who Framed Roger Rabbit (Return),"$146,473,037",1985
+Action,Adventure,Drama,7.5,133,6,PG-13,Paramount Pictures,Mission: Impossible - Fallout (Origins),"$236,443,694",2023
+Thriller,Action,,8.8,150,3,PG-13,Warner Bros,The Dark Knight Rises (Legacy),"$1,266,881,926",2010
+Action,Adventure,Drama,7.5,142,8,PG-13,Walt Disney Pictures,Solo: A Star Wars Story (Revolution),"$206,106,945",2024
+Music,Drama,,7.3,122,2,PG,Walt Disney Pictures,Beauty and the Beast  (Return),"$406,422,461",2017
+Sci-Fi,Adventure,,6.6,109,5,PG-13,Lionsgate Films,The Hunger Games: Mockingjay - Part 1 (Return),"$750,358,192",2021
+Crime,Adventure,Action,6.5,127,6,PG-13,Metro-Goldwyn-Mayer,Die Another Day (Reborn),"$398,058,900",2003
+Comedy,,,7.1,82,10,PG,Warner Bros,Beetlejuice (Origins),"$79,660,700",1992
+Romance,Drama,Action,7.0,118,1,PG,Paramount Pictures,Top Gun (Reckoning),"$147,853,063",1992
+Romance,Comedy,,6.4,107,8,PG-13,Sony Pictures,My Best Friend's Wedding (Return),"$253,682,200",2004
+Thriller,Adventure,Action,5.9,113,4,PG-13,Metro-Goldwyn-Mayer,Tomorrow Never Dies (Reckoning),"$366,487,731",2003
+War,Comedy,,7.5,121,5,R,Columbia Pictures,Stripes (Reckoning),"$80,467,691",1986
+Drama,Western,War,5.8,109,10,PG,Universal Pictures,The Other Side of the Mountain (Reborn),"$41,213,971",1976
+Sci-Fi,Adventure,Action,7.1,115,7,PG-13,20th Century Fox,X-Men: The Last Stand (Dominion),"$535,193,506",2011
+Fantasy,Comedy,,6.4,111,6,PG,Warner Bros,"Oh, God! (Reborn)","$60,895,071",1978
+Thriller,,,9.2,107,5,R,Metro-Goldwyn-Mayer,The Silence of the Lambs (Redux),"$271,683,222",1990
+Comedy,,,6.0,114,7,PG-13,Universal Pictures,The Secret of My Success (Revolution),"$55,241,259",1983
+Animation,Music,Comedy,6.6,114,10,PG,Universal Pictures,Sing (Rising),"$309,447,761",2013
+Thriller,,,8.4,126,5,R,Metro-Goldwyn-Mayer,The Silence of the Lambs (Evolution),"$277,857,758",1991
+Fantasy,Family,Adventure,6.7,151,3,PG,Walt Disney Pictures,"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe (Dominion)","$891,364,258",2007
+Crime,Comedy,Action,5.5,87,8,PG,Universal Pictures,Smokey and the Bandit II (Origins),"$60,535,430",1978
+Adventure,Action,,6.6,114,7,PG-13,Metro-Goldwyn-Mayer,Quantum of Solace (Rising),"$514,796,799",2008
+Thriller,Action,,8.1,130,7,R,20th Century Fox,Die Hard (Rising),"$75,166,017",1984
+History,Drama,Biography,8.6,192,4,R,Universal Pictures,Schindler's List (Reborn),"$277,517,796",1996
+Sport,History,Drama,7.7,123,7,PG,Warner Bros,Chariots of Fire (Reckoning),"$51,421,336",1987
+Music,Drama,,7.7,119,2,PG,Walt Disney Pictures,Beauty and the Beast  (Redux),"$572,140,445",2012
+Sci-Fi,Adventure,Action,6.5,127,6,PG-13,20th Century Fox,The Day After Tomorrow (Legacy),"$583,948,173",2000
+Thriller,Crime,Comedy,7.3,114,6,G,Metro-Goldwyn-Mayer,The Return of the Pink Panther (Redux),"$47,269,639",1975
+Crime,Comedy,Action,6.7,116,7,PG-13,20th Century Fox,Mr. & Mrs. Smith (Reckoning),"$383,156,136",2009
+Sci-Fi,Adventure,,6.5,109,5,PG-13,Lionsgate Films,The Hunger Games: Mockingjay - Part 1 (Return),"$661,927,623",2021
+Music,Drama,Action,5.8,117,2,R,Warner Bros,The Bodyguard (Rising),"$342,626,273",1990
+Comedy,,,7.8,95,10,R,Warner Bros,The Hangover (Evolution),"$539,469,499",2014
+Sci-Fi,Adventure,Action,6.9,117,2,PG-13,Walt Disney Pictures,Iron Man 3 (Reckoning),"$1,272,603,624",2017
+Sci-Fi,Action,,6.9,115,7,R,Warner Bros,Terminator 3: Rise of the Machines (Legacy),"$401,022,463",1998
+Horror,,,7.8,117,8,PG,Metro-Goldwyn-Mayer,Poltergeist (Dominion),"$73,809,788",1979
+Animation,Adventure,Action,8.5,111,4,PG,Pixar,The Incredibles (Origins),"$692,866,026",2000
+Thriller,Fantasy,Adventure,8.2,119,1,PG-13,Warner Bros,Harry Potter and the Deathly Hallows - Part 2 (Return),"$1,445,907,303",2011
+Thriller,Sci-Fi,Drama,6.7,92,7,PG-13,Walt Disney Pictures,Signs (Reckoning),"$479,605,302",1999
+Thriller,Adventure,Action,6.8,141,6,PG,Metro-Goldwyn-Mayer,Octopussy (Legacy),"$73,885,509",1986
+Music,Drama,,6.9,141,2,PG,Walt Disney Pictures,Beauty and the Beast  (Legacy),"$408,726,033",2014
+Romance,Drama,,9.0,142,2,PG-13,Paramount Pictures,Forrest Gump (Reckoning),"$578,833,617",1998
+History,Drama,Biography,8.7,208,4,R,Universal Pictures,Schindler's List (Revolution),"$330,848,005",1988
+Crime,Comedy,Animation,7.5,112,2,PG,Walt Disney Pictures,Who Framed Roger Rabbit (Return),"$147,986,826",1983
+Fantasy,Adventure,Action,7.2,90,4,PG,Walt Disney Pictures,Maleficent (Reborn),"$873,218,492",2016
+Drama,Crime,,8.5,112,4,R,Warner Bros,Dog Day Afternoon (Revolution),"$57,148,850",1975
+Thriller,Sci-Fi,Western,7.5,98,8,PG-13,Warner Bros,Gravity (Origins),"$644,388,237",2013
+Thriller,Crime,,6.5,124,7,R,Walt Disney Pictures,Ransom (Redux),"$257,792,362",1991
+Animation,Action,Adventure,7.6,112,7,PG,Walt Disney Pictures,Zootopia (Reckoning),"$359,648,402",2014
+Comedy,Adventure,Animation,6.9,90,8,PG,Paramount Pictures,Madagascar 3: Europe's Most Wanted (Origins),"$668,523,105",2012
+Thriller,Crime,Action,6.7,89,9,R,Warner Bros,The Enforcer (Dominion),"$55,076,683",1975
+Romance,Drama,,8.3,155,2,PG-13,Paramount Pictures,Forrest Gump (Revolution),"$578,001,577",1998
+Comedy,,,6.8,101,7,PG-13,Universal Pictures,The Secret of My Success (Origins),"$59,645,958",1985
+Thriller,Mystery,,7.0,149,2,PG-13,Columbia Pictures,The Da Vinci Code (Reborn),"$660,402,106",2005
+Music,Drama,Comedy,6.7,124,7,PG,Columbia Pictures,Funny Lady (Revolution),"$33,567,442",1978
+Action,Adventure,Sci-Fi,8.2,131,3,PG-13,Walt Disney Pictures,Captain America: Civil War (Rising),"$369,699,083",2014
+Sci-Fi,Action,,6.8,115,7,R,Warner Bros,Terminator 3: Rise of the Machines (Return),"$416,075,674",2001
+Thriller,Comedy,Crime,6.7,96,9,PG,Metro-Goldwyn-Mayer,Revenge of the Pink Panther (Dominion),"$54,986,976",1979
+Animation,Adventure,Action,6.4,85,3,PG,20th Century Fox,Ice Age: The Meltdown (Redux),"$528,923,026",2004
+Crime,Comedy,Action,6.9,99,8,PG,20th Century Fox,Silver Streak (Revolution),"$42,950,500",1976
+Comedy,Animation,Adventure,6.2,105,10,G,Walt Disney Pictures,Cars 2 (Legacy),"$601,970,425",2006
+Adventure,Action,,6.6,130,3,PG-13,Columbia Pictures,Spider-Man 3 (Revolution),"$778,916,301",2011
+Romance,Comedy,,6.6,120,4,R,20th Century Fox,There's Something About Mary (Evolution),"$347,896,645",2003
+Romance,Comedy,,6.9,98,8,PG-13,Sony Pictures,My Best Friend's Wedding (Reckoning),"$281,134,144",1999
+Animation,Comedy,Family,6.4,97,6,PG,Universal Pictures,Minions (Origins),"$366,247,509",2022
+Comedy,,,6.5,85,6,R,Warner Bros,Police Academy (Return),"$82,639,840",1982
+Animation,Comedy,Animation,7.3,89,3,PG,Universal Pictures,Despicable Me 2 (Revolution),"$918,616,894",2010
+Sci-Fi,Adventure,Action,7.5,132,8,PG-13,Paramount Pictures,Iron Man (Dominion),"$673,050,175",2013
+Thriller,Sci-Fi,,6.8,105,5,PG,Metro-Goldwyn-Mayer,WarGames (Evolution),"$77,402,484",1985
+Animation,Adventure,Action,6.7,99,6,PG,Paramount Pictures,Madagascar: Escape 2 Africa (Rising),"$704,667,987",2015
+Thriller,Crime,Action,6.9,124,10,R,Warner Bros,Lethal Weapon 4 (Return),"$321,919,472",2001
+Drama,Adventure,Action,8.3,111,6,PG,Paramount Pictures,Star Trek II: The Wrath of Khan (Evolution),"$84,770,369",1978
+Action,Adventure,Sci-Fi,6.4,164,8,PG-13,Warner Bros,Batman v Superman: Dawn of Justice (Redux),"$275,405,673",2017
+Thriller,Crime,,6.2,120,10,PG-13,Warner Bros,Ocean's Twelve (Reborn),"$370,246,889",1999
+Thriller,Action,,8.7,141,7,R,20th Century Fox,Die Hard (Revolution),"$72,440,861",1993
+Romance,Horror,,7.6,141,9,R,Columbia Pictures,Bram Stoker's Dracula (Origins),"$211,780,803",1991
+Animation,Comedy,,6.1,91,9,PG,Universal Pictures,Despicable Me 3 (Legacy),"$220,150,815",2022
+Comedy,Adventure,,6.7,96,10,PG,Warner Bros,Spies Like Us (Origins),"$63,801,446",1981
+Comedy,Animation,Adventure,6.2,104,5,PG,Paramount Pictures,Shrek Forever After (Evolution),"$864,308,732",2011
+Romance,Horror,,7.9,118,9,R,Columbia Pictures,Bram Stoker's Dracula (Reborn),"$210,455,099",1987
+Fantasy,Family,Adventure,7.7,139,1,PG,Warner Bros,Harry Potter and the Sorcerer's Stone (Dominion),"$1,071,359,647",2003
+Comedy,,,5.8,101,7,PG-13,Universal Pictures,The Secret of My Success (Redux),"$55,956,117",1991
+Thriller,Mystery,Drama,8.6,121,2,PG-13,Walt Disney Pictures,The Sixth Sense (Revolution),"$647,794,422",1999
+Crime,Comedy,Action,5.6,107,8,PG,Universal Pictures,Smokey and the Bandit II (Rising),"$60,623,988",1980
+War,Drama,,7.9,184,10,R,Universal Pictures,The Deer Hunter (Legacy),"$42,370,690",1977
+Thriller,Mystery,Drama,6.9,158,5,R,Paramount Pictures,The Firm (Reborn),"$266,703,847",1999
+Romance,Musical,Comedy,6.0,102,5,PG-13,Universal Pictures,Mamma Mia! (Reckoning),"$668,350,143",2005
+Action,Comedy,,7.7,116,7,PG-13,Walt Disney Pictures,Ant-Man and the Wasp (Evolution),"$223,692,170",2024
+Thriller,Crime,Comedy,7.1,123,6,G,Metro-Goldwyn-Mayer,The Return of the Pink Panther (Rising),"$47,053,993",1975
+Romance,Musical,Comedy,6.4,111,5,PG-13,Universal Pictures,Mamma Mia! (Dominion),"$669,431,796",2015
+Sci-Fi,Action,,6.6,121,8,R,Warner Bros,The Matrix Revolutions (Evolution),"$390,884,561",2001
+Thriller,Action,,7.1,116,7,R,Warner Bros,Sudden Impact (Revolution),"$76,094,286",1987
+Fantasy,Family,Adventure,6.9,135,2,PG-13,Warner Bros,Harry Potter and the Order of the Phoenix (Evolution),"$1,019,766,639",2010
+Thriller,Adventure,Action,7.2,151,4,R,Walt Disney Pictures,The Rock (Reborn),"$292,347,601",1994
+Drama,Animation,Adventure,6.2,71,5,G,Walt Disney Pictures,Pocahontas (Revolution),"$334,964,114",1997
+Sci-Fi,Drama,,8.1,129,3,PG,Columbia Pictures,Close Encounters of the Third Kind (Reckoning),"$135,172,458",1979
+Thriller,Sci-Fi,Action,5.6,129,3,PG-13,Sony Pictures,Godzilla (Return),"$355,071,100",1995
+Comedy,Animation,Adventure,6.7,105,5,G,Walt Disney Pictures,A Bug's Life (Rising),"$409,162,578",1999
+Fantasy,Comedy,,6.5,84,6,PG,Warner Bros,"Oh, God! (Reborn)","$60,536,436",1981
+Adventure,Action,,6.6,115,7,PG-13,Metro-Goldwyn-Mayer,Quantum of Solace (Origins),"$584,070,863",2014
+Comedy,,,7.0,107,6,R,Warner Bros,Police Academy (Dominion),"$92,577,271",1983
+Action,Adventure,Drama,6.5,114,9,PG-13,Columbia Pictures,Venom (Reckoning),"$184,065,710",2016
+Fantasy,Adventure,Action,6.0,115,6,PG-13,Warner Bros,Batman Forever (Dominion),"$287,388,483",1992
+Action,Adventure,Comedy,7.9,128,5,PG-13,Walt Disney Pictures,Guardians of the Galaxy Vol. 2 (Rising),"$430,497,295",2019
+Sci-Fi,Action,,6.6,124,3,R,Warner Bros,The Matrix Reloaded (Revolution),"$683,531,186",2006
+Fantasy,Family,Comedy,6.0,87,8,PG,Universal Pictures,Casper (Evolution),"$286,552,170",1999
+Music,Drama,,7.1,137,2,PG,Walt Disney Pictures,Beauty and the Beast  (Reborn),"$434,413,636",2018
+Fantasy,Family,Adventure,8.0,159,2,PG,Warner Bros,Harry Potter and the Half-Blood Prince (Rising),"$983,890,243",2004
+Drama,,,8.3,133,1,R,Metro-Goldwyn-Mayer,Rain Man (Revolution),"$185,542,898",1990
+Drama,Animation,Adventure,7.0,91,5,G,Walt Disney Pictures,Tarzan (Evolution),"$487,484,578",2006
+Animation,Adventure,Action,7.2,81,3,PG,20th Century Fox,Ice Age: The Meltdown (Revolution),"$550,085,708",2005
+Drama,Animation,Adventure,6.1,78,5,G,Walt Disney Pictures,Pocahontas (Redux),"$332,066,476",1997
+Sci-Fi,Mystery,Action,7.2,147,10,PG-13,DreamWorks,Minority Report (Redux),"$338,495,393",1997
+Fantasy,Adventure,Action,6.3,148,9,PG-13,Warner Bros,Superman Returns (Dominion),"$465,435,443",2009
+Action,Adventure,Drama,8.0,128,8,PG-13,Walt Disney Pictures,Thor: Ragnarok (Evolution),"$262,482,954",2017
+Fantasy,Family,Adventure,7.4,143,2,PG,Warner Bros,Harry Potter and the Prisoner of Azkaban (Dominion),"$889,197,221",2000
+Romance,Horror,,7.9,116,9,R,Warner Bros,Interview with the Vampire: The Vampire Chronicles (Rising),"$258,479,389",1994
+Fantasy,Comedy,,8.1,118,1,PG,Columbia Pictures,Ghostbusters (Reborn),"$272,721,825",1990
+Action,Adventure,Drama,7.7,133,6,PG-13,Sony Pictures,Spider-Man: Homecoming (Dominion),"$329,223,113",2024
+Sci-Fi,Comedy,Adventure,7.6,103,3,PG,Universal Pictures,Back to the Future Part II (Revolution),"$328,644,201",1996
+Crime,Comedy,,6.8,114,3,R,Columbia Pictures,Stir Crazy (Reborn),"$84,444,993",1986
+Fantasy,Adventure,,8.4,157,4,PG-13,Warner Bros,The Hobbit: An Unexpected Journey (Redux),"$845,018,223",2008
+Fantasy,Adventure,Action,5.9,167,9,PG-13,Warner Bros,Superman Returns (Evolution),"$462,869,234",2011
+Thriller,Drama,Crime,6.6,120,10,R,Metro-Goldwyn-Mayer,Hannibal (Return),"$323,527,045",2002
+Drama,Adventure,Action,6.7,189,5,PG-13,Universal Pictures,King Kong (Dominion),"$583,232,693",2012
+Drama,,,8.3,139,5,PG,Walt Disney Pictures,Dead Poets Society (Evolution),"$228,725,973",1991
+Family,Drama,Animation,7.2,103,5,G,Walt Disney Pictures,The Hunchback of Notre Dame (Legacy),"$280,818,095",1993
+Sci-Fi,Adventure,Action,7.5,132,7,PG-13,Paramount Pictures,Iron Man 2 (Redux),"$630,394,069",2007
+Thriller,Adventure,Action,5.8,125,1,PG-13,Paramount Pictures,Mission: Impossible II (Legacy),"$611,840,145",1998
+Comedy,Adventure,Animation,5.7,78,9,PG,DreamWorks,Shark Tale (Dominion),"$406,069,991",2011
+Sci-Fi,Adventure,Action,5.9,140,2,PG-13,Paramount Pictures,Transformers: Dark of the Moon (Dominion),"$1,069,792,175",2016
+Crime,Comedy,Action,6.7,134,10,R,Columbia Pictures,Bad Boys II (Rising),"$233,046,623",2003
+Thriller,Drama,Crime,6.7,136,8,R,Warner Bros,Presumed Innocent (Return),"$221,376,063",1988
+Fantasy,Family,Adventure,6.9,129,2,PG-13,Warner Bros,Harry Potter and the Order of the Phoenix (Revolution),"$880,100,953",2007
+Action,Adventure,Sci-Fi,7.5,136,3,PG-13,Walt Disney Pictures,Avengers: Age of Ultron (Evolution),"$452,019,855",2013
+Thriller,Adventure,Action,6.1,118,7,R,Sony Pictures,Cliffhanger (Dominion),"$284,256,891",1988
+Sci-Fi,,,6.7,117,6,PG-13,20th Century Fox,Cocoon (Revolution),"$95,892,105",1988
+Fantasy,Adventure,Action,7.4,125,7,PG-13,Columbia Pictures,The Amazing Spider-Man (Legacy),"$864,460,398",2013
+Adventure,Action,,7.9,116,1,PG-13,Paramount Pictures,Indiana Jones and the Last Crusade (Reckoning),"$422,883,485",1988
+Drama,Comedy,Animation,6.5,69,8,G,Universal Pictures,An American Tail (Origins),"$95,749,469",1982
+Animation,Comedy,Animation,7.8,93,9,PG,Universal Pictures,Despicable Me (Return),"$581,293,515",2012
+Family,Comedy,Adventure,7.1,110,3,PG,20th Century Fox,Home Alone 2: Lost in New York (Return),"$366,794,999",1990
+War,Drama,,7.8,180,10,R,Universal Pictures,The Deer Hunter (Evolution),"$58,003,746",1975
+Romance,Drama,Adventure,5.4,119,9,R,Columbia Pictures,The Blue Lagoon (Dominion),"$60,575,222",1976
+Thriller,Drama,,7.5,146,4,R,Warner Bros,All the President's Men (Redux),"$71,743,953",1975
+Fantasy,Family,Adventure,7.0,149,3,PG,Walt Disney Pictures,"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe (Legacy)","$810,794,899",2008
+Fantasy,Adventure,Action,7.6,147,1,PG-13,20th Century Fox,Avatar (Dominion),"$2,949,341,429",2008
+Comedy,Animation,Adventure,7.3,92,3,G,Walt Disney Pictures,Toy Story 2 (Dominion),"$491,290,403",1996
+Crime,Comedy,Animation,7.2,118,2,PG,Walt Disney Pictures,Who Framed Roger Rabbit (Legacy),"$167,157,038",1994
+Family,Comedy,Adventure,8.1,125,9,PG,Warner Bros,The Goonies (Return),"$61,788,234",1984
+Comedy,Animation,Adventure,6.2,85,5,PG,Paramount Pictures,Shrek Forever After (Evolution),"$874,109,598",2013
+Romance,Comedy,,6.9,108,8,PG-13,Sony Pictures,My Best Friend's Wedding (Evolution),"$290,100,598",1995
+Fantasy,Drama,Comedy,7.1,110,5,PG-13,Universal Pictures,Bruce Almighty (Evolution),"$534,354,449",2006
+Sci-Fi,Drama,Action,7.4,130,2,PG,Warner Bros,Superman (Reckoning),"$127,231,990",1975
+Drama,Crime,Comedy,6.3,87,10,R,Warner Bros,Risky Business (Legacy),"$54,711,208",1979
+Comedy,,,6.8,101,8,R,Universal Pictures,The Jerk (Rising),"$77,001,765",1978
+Comedy,Adventure,Action,5.9,108,6,PG,Paramount Pictures,"""Crocodile"" Dundee II (Legacy)","$87,682,541",1991
+Crime,Adventure,Action,5.9,112,9,PG,Metro-Goldwyn-Mayer,Moonraker (Origins),"$79,823,258",1982
+Comedy,Adventure,Animation,7.1,83,8,PG,Paramount Pictures,Madagascar 3: Europe's Most Wanted (Origins),"$852,687,574",2013
+Adventure,Comedy,Crime,7.1,105,2,PG-13,Paramount Pictures,"""Crocodile"" Dundee (Reborn)","$194,402,932",1988
+Comedy,Adventure,Action,7.3,113,5,PG,Paramount Pictures,Star Trek IV: The Voyage Home (Legacy),"$99,429,098",1988
+Drama,Comedy,Western,6.8,106,9,PG,20th Century Fox,Mr. Mom (Redux),"$67,988,873",1984
+Sci-Fi,Action,,7.9,151,1,R,Sony Pictures,Terminator 2: Judgment Day (Reckoning),"$612,249,407",1994
+Thriller,Action,,7.9,167,3,PG-13,Warner Bros,The Dark Knight Rises (Rising),"$1,191,668,084",2007
+Family,Adventure,Action,6.1,145,10,PG,Walt Disney Pictures,The Chronicles of Narnia: Prince Caspian (Evolution),"$416,642,018",2007
+Crime,Comedy,,6.9,91,10,R,Walt Disney Pictures,Ruthless People (Dominion),"$61,256,829",1987
+Adventure,Action,,8.7,126,1,PG-13,Paramount Pictures,Indiana Jones and the Last Crusade (Origins),"$405,886,158",1992
+Comedy,Animation,Adventure,6.4,96,5,PG,20th Century Fox,Ice Age: Continental Drift (Rising),"$890,033,336",2015
+Thriller,Horror,Drama,7.9,112,5,R,20th Century Fox,The Omen (Legacy),"$64,956,297",1982
+Fantasy,Adventure,,7.7,180,4,PG-13,Warner Bros,The Hobbit: An Unexpected Journey (Return),"$908,240,096",2009
+Family,Comedy,Adventure,6.8,154,4,PG,Sony Pictures,Hook (Return),"$284,106,882",1989
+Action,Adventure,Sci-Fi,7.0,148,3,PG-13,Walt Disney Pictures,Avengers: Age of Ultron (Redux),"$480,316,729",2019
+Sci-Fi,Adventure,Action,7.0,106,10,PG,Paramount Pictures,Star Trek III: The Search for Spock (Revolution),"$71,161,813",1991
+Romance,Fantasy,Comedy,6.3,119,4,PG-13,Paramount Pictures,What Women Want (Evolution),"$442,891,820",2004
+Sport,Drama,,6.4,97,3,PG,Metro-Goldwyn-Mayer,Rocky IV (Origins),"$138,472,069",1992
+Sci-Fi,Adventure,Action,8.3,124,7,R,20th Century Fox,Aliens (Reborn),"$79,699,320",1989
+Thriller,Crime,Action,7.1,120,9,R,Warner Bros,Lethal Weapon (Legacy),"$72,349,781",1992
+Romance,Music,Drama,4.9,103,8,PG,Paramount Pictures,Staying Alive (Legacy),"$53,049,110",1986
+Romance,Fantasy,Drama,7.0,142,1,PG-13,Paramount Pictures,Ghost (Evolution),"$540,340,230",1992
+War,Drama,Action,8.1,156,2,R,DreamWorks,Saving Private Ryan (Rising),"$565,984,719",1994
+Drama,Animation,Adventure,8.3,78,1,G,Walt Disney Pictures,The Lion King (Redux),"$722,920,390",1999
+Sport,History,Drama,6.7,118,7,PG,Warner Bros,Chariots of Fire (Evolution),"$59,990,281",1985
+Drama,Animation,Adventure,8.9,85,1,G,Walt Disney Pictures,The Lion King (Reborn),"$914,671,659",1995
+Sci-Fi,Drama,Action,7.9,123,9,PG-13,20th Century Fox,Dawn of the Planet of the Apes (Revolution),"$657,647,518",2012
+Fantasy,Adventure,Action,6.9,131,7,PG-13,Columbia Pictures,The Amazing Spider-Man (Redux),"$853,009,397",2008
+Thriller,Crime,Action,7.0,105,6,R,Warner Bros,Lethal Weapon 2 (Origins),"$187,056,981",1993
+Thriller,Adventure,Action,7.6,126,1,R,20th Century Fox,Die Hard with a Vengeance (Redux),"$360,232,662",1998
+Comedy,Action,,6.0,115,4,PG,Warner Bros,Every Which Way but Loose (Dominion),"$98,813,623",1983
+Family,Drama,Comedy,6.9,121,2,PG-13,20th Century Fox,Mrs. Doubtfire (Reborn),"$402,142,584",1989
+Romance,Comedy,,5.3,86,4,PG-13,Sony Pictures,Look Who's Talking (Evolution),"$353,933,634",1990
+Animation,Family,,8.8,96,4,PG,Pixar,Inside Out (Return),"$303,038,248",2022
+Adventure,Action,,5.7,138,3,PG-13,Columbia Pictures,Spider-Man 3 (Legacy),"$871,238,856",2013
+Romance,Drama,Biography,7.0,175,5,PG,Universal Pictures,Out Of Africa (Revolution),"$82,108,001",1986
+Crime,Comedy,,6.4,96,10,R,Walt Disney Pictures,Ruthless People (Return),"$69,095,688",1990
+Animation,Family,,6.8,100,2,PG,Walt Disney Pictures,Finding Dory (Return),"$529,548,596",2023
+Animation,Adventure,Action,7.9,105,6,PG,Paramount Pictures,Kung Fu Panda 2 (Redux),"$768,047,915",2011
+Thriller,Drama,Thriller,9.1,130,7,R,Warner Bros,Seven (Dominion),"$384,527,308",1991
+Fantasy,Family,Animation,7.5,90,9,G,Walt Disney Pictures,The Little Mermaid (Evolution),"$205,676,824",1993
+Romance,Drama,Crime,7.2,119,8,R,Paramount Pictures,Witness (Reborn),"$75,633,411",1992
+Action,Adventure,Drama,7.6,126,3,PG,Paramount Pictures,Indiana Jones and the Temple of Doom (Reckoning),"$215,307,001",1981
+Sci-Fi,Comedy,,7.1,106,3,PG-13,Columbia Pictures,Men in Black (Origins),"$594,379,273",2000
+Thriller,Adventure,Action,6.7,131,8,PG-13,Paramount Pictures,Mission: Impossible III (Return),"$468,270,670",2010
+Comedy,,,7.3,120,7,PG-13,Warner Bros,Dumb and Dumber (Reborn),"$263,838,858",1993
+Thriller,Drama,,7.8,127,4,R,Warner Bros,All the President's Men (Revolution),"$72,987,540",1977
+Animation,Comedy,,6.3,86,4,PG,Universal Pictures,The Secret Life of Pets (Reborn),"$369,461,284",2013
+Drama,Comedy,Western,7.0,78,9,PG,20th Century Fox,Mr. Mom (Evolution),"$70,373,252",1986
+Sci-Fi,Mystery,Action,9.0,158,4,PG-13,Warner Bros,Inception (Dominion),"$807,805,001",2013
+Fantasy,Crime,Comedy,6.5,101,4,PG-13,Warner Bros,The Mask (Reckoning),"$402,426,717",1991
+Fantasy,Adventure,,7.9,175,4,PG-13,Warner Bros,The Hobbit: An Unexpected Journey (Return),"$1,187,323,701",2015
+Drama,Action,,8.8,163,2,R,DreamWorks,Gladiator (Origins),"$523,985,550",2005
+Thriller,Crime,,7.9,128,5,PG-13,Warner Bros,Ocean's Eleven (Evolution),"$486,731,933",2000
+Romance,Comedy,Adventure,7.4,125,6,PG,Universal Pictures,Back to the Future Part III (Origins),"$223,675,003",1991
+Animation,Comedy,Animation,6.3,119,10,PG,Warner Bros,Happy Feet (Evolution),"$325,674,676",2005
+Thriller,Comedy,Crime,6.4,109,9,PG,Metro-Goldwyn-Mayer,Revenge of the Pink Panther (Return),"$40,257,542",1978
+Sci-Fi,Adventure,Action,6.7,163,2,PG-13,Paramount Pictures,Transformers: Dark of the Moon (Evolution),"$1,055,924,711",2012
+Sci-Fi,Adventure,,6.3,123,5,PG-13,Lionsgate Films,The Hunger Games: Mockingjay - Part 1 (Redux),"$618,187,761",2012
+Thriller,Sci-Fi,Action,5.2,131,3,PG-13,Sony Pictures,Godzilla (Origins),"$354,123,848",2002
+Comedy,Adventure,Action,6.5,91,7,PG,20th Century Fox,The Jewel of the Nile (Origins),"$84,610,842",1989
+Action,Adventure,Drama,7.0,120,9,PG-13,Columbia Pictures,Venom (Revolution),"$185,160,706",2017
+Music,Drama,Comedy,7.1,86,10,R,20th Century Fox,The Full Monty (Rising),"$282,282,799",1995
+Drama,Adventure,,8.2,144,3,PG-13,20th Century Fox,Cast Away (Origins),"$497,792,758",2000
+Comedy,,,6.8,87,8,R,Warner Bros,The Hangover Part II (Return),"$546,537,398",2009
+Animation,Animation,Adventure,6.8,90,5,PG,Walt Disney Pictures,Dinosaur (Origins),"$314,967,618",2003
+Thriller,Adventure,Action,7.1,121,4,R,Walt Disney Pictures,The Rock (Evolution),"$330,262,329",1992
+Thriller,Crime,Comedy,7.6,105,6,G,Metro-Goldwyn-Mayer,The Return of the Pink Panther (Dominion),"$43,720,065",1975
+Romance,Drama,Comedy,5.7,101,9,R,Walt Disney Pictures,Cocktail (Reborn),"$89,072,039",1983
+Thriller,Mystery,,6.8,144,2,PG-13,Columbia Pictures,The Da Vinci Code (Legacy),"$835,114,776",2012
+Thriller,Adventure,Action,7.8,132,4,PG-13,Metro-Goldwyn-Mayer,GoldenEye (Revolution),"$285,179,886",1995
+Romance,Music,Drama,6.2,104,3,R,Paramount Pictures,Flashdance (Rising),"$88,112,143",1989
+Romance,Comedy,,6.2,100,8,PG-13,Sony Pictures,My Best Friend's Wedding (Legacy),"$284,114,304",2000
+Comedy,Animation,Adventure,6.6,107,5,G,Walt Disney Pictures,A Bug's Life (Dominion),"$395,362,114",2005
+Crime,Comedy,Action,6.8,102,7,R,Paramount Pictures,48 Hrs. (Reborn),"$94,216,791",1979
+Thriller,Horror,Drama,6.3,141,10,PG-13,DreamWorks,What Lies Beneath (Legacy),"$328,121,719",1997
+Romance,Fantasy,Comedy,6.8,120,4,PG-13,Paramount Pictures,What Women Want (Legacy),"$315,659,806",2001
+War,Drama,Action,8.9,184,2,R,DreamWorks,Saving Private Ryan (Reborn),"$558,568,283",1994
+Crime,Comedy,Action,7.6,124,10,R,Universal Pictures,The Blues Brothers (Return),"$53,343,170",1981
+Music,Comedy,,5.5,109,9,R,Universal Pictures,The Best Little Whorehouse in Texas (Revolution),"$75,140,078",1980
+Romance,Drama,Comedy,6.2,96,9,R,Walt Disney Pictures,Cocktail (Evolution),"$84,738,364",1986
+Action,Adventure,Comedy,7.0,99,4,PG-13,Sony Pictures,Jumanji: Welcome to the Jungle (Revolution),"$435,978,021",2016
+Action,Sci-Fi,Mystery,7.8,111,5,R,Sony Pictures,Total Recall (Rising),"$255,184,611",1987
+Thriller,Drama,,7.5,128,4,R,Warner Bros,All the President's Men (Revolution),"$74,788,163",1980
+Comedy,Animation,Adventure,7.6,104,3,G,Walt Disney Pictures,Toy Story 2 (Legacy),"$514,645,430",2001
+Action,Adventure,Sci-Fi,6.1,147,8,PG-13,Warner Bros,Batman v Superman: Dawn of Justice (Legacy),"$393,785,672",2012
+Sci-Fi,Comedy,Adventure,7.7,112,3,PG,Universal Pictures,Back to the Future Part II (Legacy),"$302,022,525",1991
+Sport,Drama,,6.3,109,4,PG,Metro-Goldwyn-Mayer,Rocky III (Legacy),"$111,096,329",1984
+Romance,Music,Drama,6.5,105,7,R,Paramount Pictures,Footloose (Origins),"$71,710,502",1984
+Drama,Adventure,Action,6.7,131,2,PG-13,Warner Bros,Robin Hood: Prince of Thieves (Evolution),"$384,800,708",1992
+Comedy,Adventure,,6.6,94,10,PG,Warner Bros,Spies Like Us (Legacy),"$51,778,303",1983
+Sci-Fi,Adventure,Action,7.9,144,9,PG-13,20th Century Fox,X2 (Evolution),"$380,116,489",2002
+Thriller,Drama,Crime,7.4,125,8,R,Warner Bros,Presumed Innocent (Reborn),"$230,000,425",1986
+Thriller,Drama,,6.6,108,2,R,Paramount Pictures,Fatal Attraction (Rising),"$179,490,702",1988
+Thriller,Sci-Fi,Adventure,8.3,139,1,PG-13,Universal Pictures,Jurassic Park (Reckoning),"$1,024,629,580",1994
+Romance,Musical,Comedy,6.9,111,5,PG-13,Universal Pictures,Mamma Mia! (Revolution),"$690,159,060",2012
+Action,Adventure,Drama,8.3,128,1,PG-13,Walt Disney Pictures,Rogue One: A Star Wars Story (Reckoning),"$585,451,669",2015
+Romance,Drama,,8.0,136,9,R,DreamWorks,American Beauty (Legacy),"$313,970,551",1999
+Comedy,,,7.8,111,4,R,Paramount Pictures,Trading Places (Revolution),"$107,052,578",1990
+Thriller,Sci-Fi,,7.3,99,5,PG,Metro-Goldwyn-Mayer,WarGames (Return),"$87,201,475",1987
+Sci-Fi,Adventure,Action,7.1,141,5,PG-13,DreamWorks,Transformers (Return),"$695,971,158",2006
+Thriller,Sci-Fi,Adventure,6.9,131,4,PG-13,Paramount Pictures,War of the Worlds (Legacy),"$576,445,721",2001
+Sci-Fi,Drama,Action,7.4,137,9,PG-13,20th Century Fox,Dawn of the Planet of the Apes (Reckoning),"$620,830,907",2018
+Sci-Fi,Action,,8.8,132,1,R,Sony Pictures,Terminator 2: Judgment Day (Redux),"$433,884,144",1992
+Comedy,Adventure,Action,6.7,121,9,PG,20th Century Fox,Romancing the Stone (Legacy),"$72,374,861",1984
+Thriller,Crime,Action,7.2,120,6,PG-13,Universal Pictures,Fast & Furious 6 (Legacy),"$631,669,177",2009
+Thriller,Crime,Action,7.2,116,6,R,Warner Bros,Lethal Weapon 2 (Redux),"$254,077,950",1986
+Comedy,,,6.9,96,6,R,Warner Bros,Police Academy (Evolution),"$85,783,081",1979
+Romance,Comedy,,5.8,118,8,PG-13,Sony Pictures,My Best Friend's Wedding (Revolution),"$341,308,712",1997
+Fantasy,Drama,Adventure,5.0,101,6,PG-13,Lionsgate Films,The Twilight Saga: Breaking Dawn - Part 2 (Rising),"$728,699,876",2016
+Drama,Comedy,Animation,7.1,85,8,G,Universal Pictures,An American Tail (Origins),"$84,488,705",1986
+Sci-Fi,Mystery,Adventure,5.8,137,5,PG,Paramount Pictures,Star Trek: The Motion Picture (Rising),"$96,860,144",1984
+Crime,Comedy,,7.1,104,3,R,Columbia Pictures,Stir Crazy (Revolution),"$89,392,253",1982
+Comedy,Adventure,Action,7.0,123,5,PG,Paramount Pictures,Star Trek IV: The Voyage Home (Reckoning),"$126,635,299",1986
+Thriller,Adventure,Action,6.6,129,9,PG,Metro-Goldwyn-Mayer,The Spy Who Loved Me (Evolution),"$48,647,620",1975
+Sci-Fi,Adventure,,7.2,157,9,PG-13,Lionsgate Films,The Hunger Games (Reborn),"$762,893,121",2014
+Family,Drama,Comedy,6.3,125,10,PG,Columbia Pictures,Annie (Legacy),"$66,888,049",1980
+Adventure,Action,,7.2,116,2,PG-13,Warner Bros,Batman (Origins),"$419,035,879",1993
+Thriller,Mystery,Drama,8.5,102,2,PG-13,Walt Disney Pictures,The Sixth Sense (Evolution),"$626,740,648",1995
+Crime,Comedy,Action,6.0,134,10,R,Columbia Pictures,Bad Boys II (Rising),"$254,970,350",2009
+Crime,Comedy,Action,6.8,125,7,PG-13,20th Century Fox,Mr. & Mrs. Smith (Origins),"$437,729,547",2002
+Drama,,,7.7,114,5,PG,Walt Disney Pictures,Dead Poets Society (Reborn),"$217,049,394",1984
+Crime,Comedy,Action,6.0,137,10,R,Columbia Pictures,Bad Boys II (Return),"$297,426,106",1999
+Romance,Drama,Crime,8.0,123,8,R,Paramount Pictures,Witness (Evolution),"$61,195,000",1987
+Adventure,Action,,6.9,137,3,PG-13,Columbia Pictures,Spider-Man 2 (Reckoning),"$869,349,696",2007
+Romance,Music,Drama,4.0,85,8,PG,Paramount Pictures,Staying Alive (Reckoning),"$69,410,755",1980
+Drama,Crime,Action,6.5,148,10,PG-13,Warner Bros,The Pelican Brief (Legacy),"$197,880,145",1993
+Comedy,Action,,5.8,98,6,PG,20th Century Fox,The Cannonball Run (Rising),"$58,146,035",1988
+Fantasy,Drama,Adventure,5.5,105,6,PG-13,Lionsgate Films,The Twilight Saga: Breaking Dawn - Part 2 (Origins),"$683,498,704",2011
+Fantasy,Adventure,,7.4,158,2,PG-13,Warner Bros,The Hobbit: The Battle of the Five Armies (Revolution),"$973,610,868",2012
+Animation,Comedy,,6.5,88,9,PG,Universal Pictures,Despicable Me 3 (Legacy),"$223,651,923",2020
+Sci-Fi,Mystery,Adventure,6.6,137,5,PG,Paramount Pictures,Star Trek: The Motion Picture (Legacy),"$69,081,717",1979
+Thriller,Drama,,7.6,142,4,R,Warner Bros,All the President's Men (Revolution),"$70,088,391",1975
+Romance,Music,Drama,6.4,118,5,R,Paramount Pictures,Saturday Night Fever (Origins),"$110,553,575",1982
+Crime,Comedy,Action,5.1,114,8,PG,Universal Pictures,Smokey and the Bandit II (Rising),"$62,591,615",1981
+Romance,Drama,,6.8,135,3,R,Paramount Pictures,An Officer and a Gentleman (Rising),"$114,987,782",1983
+Sci-Fi,Adventure,Action,7.9,132,6,PG-13,20th Century Fox,X-Men: Days of Future Past (Origins),"$861,986,513",2017
+Comedy,Animation,Adventure,7.5,90,1,PG,DreamWorks,Shrek 2 (Evolution),"$994,623,029",2000
+Fantasy,Adventure,Action,7.5,152,1,PG-13,20th Century Fox,Avatar (Evolution),"$2,768,139,585",2009
+Comedy,Animation,Adventure,7.8,80,1,PG,DreamWorks,Shrek 2 (Rising),"$787,556,430",2009
+Sci-Fi,Adventure,Action,6.5,115,6,PG-13,20th Century Fox,The Day After Tomorrow (Reckoning),"$559,824,575",2010
+Comedy,Animation,Adventure,8.6,89,6,PG,Pixar,Up (Reckoning),"$591,928,359",2011
+Thriller,Sci-Fi,Adventure,8.1,129,1,PG-13,Universal Pictures,Jurassic Park (Reborn),"$1,097,305,229",1993
+Romance,Drama,Comedy,8.0,91,10,PG,Metro-Goldwyn-Mayer,Annie Hall (Revolution),"$45,321,417",1983
+Fantasy,Family,Comedy,4.7,84,8,PG-13,20th Century Fox,Dr. Dolittle (Rising),"$349,444,277",1993
+Sport,History,Drama,7.8,106,7,PG,Warner Bros,Chariots of Fire (Return),"$50,288,676",1981
+Romance,Comedy,,7.1,113,10,PG-13,Columbia Pictures,Hitch (Reckoning),"$351,729,241",2008
+Fantasy,Comedy,,8.3,100,1,PG,Columbia Pictures,Ghostbusters (Rising),"$239,751,999",1979
+Thriller,Adventure,Action,8.0,141,1,R,20th Century Fox,Die Hard with a Vengeance (Revolution),"$333,966,674",1998
+Crime,Adventure,Action,6.7,142,8,PG-13,Metro-Goldwyn-Mayer,The World Is Not Enough (Legacy),"$399,528,690",2000
+Romance,Drama,Comedy,7.2,135,9,R,Sony Pictures,Jerry Maguire (Return),"$258,253,693",2002
+Thriller,History,Drama,7.7,199,6,R,Warner Bros,JFK (Reckoning),"$208,618,610",1993
+Thriller,Mystery,,7.0,153,2,PG-13,Columbia Pictures,The Da Vinci Code (Reborn),"$889,310,337",2008
+Fantasy,Family,Animation,7.4,75,3,G,Walt Disney Pictures,Beauty and the Beast (Reborn),"$291,739,216",1990
+Fantasy,Adventure,Action,7.9,133,2,PG-13,20th Century Fox,Star Wars Episode III: Revenge of the Sith (Origins),"$935,384,383",2009
+Sci-Fi,Adventure,Action,6.8,139,1,PG-13,20th Century Fox,Independence Day (Revolution),"$768,818,331",2002
+Romance,Music,Drama,6.0,91,3,R,Paramount Pictures,Flashdance (Reckoning),"$110,187,735",1978
+Adventure,Action,Fantasy,8.4,110,1,PG,20th Century Fox,Star Wars Episode V: The Empire Strikes Back (Rising),"$235,643,830",1986
+Drama,Animation,Adventure,8.4,96,1,G,Walt Disney Pictures,The Lion King (Legacy),"$839,084,299",2000
+Action,Adventure,,5.9,133,9,PG-13,Warner Bros,Suicide Squad (Reckoning),"$298,408,483",2018
+Animation,Animation,Adventure,6.2,75,5,PG,Walt Disney Pictures,Dinosaur (Legacy),"$360,570,458",2003
+Romance,Music,Drama,6.5,118,7,R,Paramount Pictures,Footloose (Redux),"$73,251,873",1980
+Thriller,Adventure,Action,6.8,141,8,PG,Metro-Goldwyn-Mayer,For Your Eyes Only (Reckoning),"$62,112,013",1982
+Romance,Drama,,6.6,112,5,R,Columbia Pictures,Shampoo (Return),"$53,769,141",1982
+Thriller,Mystery,,6.9,139,9,PG-13,Columbia Pictures,Angels & Demons (Dominion),"$456,100,148",2005
+Music,Drama,Action,6.3,144,2,R,Warner Bros,The Bodyguard (Revolution),"$370,243,929",1992
+Adventure,Action,,8.7,139,1,PG-13,Paramount Pictures,Indiana Jones and the Last Crusade (Reborn),"$441,673,007",1991
+Fantasy,Adventure,,8.3,170,4,PG-13,Warner Bros,The Hobbit: The Desolation of Smaug (Legacy),"$1,066,369,812",2020
+Comedy,Animation,Adventure,8.4,83,3,G,Pixar,"Monsters, Inc. (Revolution)","$578,856,110",1997
+Crime,Comedy,Action,6.3,94,7,R,Paramount Pictures,48 Hrs. (Dominion),"$82,635,255",1984
+Animation,Comedy,,6.5,89,4,PG,Universal Pictures,The Secret Life of Pets (Rising),"$416,532,862",2019
+Romance,Musical,,7.0,103,1,PG-13,Paramount Pictures,Grease (Dominion),"$166,341,629",1980
+Comedy,,,7.2,87,9,PG-13,20th Century Fox,Hot Shots! (Revolution),"$169,496,024",1997
+Comedy,Animation,Adventure,7.9,101,2,G,Pixar,Finding Nemo (Revolution),"$884,146,687",2008
+Family,Drama,Action,7.6,131,5,PG,Columbia Pictures,The Karate Kid (Evolution),"$103,190,208",1982
+Comedy,Animation,Adventure,7.8,81,2,G,Walt Disney Pictures,Toy Story (Evolution),"$372,151,113",1993
+Fantasy,Adventure,Action,7.3,122,7,PG-13,Columbia Pictures,The Amazing Spider-Man (Reborn),"$697,643,560",2007
+Romance,Comedy,,6.8,102,4,PG,Warner Bros,Arthur (Legacy),"$101,926,466",1977
+Sci-Fi,Comedy,Adventure,7.3,101,3,PG,Universal Pictures,Back to the Future Part II (Revolution),"$317,200,595",1987
+Crime,Comedy,,8.2,76,8,PG-13,Paramount Pictures,The Naked Gun: From the Files of Police Squad! (Origins),"$88,215,402",1986
+Comedy,Animation,Adventure,6.7,107,5,PG,Paramount Pictures,Shrek Forever After (Reborn),"$641,781,641",2007
+Sport,History,Drama,6.8,123,7,PG,Warner Bros,Chariots of Fire (Revolution),"$49,020,457",1982
+Romance,Drama,Comedy,7.3,108,8,PG,Sony Pictures,Sleepless in Seattle (Return),"$204,939,191",2000
+Fantasy,Crime,Comedy,6.6,110,4,PG-13,Warner Bros,The Mask (Revolution),"$296,108,244",2001
+Drama,Adventure,Action,5.7,107,2,PG-13,Warner Bros,Twister (Rising),"$427,783,790",2001
+Thriller,Adventure,Action,6.6,125,7,R,Sony Pictures,Cliffhanger (Reborn),"$301,502,814",1989
+Adventure,Action,Fantasy,8.5,123,1,PG,20th Century Fox,Star Wars Episode V: The Empire Strikes Back (Legacy),"$214,689,569",1982
+Family,Comedy,Adventure,6.5,100,7,PG,Walt Disney Pictures,"Honey, I Shrunk the Kids (Rising)","$184,628,624",1987
+Comedy,Animation,Adventure,7.0,77,8,PG,20th Century Fox,Ice Age (Reckoning),"$432,350,426",2009
+Romance,Drama,,8.2,203,1,PG-13,Paramount Pictures,Titanic (Dominion),"$1,603,954,341",2001
+Fantasy,Adventure,Action,5.3,119,6,PG-13,Warner Bros,Batman Forever (Return),"$365,431,680",1999
+Action,Adventure,Drama,7.7,137,1,PG-13,Walt Disney Pictures,Star Wars: The Last Jedi (Dominion),"$503,036,094",2012
+Sci-Fi,Action,,7.8,110,8,R,Metro-Goldwyn-Mayer,The Terminator (Reborn),"$66,537,967",1987
+Fantasy,Drama,Comedy,7.8,92,4,PG,20th Century Fox,Big (Reborn),"$133,658,201",1987
+Comedy,,,6.3,86,5,R,20th Century Fox,Porky's (Revolution),"$115,192,534",1977
+Fantasy,Family,Adventure,7.4,154,2,PG,Warner Bros,Harry Potter and the Half-Blood Prince (Evolution),"$1,101,235,820",2014
+Adventure,Comedy,Crime,6.6,83,2,PG-13,Paramount Pictures,"""Crocodile"" Dundee (Return)","$164,771,313",1981
+Thriller,Drama,,7.4,131,2,R,Paramount Pictures,Fatal Attraction (Origins),"$156,368,469",1992
+Comedy,,,7.3,94,4,PG,Paramount Pictures,Airplane! (Redux),"$68,615,884",1977
+Sci-Fi,Adventure,Action,6.2,118,9,PG-13,20th Century Fox,Planet of the Apes (Legacy),"$372,850,847",2002
+Animation,Adventure,Action,6.9,89,6,PG,Paramount Pictures,Madagascar: Escape 2 Africa (Dominion),"$637,318,053",2011
+Comedy,,,6.1,110,6,R,Warner Bros,Police Academy (Dominion),"$70,521,622",1984
+Family,Comedy,Adventure,7.6,107,9,PG,Warner Bros,The Goonies (Rising),"$61,194,071",1982
+Thriller,Crime,,6.4,120,10,PG-13,Warner Bros,Ocean's Twelve (Legacy),"$359,783,058",2006
+Romance,Comedy,,6.3,101,7,PG-13,Universal Pictures,Meet the Fockers (Reckoning),"$545,631,203",2008
+Thriller,Action,,6.6,128,7,R,20th Century Fox,Die Hard 2 (Rising),"$213,173,818",1995
+Thriller,Crime,Action,7.4,90,9,R,Warner Bros,The Enforcer (Rising),"$53,727,963",1979
+Horror,Fantasy,Comedy,6.8,124,10,R,Warner Bros,The Witches of Eastwick (Dominion),"$73,363,173",1986
+War,Drama,Biography,7.8,142,10,R,Universal Pictures,Born on the Fourth of July (Redux),"$140,419,959",1991
+Fantasy,Adventure,,9.2,172,1,PG-13,Warner Bros,The Lord of the Rings: The Two Towers (Reckoning),"$930,830,109",2005
+Action,Adventure,Drama,7.8,130,6,PG-13,Sony Pictures,Spider-Man: Homecoming (Return),"$284,299,386",2015
+Sport,Drama,,6.5,102,4,PG,Metro-Goldwyn-Mayer,Rocky III (Revolution),"$136,294,215",1977
+Thriller,Crime,Action,6.5,104,9,R,Warner Bros,The Enforcer (Origins),"$45,905,528",1979
+Romance,Comedy,,6.3,128,7,PG-13,Universal Pictures,Meet the Fockers (Revolution),"$533,409,160",1999
+Fantasy,Comedy,Adventure,7.2,101,10,PG,Embassy Pictures,Time Bandits (Origins),"$36,101,840",1978
+Family,Animation,Adventure,8.0,100,7,G,Walt Disney Pictures,Mulan (Dominion),"$309,769,702",1995
+Comedy,,,6.8,87,8,R,Warner Bros,The Hangover Part II (Revolution),"$657,664,046",2018
+Fantasy,Adventure,Action,7.1,110,10,PG-13,Walt Disney Pictures,Thor: The Dark World (Revolution),"$564,664,490",2015
+Fantasy,Family,Adventure,7.9,154,2,PG,Warner Bros,Harry Potter and the Half-Blood Prince (Rising),"$818,249,174",2009
+Fantasy,Drama,Adventure,4.6,115,4,PG-13,Lionsgate Films,The Twilight Saga: Breaking Dawn - Part 1 (Reckoning),"$785,914,480",2006
+Thriller,Action,,6.1,109,7,R,Warner Bros,Sudden Impact (Origins),"$57,411,584",1981
+Sci-Fi,Adventure,Action,7.8,126,6,PG-13,20th Century Fox,X-Men: Days of Future Past (Redux),"$780,438,863",2016
+Sci-Fi,Drama,Action,7.8,151,2,PG,Warner Bros,Superman (Rising),"$136,186,057",1982
+Comedy,,,6.8,69,9,PG-13,20th Century Fox,Hot Shots! (Redux),"$202,797,856",1995
+Romance,Comedy,Action,7.3,103,2,PG,Universal Pictures,Smokey and the Bandit (Origins),"$121,658,296",1975
+Fantasy,Family,Adventure,6.9,153,1,PG,Warner Bros,Harry Potter and the Sorcerer's Stone (Legacy),"$991,241,643",2005
+Animation,Adventure,Action,7.1,109,3,PG,20th Century Fox,Ice Age: Dawn of the Dinosaurs (Legacy),"$809,752,089",2010
+Thriller,Action,,7.2,113,7,R,20th Century Fox,Die Hard 2 (Origins),"$193,345,194",1992
+Fantasy,Family,Adventure,7.8,164,1,PG-13,Warner Bros,Harry Potter and the Goblet of Fire (Redux),"$1,016,601,858",2001
+Thriller,Adventure,Action,6.7,116,8,PG,Metro-Goldwyn-Mayer,For Your Eyes Only (Return),"$58,527,300",1978
+Thriller,Sci-Fi,Adventure,7.9,135,1,PG-13,Universal Pictures,Jurassic Park (Dominion),"$841,851,820",1988
+Sci-Fi,Adventure,Action,5.7,145,4,PG-13,Paramount Pictures,Transformers: Revenge of the Fallen (Reckoning),"$895,393,818",2014
+Sci-Fi,Action,,8.4,135,4,R,Warner Bros,The Matrix (Origins),"$470,903,650",1995
+Action,Adventure,Mystery,7.5,125,2,PG-13,Universal Pictures,Jurassic World (Reckoning),"$538,688,352",2014
+Animation,Adventure,Action,7.2,97,6,PG,Paramount Pictures,Kung Fu Panda 2 (Legacy),"$653,811,548",2018
+Sci-Fi,Adventure,,7.8,139,9,PG-13,Lionsgate Films,The Hunger Games (Rising),"$777,602,868",2012
+Crime,Comedy,Action,5.6,107,8,PG,Universal Pictures,Smokey and the Bandit II (Evolution),"$58,324,743",1980
+Thriller,Crime,,6.8,129,7,R,Walt Disney Pictures,Ransom (Redux),"$302,866,049",2001
+Sci-Fi,Adventure,Action,8.4,150,7,PG-13,Walt Disney Pictures,Captain America: The Winter Soldier (Revolution),"$598,309,633",2012
+Thriller,Comedy,,6.2,115,8,R,Walt Disney Pictures,Stakeout (Origins),"$55,870,979",1992
+Music,Drama,Comedy,7.4,106,10,R,20th Century Fox,The Full Monty (Evolution),"$281,033,458",1993
+Thriller,Adventure,Action,7.6,139,4,PG-13,Metro-Goldwyn-Mayer,GoldenEye (Rising),"$336,019,217",1998
+Thriller,Crime,,6.6,139,10,PG-13,Warner Bros,Ocean's Twelve (Legacy),"$334,379,581",2005
+Fantasy,Drama,Adventure,5.8,111,6,PG-13,Lionsgate Films,The Twilight Saga: Breaking Dawn - Part 2 (Dominion),"$769,252,815",2017
+Romance,Comedy,,8.0,131,2,PG,Columbia Pictures,Tootsie (Redux),"$178,795,290",1981
+Family,Animation,Adventure,7.8,101,7,G,Walt Disney Pictures,Mulan (Origins),"$258,060,761",2001
+War,Drama,,8.1,115,3,R,Metro-Goldwyn-Mayer,Platoon (Reckoning),"$151,039,018",1987
+Drama,Crime,,8.5,126,4,R,Warner Bros,Dog Day Afternoon (Return),"$55,088,038",1978
+Fantasy,Family,Adventure,7.1,159,1,PG-13,Warner Bros,Harry Potter and the Goblet of Fire (Evolution),"$918,931,435",2005
+Fantasy,Family,Animation,7.9,71,9,G,Walt Disney Pictures,The Little Mermaid (Rising),"$163,849,982",1992
+Comedy,Animation,Adventure,7.6,89,1,PG,Walt Disney Pictures,Frozen (Reckoning),"$1,466,306,614",2010
+Crime,Comedy,Action,5.8,107,10,PG-13,Universal Pictures,Kindergarten Cop (Revolution),"$232,848,324",1989
+Drama,,,8.5,119,1,R,Metro-Goldwyn-Mayer,Rain Man (Origins),"$141,288,011",1993
+Family,Drama,Comedy,6.8,116,2,PG-13,20th Century Fox,Mrs. Doubtfire (Revolution),"$444,636,780",1993
+Romance,Music,Drama,4.0,103,8,PG,Paramount Pictures,Staying Alive (Origins),"$60,020,276",1982
+Action,Adventure,Sci-Fi,7.4,133,3,PG-13,Walt Disney Pictures,Captain America: Civil War (Origins),"$359,422,051",2012
+War,Drama,Comedy,7.0,131,4,R,Walt Disney Pictures,"Good Morning, Vietnam (Return)","$147,184,840",1994
+Sci-Fi,Adventure,Action,7.5,122,7,PG-13,Walt Disney Pictures,Captain America: The Winter Soldier (Reborn),"$711,111,189",2020
+Family,Comedy,Adventure,6.2,78,7,PG,Walt Disney Pictures,"Honey, I Shrunk the Kids (Revolution)","$197,902,745",1995
+Animation,Adventure,Action,6.5,79,3,PG,20th Century Fox,Ice Age: Dawn of the Dinosaurs (Origins),"$827,295,242",2011
+Adventure,Action,,7.7,107,3,PG-13,Columbia Pictures,Spider-Man (Evolution),"$775,808,620",1999
+Thriller,Adventure,Action,7.4,133,1,R,20th Century Fox,Die Hard with a Vengeance (Dominion),"$366,364,821",1997
+Thriller,Crime,Action,6.5,82,9,R,Warner Bros,The Enforcer (Legacy),"$42,496,869",1975
+Crime,Comedy,,7.2,117,3,R,Columbia Pictures,Stir Crazy (Evolution),"$90,758,761",1987
+Romance,Drama,Comedy,6.7,109,7,PG-13,Universal Pictures,Notting Hill (Revolution),"$356,141,650",2005
+Animation,Adventure,Action,6.2,86,6,PG,Paramount Pictures,Madagascar: Escape 2 Africa (Revolution),"$697,904,350",2008
+Fantasy,Family,Comedy,5.4,118,6,PG,Universal Pictures,How the Grinch Stole Christmas (Evolution),"$361,640,739",1999
+Drama,Western,Adventure,7.8,192,4,PG-13,Metro-Goldwyn-Mayer,Dances with Wolves (Dominion),"$434,326,646",1992
+Fantasy,Adventure,,7.8,130,4,PG-13,Walt Disney Pictures,Pirates of the Caribbean: The Curse of the Black Pearl (Dominion),"$578,081,062",1999
+Romance,Music,Drama,6.8,98,7,R,Paramount Pictures,Footloose (Rising),"$76,252,622",1988
+Action,Adventure,Drama,6.0,124,10,PG-13,Warner Bros,Justice League (Reborn),"$216,399,723",2022
+Romance,Drama,Crime,7.8,98,8,R,Paramount Pictures,Witness (Legacy),"$58,038,426",1984
+Romance,Musical,,7.1,116,1,PG-13,Paramount Pictures,Grease (Rising),"$168,236,985",1983
+Family,Drama,Action,6.8,131,5,PG,Columbia Pictures,The Karate Kid (Dominion),"$93,724,092",1980
+Romance,Drama,,5.9,100,5,R,Columbia Pictures,Shampoo (Legacy),"$46,650,693",1975
+Crime,Adventure,Action,7.6,127,8,PG-13,Warner Bros,Sherlock Holmes (Dominion),"$428,148,023",2014
+Comedy,Animation,Adventure,8.1,83,2,G,Walt Disney Pictures,Toy Story (Return),"$326,997,003",1998
+Thriller,Adventure,Action,7.4,110,9,PG,Metro-Goldwyn-Mayer,The Spy Who Loved Me (Evolution),"$42,366,983",1976
+Family,Adventure,Action,6.9,154,10,PG,Walt Disney Pictures,The Chronicles of Narnia: Prince Caspian (Revolution),"$340,117,765",2010
+Action,Adventure,Drama,7.1,121,9,PG-13,Columbia Pictures,Venom (Origins),"$228,827,476",2017
+Animation,Action,Adventure,8.2,130,3,PG,Pixar,Incredibles 2 (Dominion),"$671,342,195",2019
+Adventure,Action,Fantasy,9.1,124,1,PG,20th Century Fox,Star Wars Episode V: The Empire Strikes Back (Return),"$211,971,210",1986
+Fantasy,Comedy,Adventure,7.0,107,10,PG,Embassy Pictures,Time Bandits (Redux),"$46,018,079",1980
+Crime,Adventure,Action,7.3,141,8,PG-13,Warner Bros,Sherlock Holmes (Rising),"$440,721,662",2015
+Comedy,Animation,Adventure,6.4,77,5,PG,20th Century Fox,Ice Age: Continental Drift (Dominion),"$936,614,404",2010
+Thriller,Drama,Thriller,8.5,136,7,R,Warner Bros,Seven (Rising),"$389,161,385",2000
+Romance,Music,Drama,6.1,94,7,R,Paramount Pictures,Footloose (Reborn),"$69,865,842",1988
+Fantasy,Crime,Comedy,6.2,106,4,PG-13,Warner Bros,The Mask (Dominion),"$323,403,905",2001
+Romance,Drama,,7.2,207,1,PG-13,Paramount Pictures,Titanic (Legacy),"$1,854,654,031",1999
+Fantasy,Family,Comedy,5.6,93,8,PG,Universal Pictures,Casper (Legacy),"$266,739,883",1996
+Action,Adventure,,7.2,153,10,PG-13,Sony Pictures,Spectre (Origins),"$220,453,917",2022
+Comedy,Animation,Adventure,8.0,103,1,G,Walt Disney Pictures,Toy Story 3 (Evolution),"$1,015,051,616",2011
+Sci-Fi,Adventure,Action,7.4,132,9,PG-13,20th Century Fox,X2 (Origins),"$427,416,719",2000
+Romance,Music,Drama,6.8,125,5,R,Paramount Pictures,Saturday Night Fever (Legacy),"$112,342,565",1982
+Animation,Family,,7.7,110,2,PG,Walt Disney Pictures,Finding Dory (Redux),"$556,950,835",2020
+Sci-Fi,Adventure,Action,7.9,136,6,PG-13,20th Century Fox,X-Men: Days of Future Past (Dominion),"$866,831,464",2018
+Sci-Fi,Drama,,7.1,128,3,PG,Columbia Pictures,Close Encounters of the Third Kind (Revolution),"$125,052,840",1976
+Sci-Fi,Mystery,Action,8.2,130,10,PG-13,DreamWorks,Minority Report (Revolution),"$398,463,524",2001
+Comedy,Adventure,Family,6.3,106,8,PG,Warner Bros,Charlie and the Chocolate Factory (Rising),"$460,440,305",2003
+Thriller,Drama,,7.4,130,2,R,Paramount Pictures,Fatal Attraction (Rising),"$187,851,954",1984
+Comedy,Animation,Adventure,8.5,93,1,G,Walt Disney Pictures,Aladdin (Reckoning),"$566,316,207",1999
+Crime,Adventure,Action,6.5,128,6,PG-13,Metro-Goldwyn-Mayer,Die Another Day (Legacy),"$410,445,179",2009
+Thriller,Horror,Drama,8.0,100,5,R,20th Century Fox,The Omen (Return),"$57,917,123",1976
+Sci-Fi,Adventure,Action,8.6,131,7,R,20th Century Fox,Aliens (Reborn),"$76,044,662",1988
+Romance,Drama,Action,6.3,185,6,PG-13,Walt Disney Pictures,Pearl Harbor (Reborn),"$534,137,994",2007
+Thriller,Comedy,Action,7.5,150,3,R,20th Century Fox,True Lies (Origins),"$356,056,685",1990
+Fantasy,Adventure,Action,6.9,136,7,PG-13,Columbia Pictures,The Amazing Spider-Man (Reckoning),"$650,423,477",2011
+Music,Drama,Comedy,6.7,125,7,PG,Columbia Pictures,Funny Lady (Return),"$37,780,036",1975
+Sci-Fi,Action,,8.4,130,1,R,Sony Pictures,Terminator 2: Judgment Day (Dominion),"$423,390,265",1992
+Thriller,Crime,,8.2,121,5,PG-13,Warner Bros,Ocean's Eleven (Reborn),"$446,218,933",2000
+Thriller,Adventure,Action,7.1,141,8,PG-13,Paramount Pictures,Mission: Impossible III (Origins),"$441,888,477",2009
+Adventure,Sci-Fi,,7.1,160,5,PG-13,Lionsgate Films,The Hunger Games: Catching Fire (Rising),"$1,012,577,623",2020
+Romance,Musical,Comedy,5.9,114,5,PG-13,Universal Pictures,Mamma Mia! (Dominion),"$649,137,357",2003
+Music,Drama,,8.1,128,10,R,Warner Bros,A Star is Born  (Origins),"$231,266,774",2014
+Thriller,Mystery,Drama,6.4,129,4,R,Sony Pictures,Basic Instinct (Evolution),"$407,193,972",1992
+Crime,Adventure,Action,6.1,119,8,PG-13,Metro-Goldwyn-Mayer,The World Is Not Enough (Redux),"$338,653,138",2003
+Sci-Fi,Comedy,Adventure,7.6,98,3,PG,Universal Pictures,Back to the Future Part II (Return),"$294,501,960",1996
+Thriller,Comedy,Crime,6.1,93,9,PG,Metro-Goldwyn-Mayer,Revenge of the Pink Panther (Origins),"$42,573,061",1978
+Sport,Romance,Comedy,6.7,102,6,PG-13,Metro-Goldwyn-Mayer,Back to School (Legacy),"$80,472,762",1984
+Comedy,Animation,Adventure,6.6,78,5,PG,Paramount Pictures,Shrek Forever After (Reborn),"$883,423,262",2017
+Adventure,Comedy,Crime,7.0,85,2,PG-13,Paramount Pictures,"""Crocodile"" Dundee (Legacy)","$179,365,732",1992
+Romance,Comedy,,5.7,123,7,R,Warner Bros,10 (Origins),"$89,113,922",1976
+Fantasy,Family,Comedy,5.5,100,6,PG,Universal Pictures,How the Grinch Stole Christmas (Reckoning),"$331,107,089",1998
+Drama,,,7.4,120,2,PG,Universal Pictures,On Golden Pond (Rising),"$129,639,072",1981
+Fantasy,Adventure,Action,8.4,129,1,PG,Lionsgate Films,Star Wars (Origins),"$347,660,333",1980
+Drama,Crime,Action,6.2,151,10,PG-13,Warner Bros,The Pelican Brief (Evolution),"$224,561,586",1999
+Comedy,Adventure,Action,7.4,115,5,PG,Paramount Pictures,Star Trek IV: The Voyage Home (Return),"$117,563,849",1987
+Fantasy,Adventure,Action,7.1,157,1,PG-13,Walt Disney Pictures,Pirates of the Caribbean: At World's End (Dominion),"$1,060,528,915",2007
+Romance,Drama,Comedy,6.9,94,8,PG,Sony Pictures,Sleepless in Seattle (Reckoning),"$195,661,907",1991
+Comedy,,,7.1,83,10,PG,Warner Bros,Beetlejuice (Rising),"$77,315,043",1989
+Romance,Comedy,,5.7,115,7,R,Warner Bros,10 (Redux),"$80,070,798",1980
+Family,Comedy,Adventure,6.9,135,4,PG,Sony Pictures,Hook (Rising),"$316,022,934",1997
+Thriller,Adventure,Action,7.4,135,2,PG-13,Metro-Goldwyn-Mayer,Skyfall (Revolution),"$1,047,536,167",2007
+Comedy,Adventure,Family,6.9,125,8,PG,Warner Bros,Charlie and the Chocolate Factory (Reborn),"$528,903,860",2002
+Family,Drama,Animation,6.6,100,5,G,Walt Disney Pictures,The Hunchback of Notre Dame (Redux),"$372,467,345",1995
+Drama,Crime,Action,6.7,126,10,PG-13,Warner Bros,The Pelican Brief (Reborn),"$206,930,788",1998
+Romance,Comedy,,6.3,85,9,PG,IFC Films,My Big Fat Greek Wedding (Reckoning),"$307,417,966",2008
+Fantasy,Adventure,,8.1,140,4,PG-13,Walt Disney Pictures,Pirates of the Caribbean: The Curse of the Black Pearl (Redux),"$546,367,501",2001
+Sci-Fi,Comedy,Action,6.6,91,10,PG-13,Columbia Pictures,Men in Black 3 (Reckoning),"$735,752,636",2018
+Fantasy,Family,Adventure,7.0,140,1,PG,Warner Bros,Harry Potter and the Sorcerer's Stone (Revolution),"$871,724,947",1999
+Fantasy,Drama,Adventure,5.1,124,6,PG-13,Lionsgate Films,The Twilight Saga: Breaking Dawn - Part 2 (Origins),"$977,343,790",2007
+Crime,Comedy,,7.4,113,3,R,Columbia Pictures,Stir Crazy (Dominion),"$99,272,337",1985
+Fantasy,Adventure,,7.8,155,4,PG-13,Walt Disney Pictures,Pirates of the Caribbean: The Curse of the Black Pearl (Redux),"$700,435,947",1998
+Fantasy,Adventure,,8.3,189,1,PG-13,Warner Bros,The Lord of the Rings: The Two Towers (Evolution),"$854,891,994",1997
+Thriller,History,Drama,7.9,175,6,R,Warner Bros,JFK (Revolution),"$178,627,901",1986
+Comedy,,,7.8,121,3,R,Universal Pictures,National Lampoon's Animal House (Reborn),"$106,053,448",1981
+Drama,Adventure,Action,7.8,98,6,PG,Paramount Pictures,Star Trek II: The Wrath of Khan (Rising),"$63,824,401",1987
+Action,Adventure,Sci-Fi,7.0,137,8,PG-13,Warner Bros,Batman v Superman: Dawn of Justice (Redux),"$368,566,983",2022
+Thriller,Fantasy,Adventure,8.5,141,1,PG-13,Warner Bros,Harry Potter and the Deathly Hallows - Part 2 (Rising),"$1,400,910,233",2010
+Fantasy,Adventure,Action,6.2,126,3,PG-13,Walt Disney Pictures,Pirates of the Caribbean: On Stranger Tides (Origins),"$919,733,700",2017
+Thriller,Mystery,,6.2,146,9,PG-13,Columbia Pictures,Angels & Demons (Redux),"$546,875,413",2009
+Sci-Fi,Adventure,Action,6.5,126,6,PG-13,20th Century Fox,The Day After Tomorrow (Legacy),"$652,222,888",2009
+Fantasy,Family,Adventure,7.3,165,2,PG,Warner Bros,Harry Potter and the Half-Blood Prince (Return),"$788,912,517",2004
+Romance,Comedy,,6.7,114,3,R,Walt Disney Pictures,Pretty Woman (Evolution),"$403,243,578",1997
+Animation,Adventure,Action,7.4,91,3,PG,20th Century Fox,Ice Age: The Meltdown (Redux),"$547,716,393",2012
+Drama,,,8.1,92,1,PG-13,Columbia Pictures,Kramer vs. Kramer (Reborn),"$111,126,056",1980
+Thriller,Sci-Fi,Adventure,7.7,142,1,PG-13,Universal Pictures,Jurassic Park (Return),"$895,001,178",2000
+Sci-Fi,Adventure,Action,6.6,101,7,PG-13,20th Century Fox,X-Men: The Last Stand (Dominion),"$423,100,492",2008
+Thriller,Adventure,Action,7.2,95,3,PG-13,Paramount Pictures,Mission: Impossible (Legacy),"$502,697,046",1997
+Horror,Drama,,6.6,102,2,R,Metro-Goldwyn-Mayer,The Amityville Horror (Revolution),"$84,618,238",1982
+Adventure,Action,,6.5,102,7,PG-13,Metro-Goldwyn-Mayer,Quantum of Solace (Reckoning),"$642,492,858",2007
+Animation,Comedy,Animation,7.1,98,10,PG,Warner Bros,Happy Feet (Evolution),"$317,120,233",2001
+Family,Documentary,,4.6,99,6,G,Sunn Classic Pictures,In Search of Noah's Ark (Rising),"$47,205,086",1980
+Comedy,Animation,Adventure,5.7,101,9,PG,Columbia Pictures,The Smurfs (Reborn),"$589,076,077",2017
+Animation,Comedy,Animation,7.1,103,3,PG,Universal Pictures,Despicable Me 2 (Redux),"$1,059,143,233",2018
+Action,Sci-Fi,Mystery,7.8,121,5,R,Sony Pictures,Total Recall (Reckoning),"$261,149,840",1985
+Action,Adventure,,6.4,139,10,PG-13,Sony Pictures,Spectre (Reborn),"$208,298,809",2011
+History,Drama,Action,8.3,158,6,R,Warner Bros,The Last Samurai (Evolution),"$397,371,270",2010
+Thriller,Crime,Action,7.8,121,5,R,20th Century Fox,Speed (Redux),"$328,570,978",1997
+Family,Adventure,Action,6.5,143,10,PG,Walt Disney Pictures,The Chronicles of Narnia: Prince Caspian (Dominion),"$481,715,326",2011
+Action,Comedy,,8.1,125,5,R,20th Century Fox,Deadpool 2 (Origins),"$319,674,517",2024
+Romance,Drama,,5.8,110,5,R,Columbia Pictures,Shampoo (Origins),"$53,414,548",1977
+Family,Animation,Adventure,7.4,83,7,G,Walt Disney Pictures,Mulan (Revolution),"$330,811,991",2001
+Thriller,Crime,Comedy,7.0,120,6,G,Metro-Goldwyn-Mayer,The Return of the Pink Panther (Rising),"$43,386,953",1981
+Action,Comedy,,6.8,105,7,PG-13,Walt Disney Pictures,Ant-Man and the Wasp (Revolution),"$254,336,706",2013
+Sci-Fi,Comedy,Action,6.8,107,10,PG-13,Columbia Pictures,Men in Black 3 (Return),"$684,839,911",2010
+Romance,Music,Drama,6.0,87,3,R,Paramount Pictures,Flashdance (Reborn),"$75,196,439",1984
+Fantasy,Family,Adventure,7.6,146,2,PG,Warner Bros,Harry Potter and the Half-Blood Prince (Reckoning),"$1,109,171,242",2012
+Sci-Fi,Adventure,Action,7.7,128,9,PG-13,20th Century Fox,X2 (Reckoning),"$483,509,326",2004
+Comedy,Adventure,Animation,6.8,108,8,PG,Paramount Pictures,Madagascar 3: Europe's Most Wanted (Dominion),"$732,427,799",2016
+Romance,Drama,,7.7,189,1,PG-13,Paramount Pictures,Titanic (Legacy),"$1,559,213,570",2000
+Sci-Fi,Adventure,,6.9,121,5,PG-13,Lionsgate Films,The Hunger Games: Mockingjay - Part 1 (Reborn),"$831,859,946",2021
+Sport,Romance,Comedy,7.0,88,6,PG-13,Metro-Goldwyn-Mayer,Back to School (Origins),"$107,573,981",1993
+History,Drama,Action,6.5,144,10,PG,Universal Pictures,Midway (Reborn),"$42,988,413",1983
+Action,Adventure,Drama,8.1,130,1,PG-13,Walt Disney Pictures,Rogue One: A Star Wars Story (Evolution),"$431,233,989",2011
+Comedy,Animation,Adventure,5.9,89,5,PG,Paramount Pictures,Shrek Forever After (Revolution),"$730,352,565",2008
+Thriller,Horror,Drama,6.6,137,10,PG-13,DreamWorks,What Lies Beneath (Legacy),"$245,288,328",1997
+Comedy,Animation,Adventure,8.6,81,6,PG,Pixar,Up (Revolution),"$627,974,798",2012
+Fantasy,Adventure,Action,7.0,97,10,PG-13,Walt Disney Pictures,Thor: The Dark World (Reborn),"$738,026,904",2017
+Thriller,Crime,,7.7,102,5,PG-13,Warner Bros,Ocean's Eleven (Revolution),"$441,977,652",2000
+Comedy,Animation,Adventure,7.1,112,6,G,Pixar,Cars (Return),"$438,246,149",2011
+Romance,Music,Drama,6.5,131,5,R,Paramount Pictures,Saturday Night Fever (Origins),"$76,473,999",1975
+Fantasy,Drama,Comedy,7.8,95,4,PG,20th Century Fox,Big (Origins),"$129,645,561",1994
+Romance,Drama,Comedy,7.9,92,10,PG,Metro-Goldwyn-Mayer,Annie Hall (Revolution),"$39,247,099",1979
+Sci-Fi,Mystery,Adventure,6.2,127,5,PG,Paramount Pictures,Star Trek: The Motion Picture (Dominion),"$83,718,231",1979
+Fantasy,Adventure,Action,6.4,130,8,PG-13,Columbia Pictures,The Amazing Spider-Man 2 (Revolution),"$594,664,553",2011
+Thriller,Adventure,Action,6.9,118,6,PG,Metro-Goldwyn-Mayer,Octopussy (Revolution),"$75,975,244",1989
+Comedy,Action,,6.7,118,2,R,Paramount Pictures,Beverly Hills Cop (Reborn),"$250,963,036",1981
+Romance,Drama,Comedy,8.2,137,6,PG-13,Sony Pictures,As Good as It Gets (Origins),"$302,967,820",1998
+Animation,Adventure,Action,8.1,97,3,PG,Paramount Pictures,Kung Fu Panda (Revolution),"$603,471,464",2005
+Animation,Adventure,Action,6.9,95,3,PG,20th Century Fox,Ice Age: The Meltdown (Reborn),"$639,964,934",2002
+Thriller,Adventure,Action,7.2,139,9,PG,Metro-Goldwyn-Mayer,The Spy Who Loved Me (Reckoning),"$55,120,378",1983
+Action,Adventure,Drama,7.5,134,8,PG-13,Walt Disney Pictures,Solo: A Star Wars Story (Rising),"$205,128,128",2025
+Thriller,Drama,Action,5.7,124,10,R,Warner Bros,Eraser (Evolution),"$287,149,262",1993
+Comedy,,,6.9,107,10,PG,Warner Bros,Beetlejuice (Rising),"$85,303,321",1992
+Drama,,,6.3,89,9,PG,Columbia Pictures,"Aloha, Bobby and Rose (Origins)","$33,917,711",1978
+Fantasy,Comedy,,6.5,96,6,PG,Warner Bros,"Oh, God! (Rising)","$51,506,470",1975
+Sci-Fi,Drama,Action,8.1,129,9,PG-13,20th Century Fox,Dawn of the Planet of the Apes (Rising),"$661,304,537",2014
+Sci-Fi,Adventure,Action,7.0,119,10,PG,Paramount Pictures,Star Trek III: The Search for Spock (Reborn),"$77,711,841",1979
+Drama,,,7.8,114,2,PG,Universal Pictures,On Golden Pond (Reckoning),"$138,660,896",1978
+Animation,Family,,7.3,99,2,PG,Walt Disney Pictures,Finding Dory (Evolution),"$541,957,994",2017
+Thriller,Action,,7.9,133,7,R,20th Century Fox,Die Hard (Reborn),"$94,963,102",1987
+Fantasy,Adventure,Action,5.8,149,9,PG-13,Warner Bros,Superman Returns (Reckoning),"$403,942,646",2008
+Action,Adventure,Drama,8.2,144,1,PG-13,Walt Disney Pictures,Rogue One: A Star Wars Story (Reborn),"$497,552,576",2019
+Romance,Drama,,7.1,133,3,R,Paramount Pictures,An Officer and a Gentleman (Revolution),"$138,665,602",1977
+Crime,Adventure,Action,7.1,113,8,PG-13,Warner Bros,Sherlock Holmes (Legacy),"$597,475,357",2015
+Thriller,History,Drama,7.9,188,6,R,Warner Bros,JFK (Return),"$245,044,613",1986
+Fantasy,Comedy,Action,6.5,96,5,PG-13,Columbia Pictures,Men in Black II (Dominion),"$400,942,215",2001
+Fantasy,Family,Adventure,8.3,151,3,PG-13,Warner Bros,Harry Potter and the Deathly Hallows - Part 1 (Rising),"$961,232,836",2010
+Comedy,Animation,Adventure,7.7,82,6,PG,Pixar,Up (Evolution),"$719,015,483",2011
+Fantasy,Adventure,Action,6.8,178,1,PG-13,Walt Disney Pictures,Pirates of the Caribbean: At World's End (Reckoning),"$1,075,418,817",2004
+Crime,Comedy,Action,6.3,111,10,PG-13,Universal Pictures,Kindergarten Cop (Reborn),"$206,123,799",1993
+Crime,Comedy,Action,5.6,96,10,PG-13,Universal Pictures,Kindergarten Cop (Redux),"$184,369,486",1989
+Thriller,Fantasy,Adventure,7.9,142,1,PG-13,Warner Bros,Harry Potter and the Deathly Hallows - Part 2 (Reckoning),"$1,182,209,005",2014
+Comedy,,,6.4,79,9,PG-13,20th Century Fox,Hot Shots! (Dominion),"$156,868,798",1998
+Animation,Family,,7.7,107,2,PG,Walt Disney Pictures,Finding Dory (Origins),"$535,563,363",2014
+History,Documentary,,6.5,60,2,G,National Air and Space Museum,To Fly! (Reborn),"$89,547,764",1975
+Romance,Drama,Action,5.7,181,6,PG-13,Walt Disney Pictures,Pearl Harbor (Reborn),"$405,685,266",1997
+Sci-Fi,Adventure,,7.2,127,5,PG-13,Lionsgate Films,The Hunger Games: Mockingjay - Part 1 (Revolution),"$846,782,798",2016
+Sci-Fi,Drama,Action,5.5,135,6,PG-13,DreamWorks,Deep Impact (Origins),"$335,117,608",2002
+Adventure,Action,,8.1,110,1,PG,Paramount Pictures,Raiders of the Lost Ark (Redux),"$243,520,844",1987
+Horror,Drama,,8.6,134,8,R,Metro-Goldwyn-Mayer,Dawn of the Dead (Return),"$50,829,627",1979
+Sci-Fi,Adventure,Action,6.8,101,10,PG,Paramount Pictures,Star Trek III: The Search for Spock (Revolution),"$73,600,836",1988
+Fantasy,Family,Adventure,7.5,128,2,PG-13,Warner Bros,Harry Potter and the Order of the Phoenix (Dominion),"$830,801,023",2007
+Sci-Fi,Action,,6.5,116,7,R,Warner Bros,Terminator 3: Rise of the Machines (Rising),"$430,129,242",2002
+Romance,Fantasy,Comedy,6.2,113,4,PG-13,Paramount Pictures,What Women Want (Dominion),"$442,998,516",1997
+Comedy,Action,,5.9,99,6,PG,Warner Bros,Hooper (Redux),"$91,852,617",1975
+Sci-Fi,Drama,Action,7.9,139,9,PG-13,20th Century Fox,Dawn of the Planet of the Apes (Revolution),"$761,666,451",2018
+Music,Drama,,8.4,146,10,R,Warner Bros,A Star is Born  (Rising),"$185,782,856",2017
+Fantasy,Adventure,,7.7,158,4,PG-13,Walt Disney Pictures,Pirates of the Caribbean: The Curse of the Black Pearl (Return),"$541,990,246",2010
+Romance,Drama,Action,5.5,172,6,PG-13,Walt Disney Pictures,Pearl Harbor (Rising),"$521,470,507",1999
+Thriller,Crime,Comedy,7.4,121,6,G,Metro-Goldwyn-Mayer,The Return of the Pink Panther (Revolution),"$37,422,469",1980
+Crime,Adventure,Action,6.7,132,9,PG,Metro-Goldwyn-Mayer,Moonraker (Evolution),"$78,474,811",1975
+Romance,Music,Drama,6.3,133,5,R,Paramount Pictures,Saturday Night Fever (Reborn),"$108,404,714",1981
+Romance,Drama,Biography,7.6,155,5,PG,Universal Pictures,Out Of Africa (Reborn),"$79,825,313",1982
+Action,Adventure,Drama,7.4,154,6,PG-13,Paramount Pictures,Mission: Impossible - Fallout (Dominion),"$251,005,706",2021
+Thriller,Crime,Action,7.3,128,6,PG-13,Universal Pictures,Fast & Furious 6 (Origins),"$764,258,796",2016
+Animation,Comedy,Animation,8.2,94,8,PG,Walt Disney Pictures,Tangled (Legacy),"$475,213,953",2015
+Thriller,Crime,,7.1,125,7,R,Walt Disney Pictures,Ransom (Dominion),"$348,861,953",2003
+Crime,Adventure,Action,5.9,141,6,PG-13,Metro-Goldwyn-Mayer,Die Another Day (Reckoning),"$373,115,751",1997
+Fantasy,Adventure,Action,7.5,127,6,PG-13,Universal Pictures,The Mummy (Legacy),"$460,827,966",2003
+Drama,Crime,,8.6,132,4,R,Warner Bros,Dog Day Afternoon (Evolution),"$56,463,359",1981
+War,Drama,,8.8,183,10,R,Universal Pictures,The Deer Hunter (Reborn),"$57,657,181",1984
+Sci-Fi,Adventure,Action,8.7,153,1,PG-13,Walt Disney Pictures,The Avengers (Dominion),"$1,635,254,062",2013
+Animation,Adventure,Action,8.5,124,4,PG,Pixar,The Incredibles (Rising),"$591,784,128",2006
+Sci-Fi,Adventure,Action,6.0,149,4,PG-13,Paramount Pictures,Transformers: Revenge of the Fallen (Revolution),"$888,320,844",2007
+Comedy,Animation,Adventure,7.2,95,8,PG,20th Century Fox,Ice Age (Rising),"$358,869,817",1998
+Action,Comedy,,7.4,130,5,R,20th Century Fox,Deadpool 2 (Reborn),"$355,122,833",2020
+Drama,Crime,Action,6.8,133,10,PG-13,Paramount Pictures,Clear and Present Danger (Rising),"$187,571,897",1994
+Family,Comedy,Adventure,6.2,128,3,PG,20th Century Fox,Home Alone 2: Lost in New York (Return),"$421,880,954",1991
+Horror,Fantasy,Comedy,6.0,117,10,R,Warner Bros,The Witches of Eastwick (Origins),"$68,833,500",1982
+Comedy,,,5.7,81,5,R,20th Century Fox,Porky's (Reckoning),"$111,816,867",1985
+Comedy,,,6.4,86,9,PG-13,20th Century Fox,Hot Shots! (Dominion),"$191,245,130",1990
+Thriller,Adventure,Action,6.7,100,3,PG-13,Paramount Pictures,Mission: Impossible (Redux),"$412,903,930",2002
+Sci-Fi,Adventure,Action,5.3,123,9,PG-13,20th Century Fox,Planet of the Apes (Origins),"$335,407,012",1999
+Family,Drama,Comedy,7.0,115,10,PG,Columbia Pictures,Annie (Evolution),"$46,607,082",1986
+Action,Adventure,Drama,7.5,118,8,PG-13,Walt Disney Pictures,Thor: Ragnarok (Reborn),"$310,831,314",2017
+Comedy,Animation,Adventure,6.3,97,6,PG,DreamWorks,Madagascar (Reckoning),"$618,541,099",2005
+Sci-Fi,Comedy,Action,6.7,97,10,PG-13,Columbia Pictures,Men in Black 3 (Revolution),"$610,114,982",2011
+Thriller,Comedy,Action,7.0,151,3,R,20th Century Fox,True Lies (Legacy),"$444,719,760",1999
+Romance,Drama,,8.9,135,9,R,DreamWorks,American Beauty (Reckoning),"$306,821,414",2000
+Fantasy,Adventure,Action,5.7,163,9,PG-13,Warner Bros,Superman Returns (Evolution),"$465,219,719",2012
+Romance,Comedy,,6.4,94,9,PG,IFC Films,My Big Fat Greek Wedding (Reckoning),"$405,902,691",1997
+Fantasy,Adventure,Action,6.3,122,3,PG-13,Walt Disney Pictures,Pirates of the Caribbean: On Stranger Tides (Evolution),"$1,071,778,018",2018
+Action,Adventure,Drama,8.3,133,1,PG-13,Walt Disney Pictures,Rogue One: A Star Wars Story (Reckoning),"$503,131,645",2021
+Comedy,Adventure,Action,6.1,104,5,PG,20th Century Fox,Night at the Museum (Revolution),"$572,107,440",2003
+Animation,Animation,Adventure,8.4,92,9,G,Pixar,WALL-E (Evolution),"$452,421,195",2013
+Comedy,,,8.2,98,3,R,Universal Pictures,National Lampoon's Animal House (Revolution),"$114,249,635",1980
+Drama,Adventure,Action,6.9,133,2,PG-13,Warner Bros,Robin Hood: Prince of Thieves (Legacy),"$461,407,739",1993
+Action,Adventure,Mystery,6.7,138,5,PG-13,Universal Pictures,Furious 7 (Reborn),"$409,581,979",2011
+Animation,Comedy,Animation,7.5,106,8,PG,Walt Disney Pictures,Tangled (Reckoning),"$631,702,078",2011
+Sci-Fi,Adventure,Action,6.2,112,9,PG-13,20th Century Fox,Planet of the Apes (Evolution),"$359,898,770",2007
+Animation,Adventure,Action,7.1,85,6,PG,Paramount Pictures,Kung Fu Panda 2 (Legacy),"$550,492,009",2014
+Fantasy,Adventure,Action,7.0,141,7,PG-13,Columbia Pictures,The Amazing Spider-Man (Dominion),"$649,745,566",2015
+Romance,Drama,Crime,7.8,111,8,R,Paramount Pictures,Witness (Revolution),"$80,913,071",1980
+Comedy,,,7.1,94,6,R,Warner Bros,Police Academy (Dominion),"$66,388,377",1984
+Family,Comedy,Adventure,7.3,108,10,G,Metro-Goldwyn-Mayer,The Muppet Movie (Origins),"$57,759,215",1976
+Action,Adventure,,5.6,111,9,PG-13,Warner Bros,Suicide Squad (Revolution),"$291,840,883",2017
+Sci-Fi,Horror,,8.1,119,6,R,20th Century Fox,Alien (Origins),"$82,968,718",1985
+Romance,Music,Drama,7.1,125,3,R,Warner Bros,A Star Is Born (Origins),"$75,766,481",1977
+Romance,Drama,Adventure,5.8,118,9,R,Columbia Pictures,The Blue Lagoon (Origins),"$61,856,894",1981
+Thriller,Sci-Fi,Drama,7.7,108,7,PG-13,Warner Bros,I Am Legend (Rising),"$519,118,058",2014
+Sci-Fi,Drama,,7.9,151,3,PG,Columbia Pictures,Close Encounters of the Third Kind (Origins),"$101,517,249",1982
+Action,Adventure,Drama,6.5,144,4,PG-13,Universal Pictures,Jurassic World: Fallen Kingdom (Dominion),"$340,389,503",2016
+Fantasy,Family,Adventure,8.1,140,3,PG-13,Warner Bros,Harry Potter and the Deathly Hallows - Part 1 (Evolution),"$1,042,117,192",2015
+Romance,Drama,Comedy,7.9,107,10,PG,Metro-Goldwyn-Mayer,Annie Hall (Reckoning),"$34,175,175",1982
+Comedy,Animation,Adventure,7.5,86,1,G,Walt Disney Pictures,Aladdin (Redux),"$560,248,107",1987
+Action,Adventure,Comedy,8.2,135,5,PG-13,Walt Disney Pictures,Guardians of the Galaxy Vol. 2 (Legacy),"$387,512,827",2021
+Sci-Fi,Adventure,Action,6.7,131,7,PG-13,Paramount Pictures,Iron Man 2 (Redux),"$635,965,199",2015
+Sci-Fi,Comedy,Action,7.4,110,10,PG-13,Columbia Pictures,Men in Black 3 (Rising),"$602,046,047",2010
+Romance,Drama,Biography,7.6,176,5,PG,Universal Pictures,Out Of Africa (Evolution),"$94,381,239",1983
+Sci-Fi,Comedy,Adventure,7.8,121,3,PG,Universal Pictures,Back to the Future Part II (Revolution),"$308,232,134",1995
+Thriller,Crime,,6.9,136,7,R,Walt Disney Pictures,Ransom (Legacy),"$345,988,967",2001
+Comedy,,,6.5,85,6,R,Warner Bros,Police Academy (Return),"$96,154,726",1979
+Romance,Horror,,7.9,116,9,R,Columbia Pictures,Bram Stoker's Dracula (Return),"$200,537,714",1989
+Drama,Adventure,Action,7.0,178,5,PG-13,Universal Pictures,King Kong (Legacy),"$478,274,751",2009
+Action,Adventure,Drama,6.7,145,1,PG-13,Walt Disney Pictures,Star Wars: The Last Jedi (Reborn),"$668,453,709",2018
+Action,Adventure,,6.9,146,10,PG-13,Sony Pictures,Spectre (Evolution),"$222,574,465",2012
+Crime,Comedy,Animation,7.3,105,2,PG,Walt Disney Pictures,Who Framed Roger Rabbit (Legacy),"$170,547,850",1988
+War,History,Drama,7.7,166,7,PG,Metro-Goldwyn-Mayer,A Bridge Too Far (Revolution),"$40,848,559",1979
+War,Drama,Biography,7.2,138,10,R,Universal Pictures,Born on the Fourth of July (Redux),"$128,878,513",1993
+Fantasy,Family,Adventure,6.9,141,2,PG-13,Warner Bros,Harry Potter and the Order of the Phoenix (Return),"$1,058,732,979",2006
+Fantasy,Family,Adventure,6.5,110,10,PG,Sony Pictures,Jumanji (Reckoning),"$214,996,004",1994
+Fantasy,Adventure,Action,7.0,165,1,PG-13,Walt Disney Pictures,Pirates of the Caribbean: Dead Man's Chest (Reborn),"$914,260,227",2013
+Thriller,Mystery,Adventure,6.0,117,8,PG,Columbia Pictures,The Deep (Redux),"$44,170,075",1976
+Romance,Drama,Action,6.6,194,6,PG-13,Walt Disney Pictures,Pearl Harbor (Revolution),"$360,664,623",1999
+Action,Adventure,Drama,7.0,136,6,PG-13,Sony Pictures,Spider-Man: Homecoming (Evolution),"$324,101,780",2020
+Comedy,Animation,Adventure,8.1,110,1,G,Walt Disney Pictures,Toy Story 3 (Redux),"$1,073,363,733",2009
+Romance,Drama,,5.9,118,5,R,Columbia Pictures,Shampoo (Legacy),"$56,632,988",1980
+Horror,Drama,Mystery,7.2,136,7,R,Warner Bros,It (Dominion),"$309,768,584",2013
+Sci-Fi,Adventure,Action,7.6,122,7,PG-13,Paramount Pictures,Iron Man 2 (Reckoning),"$711,250,448",2008
+Thriller,Drama,,7.4,127,2,R,Paramount Pictures,Fatal Attraction (Return),"$139,494,846",1984
+Sci-Fi,Adventure,Action,8.8,146,7,R,20th Century Fox,Aliens (Return),"$85,856,589",1981
+Sci-Fi,Comedy,,6.8,91,3,PG-13,Columbia Pictures,Men in Black (Revolution),"$588,584,026",1994
+Thriller,Horror,Drama,6.2,128,10,PG-13,DreamWorks,What Lies Beneath (Legacy),"$290,700,258",2005
+War,Comedy,,6.3,106,5,R,Columbia Pictures,Stripes (Reborn),"$73,173,793",1979
+War,Drama,Biography,7.1,156,10,R,Universal Pictures,Born on the Fourth of July (Legacy),"$178,457,599",1989
+Romance,Drama,,8.6,139,2,PG-13,Paramount Pictures,Forrest Gump (Redux),"$754,096,175",2000
+Thriller,Crime,,8.0,123,5,PG-13,Warner Bros,Ocean's Eleven (Return),"$418,669,635",2000
+Fantasy,Adventure,Action,7.5,149,9,PG-13,Warner Bros,Man of Steel (Redux),"$724,055,377",2012
+War,Drama,,8.9,156,4,R,Metro-Goldwyn-Mayer,Apocalypse Now (Reckoning),"$66,861,467",1975
+Thriller,Crime,Action,7.2,121,6,PG-13,Universal Pictures,Fast & Furious 6 (Return),"$692,109,123",2018
+Sci-Fi,Adventure,Action,8.3,129,6,PG-13,20th Century Fox,X-Men: Days of Future Past (Rising),"$799,429,561",2011
+Animation,Adventure,Action,6.5,75,6,PG,Paramount Pictures,Madagascar: Escape 2 Africa (Revolution),"$591,465,730",2004
+Romance,Horror,,7.1,126,9,R,Columbia Pictures,Bram Stoker's Dracula (Reckoning),"$174,120,581",1996
+Thriller,Crime,Action,6.6,126,10,R,Warner Bros,Lethal Weapon 4 (Reborn),"$299,014,329",2004
+Thriller,Crime,Action,7.4,117,5,R,20th Century Fox,Speed (Evolution),"$347,803,105",1993
+Music,Comedy,,5.4,114,9,R,Universal Pictures,The Best Little Whorehouse in Texas (Redux),"$60,737,448",1986
+Crime,Comedy,Action,5.4,95,8,PG,Universal Pictures,Smokey and the Bandit II (Reckoning),"$79,247,961",1981
+Family,Western,Comedy,5.6,109,8,G,Walt Disney Pictures,The Apple Dumpling Gang (Rising),"$42,767,271",1975
+War,Fantasy,Action,7.2,125,10,R,Warner Bros,300 (Reborn),"$459,978,982",2004
+Fantasy,Drama,Comedy,7.3,95,4,PG,20th Century Fox,Big (Revolution),"$131,688,743",1995
+Thriller,Adventure,Action,7.8,136,4,PG-13,Metro-Goldwyn-Mayer,Casino Royale (Origins),"$641,660,284",2004
+Thriller,Crime,Action,7.4,121,6,PG-13,Universal Pictures,Fast & Furious 6 (Redux),"$798,953,025",2017
+Adventure,Action,,7.8,134,3,PG-13,Columbia Pictures,Spider-Man 2 (Evolution),"$652,462,400",2002
+Comedy,Adventure,Action,6.1,91,9,PG-13,Paramount Pictures,The Golden Child (Reckoning),"$72,863,273",1986
+Fantasy,Family,Adventure,7.8,146,2,PG,Warner Bros,Harry Potter and the Prisoner of Azkaban (Evolution),"$784,837,850",2011
+Romance,Comedy,,5.7,106,7,PG-13,Universal Pictures,Meet the Fockers (Reborn),"$511,203,657",2003
+Romance,Horror,,7.7,129,9,R,Columbia Pictures,Bram Stoker's Dracula (Return),"$209,958,193",1989
+Animation,Comedy,Family,6.3,80,6,PG,Universal Pictures,Minions (Redux),"$359,083,468",2019
+Horror,Drama,Mystery,7.1,127,7,R,Warner Bros,It (Dominion),"$369,616,387",2020
+Crime,Comedy,Action,6.7,125,7,PG-13,20th Century Fox,Mr. & Mrs. Smith (Rising),"$538,490,990",2005
+Thriller,Horror,,5.5,123,7,PG,Universal Pictures,Jaws 2 (Return),"$76,481,517",1975
+Animation,Comedy,Animation,7.0,101,3,PG,Universal Pictures,Despicable Me 2 (Rising),"$887,494,234",2015
+Action,Comedy,,7.6,112,7,PG-13,Walt Disney Pictures,Ant-Man and the Wasp (Dominion),"$193,743,216",2022
+Comedy,Action,,7.3,110,2,R,Paramount Pictures,Beverly Hills Cop (Rising),"$210,779,917",1990
+Fantasy,Adventure,Action,6.5,133,6,PG-13,Universal Pictures,The Mummy (Revolution),"$369,635,702",1999
+Sci-Fi,Romance,Action,7.2,128,3,PG,Warner Bros,Superman II (Revolution),"$88,931,603",1987
+Drama,Crime,Comedy,7.0,97,10,R,Warner Bros,Risky Business (Reborn),"$76,084,385",1979
+Action,Adventure,Drama,7.2,129,3,PG,Paramount Pictures,Indiana Jones and the Temple of Doom (Reborn),"$157,721,732",1986
+Drama,Comedy,Animation,7.4,80,8,G,Universal Pictures,An American Tail (Evolution),"$91,972,861",1985
+Fantasy,Family,Adventure,7.7,138,2,PG,Warner Bros,Harry Potter and the Prisoner of Azkaban (Return),"$703,855,344",2003
+Thriller,Adventure,Action,7.8,134,4,PG-13,Metro-Goldwyn-Mayer,GoldenEye (Rising),"$387,968,220",1995
+Sport,Romance,Comedy,6.5,105,5,PG,Paramount Pictures,Heaven Can Wait (Evolution),"$80,374,221",1975
+Comedy,Animation,Adventure,7.4,100,7,G,Walt Disney Pictures,Monsters University (Legacy),"$866,615,734",2018
+Comedy,Animation,Adventure,8.6,108,1,G,Walt Disney Pictures,Toy Story 3 (Revolution),"$925,980,131",2007
+Adventure,Action,,8.5,116,1,PG-13,Paramount Pictures,Indiana Jones and the Last Crusade (Rising),"$416,814,738",1990
+Comedy,Western,,7.2,108,10,PG-13,Columbia Pictures,City Slickers (Rising),"$205,466,725",1987
+Adventure,Action,Fantasy,9.0,115,1,PG,20th Century Fox,Star Wars Episode V: The Empire Strikes Back (Evolution),"$201,488,298",1982
+Thriller,Sci-Fi,Action,5.6,147,3,PG-13,Sony Pictures,Godzilla (Reckoning),"$382,299,821",2003
+Sport,Drama,,6.8,94,4,PG,Metro-Goldwyn-Mayer,Rocky III (Evolution),"$128,267,966",1979
+History,Drama,Biography,8.8,202,4,R,Universal Pictures,Schindler's List (Dominion),"$361,738,164",1990
+Fantasy,Adventure,Action,7.9,128,2,PG-13,20th Century Fox,Star Wars Episode III: Revenge of the Sith (Revolution),"$744,524,369",2004
+Comedy,Animation,Adventure,5.6,109,9,PG,Columbia Pictures,The Smurfs (Legacy),"$671,087,037",2010
+Romance,Fantasy,,6.9,119,9,PG,Walt Disney Pictures,Cinderella (Redux),"$166,893,158",2021
+Romance,Drama,Comedy,7.2,120,8,R,Universal Pictures,Four Weddings and a Funeral (Origins),"$219,261,667",1997
+Romance,Horror,,7.7,117,9,R,Warner Bros,Interview with the Vampire: The Vampire Chronicles (Reckoning),"$253,199,412",1996
+Animation,Animation,Adventure,8.4,87,9,G,Pixar,WALL-E (Dominion),"$523,937,478",2004
+Animation,Comedy,Animation,7.9,122,6,G,Pixar,Ratatouille (Reckoning),"$508,894,210",2012
+Sport,Romance,Comedy,6.8,108,5,PG,Paramount Pictures,Heaven Can Wait (Redux),"$68,438,366",1983
+Comedy,Animation,Adventure,7.7,73,8,PG,20th Century Fox,Ice Age (Return),"$337,204,872",2001
+Romance,Comedy,,6.8,92,8,PG-13,Sony Pictures,My Best Friend's Wedding (Revolution),"$320,173,120",1998
+Romance,Musical,Comedy,6.8,117,5,PG-13,Universal Pictures,Mamma Mia! (Legacy),"$577,021,820",2010
+Animation,Comedy,Family,5.9,92,6,PG,Universal Pictures,Minions (Legacy),"$286,476,876",2020
+Animation,Action,Adventure,8.6,111,7,PG,Walt Disney Pictures,Zootopia (Return),"$388,191,019",2019
+Thriller,Horror,,5.5,114,7,PG,Universal Pictures,Jaws 2 (Reborn),"$74,142,275",1983
